@@ -1,11 +1,11 @@
 @import "../../common/variables/variables.scss";
 
 .blogs {
-  padding: 5rem 15%;
+  padding: 5rem 8%;
   //   background-color: #eee;
 
   @media (max-width: 1200px) {
-    padding: 5rem 7%;
+    padding: 5rem 6%;
   }
   @media (max-width: 800px) {
     padding: 5rem 2rem;
@@ -26,7 +26,7 @@
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 
     .blog {
-      background-color: #eee;
+      // background-color: #eee;
       box-shadow: 0px 0px 7px -2px;
       overflow: hidden;
       border-radius: 5px;
@@ -53,21 +53,41 @@
         min-height: 12rem;
 
         h4 {
-          font-size: 2rem;
-          cursor: pointer;
+          color: $main-l;
+          font-size: 2.5rem;
+          // cursor: pointer;
+          min-height: 9rem;
         }
 
-        button {
-          // margin-top: 2rem;
-          font-size: 1.5rem;
-          cursor: pointer;
-          align-self: flex-start;
-          // transition: 0.3s linear;
+        .extras {
+          display: flex;
+          gap: 1rem;
+          margin-bottom: 2rem;
+          span {
+            gap: 1rem;
+            font-size: 1.8rem;
+            display: flex;
+            color: gray;
+            align-items: center;
+            svg {
+              font-size: 2rem;
+              color: $main-l;
+            }
+          }
+        }
 
-          &:hover {
-            background-color: #333;
-            border: none;
-            color: #eee;
+        .desc {
+          min-height: 13rem;
+          p {
+            font-size: 2.3rem;
+            line-height: 3.5rem;
+          }
+        }
+
+        a {
+          width: fit-content;
+          .button {
+            font-size: 2.5rem;
           }
         }
       }

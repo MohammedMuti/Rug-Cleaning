@@ -2,6 +2,7 @@ import Banner from "../../common/Banner/Banner";
 import ContactComp from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
+import NavMain from "../../common/navbar/NavMain";
 import "./Gallery.css";
 import GalleryComp from "./GalleryComp";
 
@@ -9,7 +10,12 @@ const Gallery = () => {
   return (
     <>
       <Navbar />
-      <Banner sublink="Gallery" slogan="Checkout Our Albums" />
+      <NavMain />
+      <Banner
+        img={require("../../../Assets/Images/Banner/gallery-banner.jpg")}
+        sublink="Gallery"
+        slogan="Checkout Our Albums"
+      />
       <div className="gallery">
         <div className="gallery-heading">
           <h1>Before/After Cleaning Gallery</h1>

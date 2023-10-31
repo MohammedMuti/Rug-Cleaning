@@ -5,12 +5,18 @@ import Navbar from "../../common/navbar/navbar";
 import "./Services.css";
 import ServiceComp from "./ServiceComp";
 import { Link } from "react-router-dom";
+import NavMain from "../../common/navbar/NavMain";
 
 const Services = () => {
   return (
     <>
       <Navbar />
-      <Banner sublink="Services" slogan="We Provide the Best Services" />
+      <NavMain />
+      <Banner
+        img={require("../../../Assets/Images/Banner/service-banner.jpg")}
+        sublink="Services"
+        slogan="We Provide the Best Services"
+      />
       <div className="services">
         <div className="heading">
           <h2>Services</h2>

@@ -15,18 +15,18 @@ h1 {
 
 p,
 li {
-  color: #7a7a7a;
+  color: #686868;
   font-size: 2rem;
   font-family: "Montserrat";
 }
 
 .blogs {
-  padding: 5rem 15%;
+  padding: 5rem 8%;
 }
 
 @media (max-width: 1200px) {
   .blogs {
-    padding: 5rem 7%;
+    padding: 5rem 6%;
   }
 }
 
@@ -55,7 +55,6 @@ li {
 }
 
 .blogs .blog.content .blog {
-  background-color: #eee;
   -webkit-box-shadow: 0px 0px 7px -2px;
           box-shadow: 0px 0px 7px -2px;
   overflow: hidden;
@@ -95,20 +94,52 @@ li {
 }
 
 .blogs .blog.content .blog .blog_info h4 {
+  color: #008f34;
+  font-size: 2.5rem;
+  min-height: 9rem;
+}
+
+.blogs .blog.content .blog .blog_info .extras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.blogs .blog.content .blog .blog_info .extras span {
+  gap: 1rem;
+  font-size: 1.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: gray;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blogs .blog.content .blog .blog_info .extras span svg {
   font-size: 2rem;
-  cursor: pointer;
+  color: #008f34;
 }
 
-.blogs .blog.content .blog .blog_info button {
-  font-size: 1.5rem;
-  cursor: pointer;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+.blogs .blog.content .blog .blog_info .desc {
+  min-height: 13rem;
 }
 
-.blogs .blog.content .blog .blog_info button:hover {
-  background-color: #333;
-  border: none;
-  color: #eee;
+.blogs .blog.content .blog .blog_info .desc p {
+  font-size: 2.3rem;
+  line-height: 3.5rem;
+}
+
+.blogs .blog.content .blog .blog_info a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.blogs .blog.content .blog .blog_info a .button {
+  font-size: 2.5rem;
 }
 /*# sourceMappingURL=Blog.css.map */

@@ -283,10 +283,15 @@
 
   .MeanNav {
     .mean-nav-list {
+      display: none;
       list-style-type: none;
       max-height: 0;
       overflow: hidden;
       transition: max-height 0.7s ease-in-out;
+
+      @media (max-width: 900px) {
+        display: block;
+      }
 
       .link.active {
         li {
@@ -309,21 +314,45 @@
 
         .plus {
           display: flex;
+          align-items: center;
+          justify-content: space-between;
 
           div {
             color: black;
             font-weight: 600;
             font-size: inherit;
           }
+
+          .plusicon {
+            font-weight: 600;
+            font-size: 2.5rem;
+          }
+        }
+
+        .sub-mean {
+          list-style-type: none;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.7s ease-in-out;
+          a {
+            li {
+              padding-left: 5rem;
+            }
+          }
+        }
+
+        .sub-mean.servi {
+          max-height: 60rem;
+        }
+
+        .sub-mean.why {
+          max-height: 60rem;
         }
       }
     }
 
     .mean-nav-list.active {
       max-height: 60rem;
-      @media (max-width: 900px) {
-        max-height: 0;
-      }
     }
   }
 }
@@ -331,4 +360,63 @@
   top: 0;
   opacity: inherit;
   overflow: visible;
+}
+
+#scroll-container {
+  // border: 3px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  // background-color: rgb(255, 255, 255, 0.9);
+  white-space: nowrap;
+}
+
+#scroll-text {
+  text-align: left;
+  font-size: 2.3rem;
+
+  /* animation properties */
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+
+  -moz-animation: my-animation 30s linear infinite;
+  -webkit-animation: my-animation 30s linear infinite;
+  animation: my-animation 30s linear infinite;
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(-100%);
+  }
 }

@@ -15,7 +15,7 @@ h1 {
 
 p,
 li {
-  color: #7a7a7a;
+  color: #686868;
   font-size: 2rem;
   font-family: "Montserrat";
 }
@@ -54,7 +54,7 @@ li {
 }
 
 .blog-page .blog-page-img img {
-  max-width: 50rem;
+  max-width: 100rem;
   border-radius: 10px;
 }
 
@@ -69,7 +69,7 @@ li {
 }
 
 .blog-page .blog-page-info p span {
-  color: blue;
+  color: #008f34;
   font-size: inherit;
   cursor: pointer;
 }

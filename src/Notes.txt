@@ -1,14 +1,18 @@
-Blog                        --Done
-Contact                     --A Done
-FAQ                         --A Done
-Gallery - Rug Cleaning 
 Terms and C                 --Done
-Online Booking Form
-Thankyou                    --A Done
+FAQ                         --Done
 why us                      --Done
-services                    --Done
-carpet Cleaning             --A Done
 Navbar                      --Done
+Gallery                     --Done
+Gallerys                    --Done
+Service                     --Done
+Blog                        --Done
+Blogs                       --Done
+Services
+Home
+Contact                     
+Online Booking Form
+Footer
+Thankyou                              
 
 
 Go to BlogPage component in line 11 & 13, the paths may be diffrent 

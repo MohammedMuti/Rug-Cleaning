@@ -1,16 +1,20 @@
 import Banner from "../../common/Banner/Banner";
 import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
+import NavMain from "../../common/navbar/NavMain";
 import "./WhyUs.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronCircleDown, faStar } from "@fortawesome/free-solid-svg-icons";
 import ContactComp from "../../common/Contact/ContactComponent";
+import img from "../../../Assets/Images/Banner/why-banner.webp";
 
 const WhyUs = () => {
   return (
     <>
+      <NavMain />
       <Navbar />
-      <Banner sublink="Why Us?" slogan="Why should you choose us?" />
+      {/* <img src={img} alt="" /> */}
+      <Banner img={img} sublink="Why Us?" slogan="Why should you choose us?" />
       <div className="why_us">
         <div className="heading">
           <h4>Why Us?</h4>

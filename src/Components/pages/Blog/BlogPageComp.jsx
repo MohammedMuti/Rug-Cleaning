@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import Banner from "../../common/Banner/Banner";
 import BlogPage from "./BlogPage";
 
 const BlogPageComp = () => {

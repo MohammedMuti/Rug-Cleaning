@@ -5,15 +5,18 @@ import {
   faArrowRight,
   faBars,
   faMultiply,
+  faPlus,
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../../Assets/Images/Logo/Pure-N-Bright-Logo.png.webp";
 import "./NavMain.css";
 import React from "react";
 import SubBars from "./SubBars";
 
-const Navbar = () => {
+const NavMain = () => {
   const [click, setClick] = useState(true);
   const [meanNav, setMeanNav] = useState(false);
+  const [services, setServices] = useState(false);
+  const [why, setWhy] = useState(false);
 
   const handleClick = () => {
     console.log(click);
@@ -69,7 +72,7 @@ const Navbar = () => {
               <button>Enquire Now</button>
               <FontAwesomeIcon
                 onClick={() => setMeanNav(!meanNav)}
-                icon={faBars}
+                icon={meanNav ? faMultiply : faBars}
               />
             </div>
             <div className="nav-content-d">
@@ -148,7 +151,8 @@ const Navbar = () => {
           <ul className={meanNav ? "mean-nav-list active" : "mean-nav-list"}>
             <Link to={"/"} className={path === "/" ? "link active" : "link"}>
               <li>
-                <FontAwesomeIcon icon={faArrowRight} /> HOME
+                <FontAwesomeIcon className="rightIcon" icon={faArrowRight} />{" "}
+                HOME
               </li>
             </Link>
             <Link
@@ -160,32 +164,148 @@ const Navbar = () => {
               }
             >
               <li>
-                <FontAwesomeIcon icon={faArrowRight} /> CARPET CLEANING
+                <FontAwesomeIcon className="rightIcon" icon={faArrowRight} />{" "}
+                CARPET CLEANING
               </li>
             </Link>
             <Link
               to={"/services"}
               className={path === "/services" ? "link active" : "link"}
             >
-              <li>
-                <FontAwesomeIcon icon={faArrowRight} /> SERVICES
+              <li className="plus">
+                <div>
+                  <FontAwesomeIcon
+                    style={{ marginRight: "5px" }}
+                    className="rightIcon"
+                    icon={faArrowRight}
+                  />
+                  SERVICES
+                </div>
+                <Link to={"#"}>
+                  <FontAwesomeIcon
+                    onClick={() => setServices(!services)}
+                    className="plusicon"
+                    icon={faPlus}
+                  />
+                </Link>
               </li>
+              <ul className={services ? "sub-mean servi" : "sub-mean"}>
+                <Link
+                  to={"/services/carpet-cleaning-melbourne"}
+                  className={
+                    path === "/services/carpet-cleaning-melbourne"
+                      ? "link active"
+                      : "link"
+                  }
+                >
+                  <li>
+                    <FontAwesomeIcon
+                      className="rightIcon"
+                      icon={faArrowRight}
+                    />{" "}
+                    Carpet Cleaning Melbourne
+                  </li>
+                </Link>
+                <Link
+                  to={"/services/carpet-cleaning-melbourne"}
+                  className={
+                    path === "/services/carpet-cleaning-melbourne"
+                      ? "link active"
+                      : "link"
+                  }
+                >
+                  <li>
+                    <FontAwesomeIcon
+                      className="rightIcon"
+                      icon={faArrowRight}
+                    />{" "}
+                    Carpet Cleaning Melbourne
+                  </li>
+                </Link>
+                <Link
+                  to={"/services/carpet-cleaning-melbourne"}
+                  className={
+                    path === "/services/carpet-cleaning-melbourne"
+                      ? "link active"
+                      : "link"
+                  }
+                >
+                  <li>
+                    <FontAwesomeIcon
+                      className="rightIcon"
+                      icon={faArrowRight}
+                    />{" "}
+                    Carpet Cleaning Melbourne
+                  </li>
+                </Link>
+              </ul>
             </Link>
             <Link
               to={"/gallery"}
               className={path === "/gallery" ? "link active" : "link"}
             >
               <li>
-                <FontAwesomeIcon icon={faArrowRight} /> GALLERY
+                <FontAwesomeIcon className="rightIcon" icon={faArrowRight} />{" "}
+                GALLERY
               </li>
             </Link>
             <Link
               to={"/why-us"}
               className={path === "/why-us" ? "link active" : "link"}
             >
-              <li>
-                <FontAwesomeIcon icon={faArrowRight} /> WHY US?
+              <li className="plus">
+                <div>
+                  <FontAwesomeIcon className="rightIcon" icon={faArrowRight} />{" "}
+                  WHY US?
+                </div>
+                <Link to={"#"}>
+                  <FontAwesomeIcon
+                    onClick={() => setWhy(!why)}
+                    className="plusicon"
+                    icon={faPlus}
+                  />
+                </Link>
               </li>
+              <ul className={why ? "sub-mean why" : "sub-mean"}>
+                <Link
+                  to={"/blog"}
+                  className={path === "/blog" ? "link active" : "link"}
+                >
+                  <li>
+                    <FontAwesomeIcon
+                      className="rightIcon"
+                      icon={faArrowRight}
+                    />{" "}
+                    Blog
+                  </li>
+                </Link>
+                <Link
+                  to={"/faq"}
+                  className={path === "/faq" ? "link active" : "link"}
+                >
+                  <li>
+                    <FontAwesomeIcon
+                      className="rightIcon"
+                      icon={faArrowRight}
+                    />{" "}
+                    FAQ
+                  </li>
+                </Link>
+                <Link
+                  to={"/terms-and-conditions"}
+                  className={
+                    path === "/terms-and-conditions" ? "link active" : "link"
+                  }
+                >
+                  <li>
+                    <FontAwesomeIcon
+                      className="rightIcon"
+                      icon={faArrowRight}
+                    />{" "}
+                    Terms & Conditions
+                  </li>
+                </Link>
+              </ul>
             </Link>
             <Link
               to={"/contact-us"}
@@ -202,4 +322,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavMain;

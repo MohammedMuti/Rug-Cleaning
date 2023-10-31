@@ -15,7 +15,7 @@ h1 {
 
 p,
 li {
-  color: #7a7a7a;
+  color: #686868;
   font-size: 2rem;
   font-family: "Montserrat";
 }
@@ -31,6 +31,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 10rem;
 }
 
 @media (max-width: 1200px) {
@@ -51,24 +52,65 @@ li {
 
 .rug-service .rug-service-content h2 {
   margin-bottom: 1rem;
+  color: #217e37;
+  font-size: 3.5rem;
 }
 
 .rug-service .rug-service-content h4 {
-  color: #ffb400;
+  color: black;
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .rug-service .rug-service-content p {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
+  line-height: 3rem;
+}
+
+.rug-service .rug-service-content h3 {
+  color: #c2db5d;
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.rug-service .rug-service-content a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #0189b1;
+  border-radius: 4rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.rug-service .rug-service-content a span {
+  font-size: 2.2rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+.rug-service .rug-service-content a img {
+  width: 7rem;
+  height: 5rem;
+}
+
+.rug-service.reverse {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .benefits {
-  padding: 5rem 15%;
+  padding: 5rem 10%;
   width: 100%;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url(../../../Assets/Images/Back/back2.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../../../Assets/Images/Back/back2.jpg);
+  background-image: url(../../../Assets/Images/Banner/benifits-of-cleaning.webp);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -84,74 +126,98 @@ li {
   }
 }
 
-.benefits .benefits-heading {
+.benefits .benefits-wrapper {
+  padding-left: 40%;
+}
+
+@media (max-width: 1200px) {
+  .benefits .benefits-wrapper {
+    padding-left: 0;
+  }
+}
+
+.benefits .benefits-wrapper .benefits-heading {
   margin-bottom: 4rem;
 }
 
-.benefits .benefits-heading h2 {
+.benefits .benefits-wrapper .benefits-heading h2 {
   text-transform: uppercase;
-  color: #ffb400;
-  font-size: 4rem;
+  color: #217e37;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
 
-.benefits .benefits-content .benefit-box {
+.benefits .benefits-wrapper .benefits-heading h1 {
+  text-transform: uppercase;
+  color: black;
+  font-size: 3rem;
+}
+
+.benefits .benefits-wrapper .benefits-content {
+  grid-gap: 3rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 3rem;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+@media (max-width: 1200px) {
+  .benefits .benefits-wrapper .benefits-content {
+    -ms-grid-columns: (minmax(35rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  }
+}
+
+.benefits .benefits-wrapper .benefits-content .benefit-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 2rem;
+}
+
+.benefits .benefits-wrapper .benefits-content .benefit-box .benefit-img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 2rem;
-  margin-bottom: 3rem;
-}
-
-.benefits .benefits-content .benefit-box .benefit-img {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: white;
   padding: 1.5rem;
+  min-height: 8rem;
+  min-width: 8rem;
   border-radius: 50%;
-  -webkit-box-shadow: 1px 1px 20px -5px white;
-          box-shadow: 1px 1px 20px -5px white;
+  -webkit-box-shadow: 0px 0px 8px 4px rgba(3, 3, 3, 0.2);
+          box-shadow: 0px 0px 8px 4px rgba(3, 3, 3, 0.2);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.benefits .benefits-content .benefit-box .benefit-img:hover {
+.benefits .benefits-wrapper .benefits-content .benefit-box .benefit-img:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
 
-.benefits .benefits-content .benefit-box .benefit-img img {
-  height: auto;
+.benefits .benefits-wrapper .benefits-content .benefit-box .benefit-img img {
   width: 4rem;
 }
 
-.benefits .benefits-content .benefit-box .benefit-info h4 {
-  color: #ffcf60;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-}
-
-.benefits .benefits-content .benefit-box .benefit-info p {
+.benefits .benefits-wrapper .benefits-content .benefit-box .benefit-info h4 {
+  color: #008f34;
   font-size: 2rem;
-  color: white;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
-.benefits .benefits-content .benefit-box.r {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 2rem;
-  margin-bottom: 3rem;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-}
-
-.benefits .benefits-content .benefit-box.r .benefit-info {
-  text-align: right;
+.benefits .benefits-wrapper .benefits-content .benefit-box .benefit-info p {
+  font-size: 2rem;
 }
 
 .helped {

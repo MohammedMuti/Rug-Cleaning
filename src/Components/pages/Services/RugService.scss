@@ -14,6 +14,7 @@
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   align-items: center;
+  margin-top: 10rem;
 
   .rug-service-img {
     img {
@@ -24,24 +25,55 @@
   .rug-service-content {
     h2 {
       margin-bottom: 1rem;
+      color: $main;
+      font-size: 3.5rem;
     }
     h4 {
-      color: $orange;
+      color: black;
       margin-bottom: 1rem;
-      font-size: 3rem;
+      font-size: 3.5rem;
     }
     p {
-      margin-bottom: 1rem;
+      margin-bottom: 3rem;
+      line-height: 3rem;
+
       // text-align: justify;
       // text-justify: inter-word;
     }
     h3 {
+      color: #c2db5d;
+      font-size: 3rem;
+      font-weight: 500;
+      margin-bottom: 4rem;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      border: 1px solid rgb(1, 137, 177);
+      border-radius: 4rem;
+      width: fit-content;
+
+      span {
+        font-size: 2.2rem;
+        margin-right: 2rem;
+        margin-left: 1rem;
+        // font-weight: 600;
+      }
+      img {
+        width: 7rem;
+        height: 5rem;
+      }
     }
   }
 }
 
+.rug-service.reverse {
+  align-items: flex-start;
+}
+
 .benefits {
-  padding: 5rem 15%;
+  padding: 5rem 10%;
 
   @media (max-width: 1200px) {
     padding: 5rem 7%;
@@ -51,66 +83,81 @@
   }
 
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
-    url(../../../Assets/Images/Back/back2.jpg);
+  background-image: url(../../../Assets/Images/Banner/benifits-of-cleaning.webp);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 
-  .benefits-heading {
-    margin-bottom: 4rem;
-    h2 {
-      text-transform: uppercase;
-      color: $orange;
-      font-size: 4rem;
+  .benefits-wrapper {
+    padding-left: 40%;
+
+    @media (max-width: 1200px) {
+      padding-left: 0;
     }
-  }
-
-  .benefits-content {
-    .benefit-box {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-      margin-bottom: 3rem;
-
-      .benefit-img {
-        background-color: white;
-        padding: 1.5rem;
-        border-radius: 50%;
-        box-shadow: 1px 1px 20px -5px white;
-        transition: all 0.5s ease;
-        &:hover {
-          transform: scale(1.2);
-        }
-        img {
-          height: auto;
-          width: 4rem;
-          //   width: 8rem;
-        }
+    .benefits-heading {
+      margin-bottom: 4rem;
+      h2 {
+        text-transform: uppercase;
+        color: $main;
+        font-size: 3rem;
+        margin-bottom: 2rem;
       }
 
-      .benefit-info {
-        h4 {
-          color: $orange-l;
-          font-size: 2.5rem;
-          text-transform: uppercase;
-        }
-
-        p {
-          font-size: 2rem;
-          color: white;
-        }
+      h1 {
+        text-transform: uppercase;
+        color: black;
+        font-size: 3rem;
       }
     }
 
-    .benefit-box.r {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-      margin-bottom: 3rem;
-      justify-content: right;
+    .benefits-content {
+      grid-gap: 3rem;
+      display: grid;
+      gap: 3rem;
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 
-      .benefit-info {
-        text-align: right;
+      @media (max-width: 1200px) {
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+      }
+
+      .benefit-box {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+
+        .benefit-img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: white;
+          padding: 1.5rem;
+          min-height: 8rem;
+          min-width: 8rem;
+          border-radius: 50%;
+          box-shadow: 0px 0px 8px 4px rgba(3, 3, 3, 0.2);
+          transition: all 0.5s ease;
+
+          &:hover {
+            transform: scale(1.2);
+          }
+          img {
+            width: 4rem;
+            //   width: 8rem;
+          }
+        }
+
+        .benefit-info {
+          h4 {
+            color: $main-l;
+            font-size: 2rem;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+          }
+
+          p {
+            font-size: 2rem;
+          }
+        }
       }
     }
   }

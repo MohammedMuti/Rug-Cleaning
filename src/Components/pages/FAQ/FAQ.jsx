@@ -4,12 +4,18 @@ import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
 import FAQComp from "./FAQComp";
 import ContactComp from "../../common/Contact/ContactComponent";
+import NavMain from "../../common/navbar/NavMain";
 
 const FAQ = () => {
   return (
     <>
       <Navbar />
-      <Banner sublink={"FAQ"} slogan="Frequently Asked Questions" />
+      <NavMain />
+      <Banner
+        img={require("../../../Assets/Images/Banner/faq-banner.webp")}
+        sublink={"FAQ"}
+        slogan="Frequently Asked Questions"
+      />
       <div className="faq">
         <div className="faq-heading">
           <h1>Frequently</h1>

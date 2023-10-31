@@ -18,7 +18,7 @@
     margin-bottom: 4rem;
 
     img {
-      max-width: 50rem;
+      max-width: 100rem;
       border-radius: 10px;
     }
 
@@ -35,7 +35,7 @@
       line-height: 3rem;
 
       span {
-        color: blue;
+        color: $main-l;
         font-size: inherit;
         cursor: pointer;
       }

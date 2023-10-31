@@ -29,7 +29,8 @@ const Navbar = () => {
   };
 
   const path = useLocation().pathname;
-  console.log(meanNav);
+  console.log(services);
+  console.log(why);
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -91,7 +92,7 @@ const Navbar = () => {
               <button>Enquire Now</button>
               <FontAwesomeIcon
                 onClick={() => setMeanNav(!meanNav)}
-                icon={faBars}
+                icon={meanNav ? faMultiply : faBars}
               />
             </div>
             <div className="nav-content-d">
@@ -193,16 +194,22 @@ const Navbar = () => {
             >
               <li className="plus">
                 <div>
-                  <FontAwesomeIcon className="rightIcon" icon={faArrowRight} />
+                  <FontAwesomeIcon
+                    style={{ marginRight: "5px" }}
+                    className="rightIcon"
+                    icon={faArrowRight}
+                  />
                   SERVICES
                 </div>
-                <FontAwesomeIcon
-                  onClick={() => setServices(!services)}
-                  className="plusicon"
-                  icon={faPlus}
-                />
+                <Link to={"#"}>
+                  <FontAwesomeIcon
+                    onClick={() => setServices(!services)}
+                    className="plusicon"
+                    icon={faPlus}
+                  />
+                </Link>
               </li>
-              <ul className={services ? "sub-mean services" : "sub-mean"}>
+              <ul className={services ? "sub-mean servi" : "sub-mean"}>
                 <Link
                   to={"/services/carpet-cleaning-melbourne"}
                   className={
@@ -272,11 +279,13 @@ const Navbar = () => {
                   <FontAwesomeIcon className="rightIcon" icon={faArrowRight} />{" "}
                   WHY US?
                 </div>
-                <FontAwesomeIcon
-                  onClick={() => setWhy(!why)}
-                  className="plusicon"
-                  icon={faPlus}
-                />
+                <Link to={"#"}>
+                  <FontAwesomeIcon
+                    onClick={() => setWhy(!why)}
+                    className="plusicon"
+                    icon={faPlus}
+                  />
+                </Link>
               </li>
               <ul className={why ? "sub-mean why" : "sub-mean"}>
                 <Link

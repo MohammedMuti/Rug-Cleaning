@@ -248,14 +248,14 @@ const Home = () => {
                   src={require("../../../Assets/Images/Frequency/frequency2.png")}
                   alt=""
                 />
-                <h2>6 TO 8 MONTHS</h2>
+                <h2>8 TO 10 MONTHS</h2>
               </div>
               <div className="frequency-box">
                 <img
                   src={require("../../../Assets/Images/Frequency/frequency3.png")}
                   alt=""
                 />
-                <h2>6 TO 8 MONTHS</h2>
+                <h2>12 MONTHS</h2>
               </div>
             </div>
           </div>

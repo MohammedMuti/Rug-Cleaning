@@ -391,11 +391,18 @@ li {
 }
 
 .navbarM .MeanNav .mean-nav-list {
+  display: none;
   list-style-type: none;
   max-height: 0;
   overflow: hidden;
   -webkit-transition: max-height 0.7s ease-in-out;
   transition: max-height 0.7s ease-in-out;
+}
+
+@media (max-width: 900px) {
+  .navbarM .MeanNav .mean-nav-list {
+    display: block;
+  }
 }
 
 .navbarM .MeanNav .mean-nav-list .link.active li {
@@ -418,6 +425,12 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navbarM .MeanNav .mean-nav-list a .plus div {
@@ -426,19 +439,83 @@ li {
   font-size: inherit;
 }
 
-.navbarM .MeanNav .mean-nav-list.active {
+.navbarM .MeanNav .mean-nav-list a .plus .plusicon {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.navbarM .MeanNav .mean-nav-list a .sub-mean {
+  list-style-type: none;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.7s ease-in-out;
+  transition: max-height 0.7s ease-in-out;
+}
+
+.navbarM .MeanNav .mean-nav-list a .sub-mean a li {
+  padding-left: 5rem;
+}
+
+.navbarM .MeanNav .mean-nav-list a .sub-mean.servi {
   max-height: 60rem;
 }
 
-@media (max-width: 900px) {
-  .navbarM .MeanNav .mean-nav-list.active {
-    max-height: 0;
-  }
+.navbarM .MeanNav .mean-nav-list a .sub-mean.why {
+  max-height: 60rem;
+}
+
+.navbarM .MeanNav .mean-nav-list.active {
+  max-height: 60rem;
 }
 
 .navbarM.active {
   top: 0;
   opacity: inherit;
   overflow: visible;
+}
+
+#scroll-container {
+  border-radius: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#scroll-text {
+  text-align: left;
+  font-size: 2.3rem;
+  /* animation properties */
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-animation: my-animation 30s linear infinite;
+  animation: my-animation 30s linear infinite;
+}
+
+@media (max-width: 900px) {
+  #scroll-text {
+    display: none;
+  }
+}
+
+/* for Firefox */
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(100%);
+  }
+  to {
+    -webkit-transform: translateX(100%);
+    transform: translateX(-100%);
+  }
 }
 /*# sourceMappingURL=NavMain.css.map */

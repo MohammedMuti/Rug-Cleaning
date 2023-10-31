@@ -3,12 +3,17 @@ import Navbar from "../../common/navbar/navbar";
 import Banner from "../../common/Banner/Banner";
 import Footer from "../../common/Footer/Footer";
 import ContactComp from "../../common/Contact/ContactComponent";
+import NavMain from "../../common/navbar/NavMain";
 
 const Terms = () => {
   return (
     <>
       <Navbar />
-      <Banner sublink="Terms & Conditions" />
+      <NavMain />
+      <Banner
+        img={require("../../../Assets/Images/Banner/term-banner.webp")}
+        sublink="Terms & Conditions"
+      />
       <div className="terms section">
         <div className="terms heading">
           <h2>TERMS & CONDITIONS</h2>

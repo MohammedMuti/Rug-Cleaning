@@ -1,7 +1,9 @@
+import { Link } from "react-router-dom";
 import Banner from "../../common/Banner/Banner";
 import ContactComp from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
+import NavMain from "../../common/navbar/NavMain";
 import Benefit from "./Benefit";
 import Helped from "./Helped";
 import "./RugService.css";
@@ -10,7 +12,12 @@ const RugService = () => {
   return (
     <>
       <Navbar />
-      <Banner sublink={"Services"} sublink2={"Rug Cleaning Melbourne"} />
+      <NavMain />
+      <Banner
+        img={require("../../../Assets/Images/Banner/blog-sub-banner.jpg")}
+        sublink={"Services"}
+        sublink2={"Rug Cleaning Melbourne"}
+      />
       <div className="rug-service">
         <div className="rug-service-img">
           <img
@@ -34,12 +41,25 @@ const RugService = () => {
             Let our technicians bring your carpets back to life and make your
             home or workplace a more pleasant place to spend time
           </h3>
+          <Link>
+            <span>Read More</span>
+            <img
+              src={require("../../../Assets/Images/Icons/enquire-blue.png")}
+              alt=""
+            />
+          </Link>
         </div>
       </div>
-      <div className="rug-service .reverse">
+      <div className="rug-service reverse">
+        <div className="rug-service-img">
+          <img
+            src={require("../../../Assets/Images/Services/Rug/main/rug-cleaning2.webp")}
+            alt=""
+          />
+        </div>
         <div className="rug-service-content">
-          <h4>Steam Carpet</h4>
-          <h2>Cleaning Melbourne</h2>
+          <h2>Steam Carpet</h2>
+          <h4>Cleaning Melbourne</h4>
           <p>
             Steam carpet cleaning Melbourne removes underlying dirt, allergens,
             pathogens, contaminants, soil, and bugs and brings around your
@@ -58,59 +78,69 @@ const RugService = () => {
             Again and Again.
           </h3>
         </div>
-        <div className="rug-service-img">
-          <img
-            src={require("../../../Assets/Images/Services/Rug/main/rug-cleaning2.webp")}
-            alt=""
-          />
-        </div>
       </div>
+
       <div className="benefits">
-        <div className="benefits-heading">
-          <h2>Our Benefits of Clean Service</h2>
-        </div>
-        <div className="benefits-content">
-          <Benefit
-            title="New LOOK"
-            info="Leaving carpets refreshed and enhanced appearance."
-            img={require("../../../Assets/Images/Services/Rug/icons/new-look.png")}
-            title_m="STAIN REMOVAL"
-            info_m="Spots, spills, stains and odours with our special techniques."
-            img_m={require("../../../Assets/Images/Services/Rug/icons/stain-removal.png")}
-          />
+        <div className="benefits-wrapper">
+          <div className="benefits-heading">
+            <h2>Our Benefits of </h2>
+            <h1>Clean Service</h1>
+          </div>
+          <div className="benefits-content">
+            <Benefit
+              title="New LOOK"
+              info="Leaving carpets refreshed and enhanced appearance."
+              img={require("../../../Assets/Images/Services/Rug/icons/new-look.png")}
+            />
 
-          <Benefit
-            title="ELIMINATE ALLERGENS"
-            info="Pollutants, bacteria, allergens, dust and mites and pet hair."
-            img={require("../../../Assets/Images/Services/Rug/icons/eliminate-allergents.png")}
-            title_m="
+            <Benefit
+              title="ELIMINATE ALLERGENS"
+              info="Pollutants, bacteria, allergens, dust and mites and pet hair."
+              img={require("../../../Assets/Images/Services/Rug/icons/eliminate-allergents.png")}
+            />
+            <Benefit
+              title="STAIN REMOVAL"
+              info="Spots, spills, stains and odours with our special techniques."
+              img={require("../../../Assets/Images/Services/Rug/icons/stain-removal.png")}
+            />
+
+            <Benefit
+              title="
             FRESHNESS"
-            info_m="Omnipresent freshness with carpet
+              info="Omnipresent freshness with carpet
             cleaning and deodorising."
-            img_m={require("../../../Assets/Images/Services/Rug/icons/freshness.png")}
-          />
-          <Benefit
-            title="
+              img={require("../../../Assets/Images/Services/Rug/icons/freshness.png")}
+            />
+
+            <Benefit
+              title="
             ORGANIC CLEANING"
-            info="Organic, non-toxic compounds to
+              info="Organic, non-toxic compounds to
             protect the health of your family & pets."
-            img={require("../../../Assets/Images/Services/Rug/icons/organic-cleaning.png")}
-            title_m="A 100% GUARANTEE"
-            info_m="On all of our work."
-            img_m={require("../../../Assets/Images/Services/Rug/icons/gurantee.png")}
-          />
-          <Benefit
-            title="
+              img={require("../../../Assets/Images/Services/Rug/icons/organic-cleaning.png")}
+            />
+
+            <Benefit
+              title="A 100% GUARANTEE"
+              info="On all of our work."
+              img={require("../../../Assets/Images/Services/Rug/icons/gurantee.png")}
+            />
+
+            <Benefit
+              title="
             SAVES MONEY"
-            info="A softer, better carpet so that you don't have to think about replacing them anymore."
-            img={require("../../../Assets/Images/Services/Rug/icons/saves-money.png")}
-            title_m="PET ODOUR AND UNPLEASANT ODOUR REMOVALS"
-            info_m="Guaranteed cure for pet accidents."
-            img_m={require("../../../Assets/Images/Services/Rug/icons/pet-odour.png")}
-          />
+              info="A softer, better carpet so that you don't have to think about replacing them anymore."
+              img={require("../../../Assets/Images/Services/Rug/icons/saves-money.png")}
+            />
+
+            <Benefit
+              title="PET ODOUR AND UNPLEASANT ODOUR REMOVALS"
+              info="Guaranteed cure for pet accidents."
+              img={require("../../../Assets/Images/Services/Rug/icons/pet-odour.png")}
+            />
+          </div>
         </div>
       </div>
-
       <div className="helped">
         <div className="helped-heading">
           <h3>Industries We've Helped For Their Cleaning Needs</h3>

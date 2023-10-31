@@ -1,7 +1,7 @@
 @import "../../common/variables/variables.scss";
 
 .carpet_service {
-  padding: 5rem 15%;
+  padding: 5rem 13%;
 
   @media (max-width: 1200px) {
     padding: 5rem 7%;
@@ -51,7 +51,8 @@
   .review_info {
     margin-bottom: 6rem;
     h2 {
-      color: $orange;
+      text-align: center;
+      color: $main;
       font-size: 4rem;
       margin-bottom: 1.5rem;
     }
@@ -72,8 +73,9 @@
   .cleaning_info {
     margin-bottom: 3rem;
     h2 {
-      color: $orange;
-      font-size: 3rem;
+      color: $main-l;
+      text-align: center;
+      font-size: 3.5rem;
       margin-bottom: 1.5rem;
     }
     h3 {
@@ -97,25 +99,44 @@
       }
     }
 
-    h4 {
-      cursor: pointer;
+    a {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      font-size: 3rem;
-      color: #eee;
-      padding: 2rem;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: #4a4a4c;
+      border-bottom: 5px solid $main-l;
 
-      svg {
-        font-size: 3.3rem;
+      @media (max-width: 650px) {
+        flex-direction: column;
+
+        img {
+          margin-bottom: 2rem;
+        }
+
+        h4 {
+          font-size: 3rem;
+          text-align: center;
+        }
+      }
+      h4 {
+        padding: 4rem 2rem;
+        cursor: pointer;
+        font-size: 3.7rem;
+        text-transform: uppercase;
+        color: white;
+      }
+
+      img {
+        width: 10rem;
+        height: 7rem;
+        margin-right: 5rem;
       }
     }
   }
 }
 
 .solution {
-  padding: 5rem 15%;
+  padding: 8rem 15%;
 
   @media (max-width: 1200px) {
     padding: 5rem 7%;
@@ -125,13 +146,13 @@
   }
   background-color: #eee;
   margin-top: 2rem;
-  margin-bottom: 4rem;
+  // margin-bottom: 4rem;
   .solution_heading {
     margin-bottom: 3rem;
     h2 {
       text-align: center;
-      color: $orange;
-      font-size: 3rem;
+      color: $main-l;
+      font-size: 3.5rem;
       margin-bottom: 1.5rem;
     }
     h3 {
@@ -159,10 +180,11 @@
       h2 {
         font-size: 2.3rem;
         margin-bottom: 2rem;
-        color: $orange;
+        color: $main-l;
       }
 
       h3 {
+        min-height: 5rem;
         font-size: 2rem;
         color: black;
         margin-bottom: 1rem;
@@ -175,7 +197,7 @@
         line-height: 3rem;
 
         span {
-          color: blue;
+          color: $main-l;
           font-size: 2rem;
           // letter-spacing: 2px;
           line-height: 3rem;
@@ -189,5 +211,209 @@
         margin-bottom: 2rem;
       }
     }
+  }
+}
+
+.protected {
+  padding: 8rem 10%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 5rem;
+    h1 {
+      color: $main-l;
+      font-size: 3rem;
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: black;
+      font-size: 3.5rem;
+    }
+  }
+
+  .main-content {
+    .content-u {
+      margin-bottom: 5rem;
+      display: flex;
+      align-items: center;
+      gap: 5rem;
+      @media (max-width: 750px) {
+        flex-direction: column;
+      }
+
+      .info {
+        width: 50%;
+        @media (max-width: 750px) {
+          width: 100%;
+        }
+        p {
+          margin-bottom: 2rem;
+          line-height: 3rem;
+        }
+
+        h1 {
+          line-height: 3.5rem;
+          color: #6aa121;
+          font-size: 3rem;
+          margin-bottom: 2rem;
+        }
+      }
+
+      .content {
+        width: 50%;
+        @media (max-width: 750px) {
+          width: 100%;
+        }
+        iframe {
+          width: 100%;
+          min-height: 20rem;
+        }
+      }
+    }
+
+    .content-d {
+      display: flex;
+      align-items: center;
+      gap: 5rem;
+
+      @media (max-width: 750px) {
+        flex-direction: column-reverse;
+      }
+
+      .content {
+        width: 50%;
+
+        @media (max-width: 750px) {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+          padding: 2rem;
+        }
+      }
+
+      .info {
+        width: 50%;
+        @media (max-width: 750px) {
+          width: 100%;
+        }
+        h1 {
+          color: $main-l;
+          font-size: 3rem;
+          margin-bottom: 1rem;
+        }
+
+        h2 {
+          color: black;
+          font-size: 3rem;
+          margin-bottom: 1rem;
+        }
+
+        p {
+          margin-bottom: 2rem;
+          line-height: 3rem;
+        }
+      }
+    }
+  }
+}
+
+.experience {
+  padding: 8rem 15%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+  background: url(../../../Assets/Images/Banner/Capture.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .content-u {
+    max-width: 90rem;
+    margin-bottom: 15rem;
+    h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 4rem;
+      font-weight: 400;
+      color: white;
+    }
+
+    @media (max-width: 750px) {
+      text-align: center;
+      margin-bottom: 4rem;
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      h2 {
+        font-size: 3.5rem;
+      }
+    }
+  }
+
+  .content-d {
+    max-width: 90rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    @media (max-width: 750px) {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .img {
+      img {
+        width: 16rem;
+      }
+    }
+
+    .info {
+      h1 {
+        color: black;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      h2 {
+        color: white;
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        color: white;
+        font-size: 2.7rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+.last-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  img {
+    max-width: 80rem;
   }
 }

@@ -15,7 +15,7 @@ h1 {
 
 p,
 li {
-  color: #7a7a7a;
+  color: #686868;
   font-size: 2rem;
   font-family: "Montserrat";
 }
@@ -106,8 +106,8 @@ li {
   border: solid 0.5px #bbedf6;
   max-height: 0px;
   overflow: hidden;
-  -webkit-transition: max-height 1s ease-out;
-  transition: max-height 1s ease-out;
+  -webkit-transition: max-height 1s linear;
+  transition: max-height 1s linear;
   width: 100%;
 }
 
