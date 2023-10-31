@@ -1,0 +1,54 @@
+@import "../../common/variables/variables.scss";
+
+.why_us {
+  padding: 5rem 12%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .heading {
+    h4 {
+      color: #6ec1e4;
+      font-size: 4rem;
+    }
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin-bottom: 1.8rem;
+      // letter-spacing: 2px;
+      line-height: 3rem;
+
+      span {
+        color: $main;
+        font-size: inherit;
+        cursor: pointer;
+      }
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        // letter-spacing: 2px;
+        line-height: 3rem;
+        // font-size: 1.8rem;
+        margin-bottom: 1rem;
+
+        svg {
+          margin-right: 1.5rem;
+          color: $main;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}

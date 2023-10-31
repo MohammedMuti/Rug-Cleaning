@@ -1,0 +1,144 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Montserrat";
+}
+
+p,
+li {
+  color: #7a7a7a;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner .banner-content .banner-title {
+  text-align: center;
+}
+
+.banner .banner-content .banner-title h2 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.banner .banner-content .banner-title p {
+  color: #eee;
+  font-size: 2.5rem;
+}
+
+.banner .banner-content .banner-title .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+  .banner .banner-content .banner-title .buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.banner .banner-content .banner-title .buttons button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  border: none;
+  font-weight: 900;
+  border-radius: 50px;
+  padding: 1.5rem 2rem;
+  cursor: pointer;
+  background-color: #ffb400;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.banner .banner-content .banner-title .buttons button svg {
+  font-size: 2rem;
+}
+
+.banner .banner-content .banner-title .buttons button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.breadcrumbs {
+  padding-top: 5rem;
+  padding-left: 10%;
+}
+
+@media (max-width: 600px) {
+  .breadcrumbs {
+    padding-left: 5%;
+  }
+}
+
+.breadcrumbs .subs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.breadcrumbs .subs a p {
+  padding-bottom: 5px;
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #000;
+  text-transform: capitalize;
+}
+
+.breadcrumbs .subs a .activeC {
+  color: #b9b9b9;
+}
+
+.breadcrumbs .subs svg {
+  font-size: 1.5rem;
+  color: black;
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=Banner.css.map */

@@ -1,0 +1,37 @@
+@import "../../common/variables/variables.scss";
+
+.terms.section {
+  padding: 5rem 12%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .terms.heading {
+    h2 {
+      color: $main;
+      font-size: 4rem;
+    }
+    margin-bottom: 2rem;
+  }
+
+  .terms.info {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin-bottom: 1.8rem;
+      // letter-spacing: 3px;
+      line-height: 3rem;
+
+      span {
+        color: $main;
+        font-size: inherit;
+        cursor: pointer;
+      }
+    }
+  }
+}

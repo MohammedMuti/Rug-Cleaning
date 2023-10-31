@@ -1,0 +1,88 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Montserrat";
+}
+
+p,
+li {
+  color: #7a7a7a;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.gallery {
+  padding: 5rem 12%;
+}
+
+@media (max-width: 1200px) {
+  .gallery {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    padding: 5rem 2rem;
+  }
+}
+
+.gallery .gallery-heading {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.gallery .gallery-heading h1 {
+  color: #4c9824;
+}
+
+.gallery .gallery_wrapper {
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 4rem;
+  -ms-grid-columns: (minmax(22rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+}
+
+.gallery .gallery_wrapper .gallery_box .gallery_img img {
+  cursor: pointer;
+  width: 100%;
+  min-height: 25rem;
+}
+
+.gallery .gallery_wrapper .gallery_box .gallery_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 5rem;
+  padding-top: 1rem;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.gallery .gallery_wrapper .gallery_box .gallery_title h2 {
+  color: #6ec1e4;
+  font-size: 2.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+}
+/*# sourceMappingURL=Gallery.css.map */

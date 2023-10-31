@@ -1,0 +1,130 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Montserrat";
+}
+
+p,
+li {
+  color: #7a7a7a;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.faq {
+  padding: 5rem 12%;
+}
+
+@media (max-width: 1200px) {
+  .faq {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .faq {
+    padding: 5rem 2rem;
+  }
+}
+
+.faq .faq-heading {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.faq .faq-heading h1 {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  color: #6ec1e4;
+}
+
+.faq .faq-heading h2 {
+  font-size: 4rem;
+}
+
+.faq .lists .questions {
+  margin-bottom: 3rem;
+}
+
+.faq .lists .questions .question {
+  border: solid 0.5px #e1e1e1;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  padding: 2rem 3rem;
+}
+
+.faq .lists .questions .question.active {
+  background-color: #008f34;
+  color: white;
+}
+
+.faq .lists .questions .question.active svg {
+  color: #217e37;
+  border: none;
+}
+
+.faq .lists .questions .question h4 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+@media (max-width: 500px) {
+  .faq .lists .questions .question h4 {
+    font-size: 2rem;
+  }
+}
+
+.faq .lists .questions .question svg {
+  font-size: 3.5rem;
+  margin-left: 2rem;
+  border-radius: 100%;
+  border: 2px solid #e1e1e1;
+  color: white;
+  background-color: #6ec1e4;
+}
+
+.faq .lists .questions .answer {
+  border: solid 0.5px #bbedf6;
+  max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: max-height 1s ease-out;
+  transition: max-height 1s ease-out;
+  width: 100%;
+}
+
+.faq .lists .questions .answer h4 {
+  font-weight: 400;
+  padding: 2rem 3rem;
+  font-size: 2.5rem;
+}
+
+@media (max-width: 500px) {
+  .faq .lists .questions .answer h4 {
+    font-size: 2rem;
+  }
+}
+
+.faq .lists .questions .answer.active {
+  margin-bottom: 2rem;
+  max-height: 60rem;
+}
+/*# sourceMappingURL=FAQ.css.map */

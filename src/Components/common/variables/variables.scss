@@ -1,0 +1,61 @@
+$nav-bg: rgba(0, 0, 0, 0.5);
+$dgray: rgb(86, 86, 86);
+$paracolor: #7a7a7a;
+$whatsapp: #4dc247;
+$lgray: #e1e1e1;
+$main: #217e37;
+$main-l: #008f34;
+$orange: #ffb400;
+$orange-l: #ffcf60;
+$bald: rgb(232, 240, 254);
+$purple: rgb(192, 71, 192);
+$purple-l: rgb(210, 114, 210);
+$blue: #6ec1e4;
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Montserrat";
+}
+p,
+li {
+  color: #7a7a7a;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+@mixin pad20 {
+  padding: 10rem 20%;
+}
+
+@mixin pad10 {
+  padding: 7rem 10%;
+}
+
+// padding: 5rem 15%;
+
+// @media (max-width: 1200px) {
+//   padding: 5rem 7%;
+// }
+// @media (max-width: 800px) {
+//   padding: 5rem 2rem;
+// }
+
+// grid-gap: 2rem;
+// display: grid;
+// gap: 2rem;
+// grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+
+// margin-bottom: 1.8rem;
+// letter-spacing: 3px;
+// line-height: 3rem;
+
+// box-shadow: 1px 1px 20px -5px;

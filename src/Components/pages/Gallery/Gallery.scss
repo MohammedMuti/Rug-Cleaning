@@ -1,0 +1,56 @@
+@import "../../common//variables/variables.scss";
+
+.gallery {
+  padding: 5rem 12%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .gallery-heading {
+    text-align: center;
+    margin-bottom: 4rem;
+    h1 {
+      color: #4c9824;
+    }
+  }
+
+  .gallery_wrapper {
+    grid-gap: 2rem;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+
+    .gallery_box {
+      .gallery_img {
+        img {
+          cursor: pointer;
+          width: 100%;
+          min-height: 25rem;
+        }
+      }
+
+      .gallery_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // background-color: #eee;
+        min-height: 5rem;
+        padding-top: 1rem;
+        transition: 0.2s ease-in;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        h2 {
+          color: $blue;
+          font-size: 2.2rem;
+          cursor: pointer;
+          text-transform: uppercase;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

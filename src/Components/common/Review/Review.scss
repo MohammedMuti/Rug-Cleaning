@@ -1,0 +1,61 @@
+@import "../../common/variables/variables.scss";
+
+.reviews .slide p {
+  padding: 1.5rem;
+  padding-bottom: 4rem;
+  background: #eee;
+  position: relative;
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  color: #666;
+  line-height: 2;
+}
+
+.reviews {
+  .heading {
+    margin-bottom: 3rem;
+    color: $orange;
+  }
+}
+
+.reviews .slide p::before {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 2rem;
+  height: 2rem;
+  width: 2rem;
+  background: #eee;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.reviews .slide .user {
+  /* display: -webkit-box;
+    display: -ms-flexbox; */
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.reviews .slide .user img {
+  height: 7rem;
+  width: 7rem;
+}
+
+.reviews .slide .user h3 {
+  font-size: 2.5rem;
+  color: #eee;
+  text-transform: capitalize;
+}
+
+.reviews .slide .user .stars {
+  padding-top: 0.5rem;
+}
+
+.reviews .slide .user .stars i {
+  font-size: 1.4rem;
+  color: #f5bf23;
+}

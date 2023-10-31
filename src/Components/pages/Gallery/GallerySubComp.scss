@@ -1,0 +1,46 @@
+@import "../../common/variables/variables.scss";
+
+.gallery-sub {
+  padding: 5rem 15%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .gallery-sub-title {
+    text-align: center;
+
+    h2 {
+      font-size: 4rem;
+      color: $blue;
+      margin-bottom: 4rem;
+    }
+  }
+
+  .gallery-sub-imgs {
+    margin-top: 5rem;
+
+    .gallery-sub-img {
+      ._30i9K {
+        grid-gap: 2rem;
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+._2Yv4j {
+  gap: 2rem;
+
+  ._ABXHD {
+    gap: 2rem;
+  }
+}

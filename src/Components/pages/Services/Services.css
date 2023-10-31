@@ -1,0 +1,156 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Montserrat";
+}
+
+p,
+li {
+  color: #7a7a7a;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.services {
+  padding: 5rem 15%;
+}
+
+@media (max-width: 1200px) {
+  .services {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .services {
+    padding: 5rem 2rem;
+  }
+}
+
+.services .heading {
+  margin-bottom: 4rem;
+}
+
+.services .heading h2 {
+  text-align: center;
+  color: #6ec1e4;
+  font-size: 4rem;
+}
+
+.services .content {
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.services .content .service {
+  cursor: pointer;
+  position: relative;
+  -webkit-box-shadow: 0px 0px 10px -8px;
+          box-shadow: 0px 0px 10px -8px;
+  -webkit-transition: height 0.5s ease;
+  transition: height 0.5s ease;
+}
+
+.services .content .service .service-icon {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+}
+
+.services .content .service .service-icon span {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  background-color: #f3f3f3 !important;
+  border-radius: 50%;
+  position: relative;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+  z-index: 100;
+}
+
+.services .content .service .service-icon span img {
+  max-width: 100%;
+  border-radius: 5px;
+  min-height: 5rem;
+  cursor: pointer;
+}
+
+.services .content .service h1 {
+  font-size: 3rem;
+  color: #217e37;
+}
+
+.services .content .service p {
+  line-height: 3.2rem;
+}
+
+.services .content .service.active .info {
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 23rem;
+}
+
+.services .content .service.active .info .more {
+  display: block;
+  overflow: auto;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  opacity: 1;
+}
+
+.services .content .service img {
+  max-width: 100%;
+  border-radius: 5px;
+  min-height: 35rem;
+  cursor: pointer;
+}
+
+.services .content .service .info {
+  text-align: center;
+  background-color: white;
+  height: 10rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  overflow: hidden;
+  padding-top: 3rem;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.services .content .service .info .more {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  margin-top: 1rem;
+  opacity: 0;
+}
+
+.services .content .service .info .more h2 {
+  font-size: 2rem;
+}
+
+.services .content .service .info .more button {
+  font-size: 2.5rem;
+  background-color: #217e37;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Services.css.map */

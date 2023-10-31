@@ -1,0 +1,242 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Montserrat";
+}
+
+p,
+li {
+  color: #7a7a7a;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.carpet_service {
+  padding: 5rem 15%;
+}
+
+@media (max-width: 1200px) {
+  .carpet_service {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .carpet_service {
+    padding: 5rem 2rem;
+  }
+}
+
+.carpet_service .main_info {
+  margin-bottom: 6rem;
+}
+
+.carpet_service .main_info h2 {
+  color: #ffb400;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.carpet_service .main_info p {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 1.8rem;
+  margin-top: 1rem;
+  line-height: 3rem;
+}
+
+.carpet_service .main_info h3 {
+  margin-top: 4rem;
+  color: #ffcf60;
+}
+
+.carpet_service .main_info h4 {
+  font-size: 3rem;
+  color: black;
+  margin-top: 1rem;
+  font-weight: 400;
+}
+
+.carpet_service .main_info span {
+  color: blue;
+  font-size: 2rem;
+  line-height: 3rem;
+  cursor: pointer;
+}
+
+.carpet_service .review_info {
+  margin-bottom: 6rem;
+}
+
+.carpet_service .review_info h2 {
+  color: #ffb400;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.carpet_service .review_info .review_videos {
+  margin-top: 5rem;
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 6rem;
+  -ms-grid-columns: (minmax(35rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+}
+
+.carpet_service .review_info .review_videos iframe {
+  width: 100%;
+}
+
+.carpet_service .cleaning_info {
+  margin-bottom: 3rem;
+}
+
+.carpet_service .cleaning_info h2 {
+  color: #ffb400;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.carpet_service .cleaning_info h3 {
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+}
+
+.carpet_service .cleaning_info .imgs {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  -ms-grid-columns: (minmax(35rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+}
+
+.carpet_service .cleaning_info .imgs .img-content img {
+  width: 100%;
+  padding: 2rem;
+}
+
+.carpet_service .cleaning_info h4 {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 3rem;
+  color: #eee;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carpet_service .cleaning_info h4 svg {
+  font-size: 3.3rem;
+}
+
+.solution {
+  padding: 5rem 15%;
+  background-color: #eee;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 1200px) {
+  .solution {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .solution {
+    padding: 5rem 2rem;
+  }
+}
+
+.solution .solution_heading {
+  margin-bottom: 3rem;
+}
+
+.solution .solution_heading h2 {
+  text-align: center;
+  color: #ffb400;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.solution .solution_heading h3 {
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+}
+
+.solution .solution_content {
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.solution .solution_content .solution_box {
+  background-color: white;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.solution .solution_content .solution_box h2 {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  color: #ffb400;
+}
+
+.solution .solution_content .solution_box h3 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.solution .solution_content .solution_box p {
+  line-height: 3rem;
+}
+
+.solution .solution_content .solution_box p span {
+  color: blue;
+  font-size: 2rem;
+  line-height: 3rem;
+  cursor: pointer;
+}
+
+.solution .solution_content .solution_box img {
+  width: 20rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=CarpetService.css.map */

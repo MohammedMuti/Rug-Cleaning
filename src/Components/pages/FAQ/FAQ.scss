@@ -1,0 +1,101 @@
+@import "../../common/variables/variables.scss";
+
+.faq {
+  padding: 5rem 12%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .faq-heading {
+    text-align: center;
+    margin-bottom: 4rem;
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 4rem;
+      color: $blue;
+    }
+
+    h2 {
+      font-size: 4rem;
+    }
+  }
+
+  .lists {
+    .questions {
+      margin-bottom: 3rem;
+      .question {
+        border: solid 0.5px $lgray;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        transition: all 1s ease;
+        // margin: 0rem 3rem;
+        padding: 2rem 3rem;
+        // border-bottom: 1px solid $purple;
+
+        &.active {
+          background-color: $main-l;
+          color: white;
+
+          svg {
+            color: $main;
+            border: none;
+          }
+        }
+
+        h4 {
+          font-size: 2.5rem;
+          font-weight: 400;
+
+          @media (max-width: 500px) {
+            font-size: 2rem;
+          }
+        }
+
+        svg {
+          font-size: 3.5rem;
+          margin-left: 2rem;
+          border-radius: 100%;
+          border: 2px solid $lgray;
+          color: white;
+          background-color: $blue;
+        }
+      }
+
+      .answer {
+        border: solid 0.5px rgb(187, 237, 246);
+        // background-color: #eee;
+        max-height: 0px;
+        overflow: hidden;
+        // opacity: 0;
+        // visibility: hidden;
+        // transform: scaleY(0);
+        // transform-origin: 0 0 0;
+        // position: absolute;
+        transition: max-height 1s ease-out;
+        width: 100%;
+        h4 {
+          font-weight: 400;
+          padding: 2rem 3rem;
+          font-size: 2.5rem;
+
+          @media (max-width: 500px) {
+            font-size: 2rem;
+          }
+        }
+      }
+      .answer.active {
+        // position: relative;
+        // transform: scaleY(1);
+        margin-bottom: 2rem;
+        max-height: 60rem;
+        // overflow: auto;
+      }
+    }
+  }
+}

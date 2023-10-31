@@ -1,0 +1,76 @@
+@import "../../common/variables/variables.scss";
+
+.blogs {
+  padding: 5rem 15%;
+  //   background-color: #eee;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .blog.heading {
+    margin-bottom: 3rem;
+    h2 {
+      font-size: 4rem;
+      color: $purple;
+    }
+  }
+
+  .blog.content {
+    grid-gap: 2rem;
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+
+    .blog {
+      background-color: #eee;
+      box-shadow: 0px 0px 7px -2px;
+      overflow: hidden;
+      border-radius: 5px;
+
+      .blog_img {
+        overflow: hidden;
+        img {
+          cursor: pointer;
+          width: 100%;
+          transition: 0.5s linear;
+          max-height: 40rem;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+
+      .blog_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 2rem;
+        min-height: 12rem;
+
+        h4 {
+          font-size: 2rem;
+          cursor: pointer;
+        }
+
+        button {
+          // margin-top: 2rem;
+          font-size: 1.5rem;
+          cursor: pointer;
+          align-self: flex-start;
+          // transition: 0.3s linear;
+
+          &:hover {
+            background-color: #333;
+            border: none;
+            color: #eee;
+          }
+        }
+      }
+    }
+  }
+}

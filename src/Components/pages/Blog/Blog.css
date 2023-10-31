@@ -1,0 +1,114 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Montserrat";
+}
+
+p,
+li {
+  color: #7a7a7a;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.blogs {
+  padding: 5rem 15%;
+}
+
+@media (max-width: 1200px) {
+  .blogs {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .blogs {
+    padding: 5rem 2rem;
+  }
+}
+
+.blogs .blog.heading {
+  margin-bottom: 3rem;
+}
+
+.blogs .blog.heading h2 {
+  font-size: 4rem;
+  color: #c047c0;
+}
+
+.blogs .blog.content {
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 4rem;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.blogs .blog.content .blog {
+  background-color: #eee;
+  -webkit-box-shadow: 0px 0px 7px -2px;
+          box-shadow: 0px 0px 7px -2px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.blogs .blog.content .blog .blog_img {
+  overflow: hidden;
+}
+
+.blogs .blog.content .blog .blog_img img {
+  cursor: pointer;
+  width: 100%;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+  max-height: 40rem;
+}
+
+.blogs .blog.content .blog .blog_img img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.blogs .blog.content .blog .blog_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 2rem;
+  min-height: 12rem;
+}
+
+.blogs .blog.content .blog .blog_info h4 {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.blogs .blog.content .blog .blog_info button {
+  font-size: 1.5rem;
+  cursor: pointer;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.blogs .blog.content .blog .blog_info button:hover {
+  background-color: #333;
+  border: none;
+  color: #eee;
+}
+/*# sourceMappingURL=Blog.css.map */

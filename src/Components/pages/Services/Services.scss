@@ -1,0 +1,127 @@
+@import "../../common/variables/variables.scss";
+
+.services {
+  padding: 5rem 15%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .heading {
+    h2 {
+      text-align: center;
+      color: $blue;
+      font-size: 4rem;
+    }
+    margin-bottom: 4rem;
+  }
+
+  .content {
+    grid-gap: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    .service {
+      cursor: pointer;
+      position: relative;
+      box-shadow: 0px 0px 10px -8px;
+
+      transition: height 0.5s ease;
+
+      .service-icon {
+        position: absolute;
+        top: -40px;
+        left: 0;
+        right: 0;
+
+        span {
+          display: inline-block;
+          height: 80px;
+          width: 80px;
+          line-height: 80px;
+          background-color: #f3f3f3 !important;
+          border-radius: 50%;
+          position: relative;
+          transition: all 0.7s ease-out;
+          z-index: 100;
+
+          img {
+            max-width: 100%;
+            border-radius: 5px;
+            min-height: 5rem;
+            cursor: pointer;
+          }
+        }
+      }
+
+      h1 {
+        font-size: 3rem;
+        color: $main;
+        // margin-bottom: 2rem;
+      }
+
+      p {
+        line-height: 3.2rem;
+      }
+
+      &.active {
+        .info {
+          background-color: rgba(255, 255, 255, 0.9);
+          height: 23rem;
+
+          .more {
+            display: block;
+            overflow: auto;
+            transition: all 1s ease-in-out;
+            opacity: 1;
+          }
+        }
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 5px;
+        min-height: 35rem;
+        cursor: pointer;
+      }
+
+      .info {
+        text-align: center;
+        background-color: white;
+        height: 10rem;
+        width: 100%;
+        position: absolute;
+        bottom: 0%;
+        overflow: hidden;
+        padding-top: 3rem;
+        transition: all 1s ease-in-out;
+
+        .more {
+          transition: all 1s ease-in-out;
+          margin-top: 1rem;
+          opacity: 0;
+
+          h2 {
+            font-size: 2rem;
+          }
+
+          button {
+            font-size: 2.5rem;
+            background-color: $main;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            cursor: pointer;
+            // &:hover {
+            //   background-color: $orange-l;
+            // }
+          }
+        }
+      }
+    }
+  }
+}

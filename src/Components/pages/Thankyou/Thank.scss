@@ -1,0 +1,11 @@
+@import "../../common/variables/variables.scss";
+
+.thank {
+  background-color: $purple;
+  text-align: center;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
