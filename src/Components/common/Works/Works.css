@@ -15,7 +15,7 @@ h1 {
 
 p,
 li {
-  color: #7a7a7a;
+  color: #686868;
   font-size: 2rem;
   font-family: "Montserrat";
 }
@@ -25,8 +25,49 @@ img {
 }
 
 .work .heading {
-  font-size: 3rem;
+  text-align: center;
+  font-size: 4rem;
   margin-bottom: 2rem;
-  color: #ffb400;
+  color: black;
+}
+
+.works .works-content {
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.works .works-content img {
+  width: 100%;
+}
+
+.works .more-images {
+  margin-top: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #4a4a4c;
+  border-bottom: 5px solid #217e37;
+}
+
+.works .more-images h1 {
+  font-size: 3rem;
+  padding: 4rem 2rem;
+  color: white;
+}
+
+.works .more-images img {
+  margin-right: 5rem;
+  width: 10rem;
+  height: 7rem;
 }
 /*# sourceMappingURL=Works.css.map */

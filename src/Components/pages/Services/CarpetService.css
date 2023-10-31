@@ -15,7 +15,7 @@ h1 {
 
 p,
 li {
-  color: #7a7a7a;
+  color: #686868;
   font-size: 2rem;
   font-family: "Montserrat";
 }
@@ -41,9 +41,10 @@ li {
 }
 
 .carpet_service .main_info h2 {
-  color: #ffb400;
+  text-align: center;
+  color: #217e37;
   font-size: 4rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .carpet_service .main_info p {
@@ -56,7 +57,7 @@ li {
 
 .carpet_service .main_info h3 {
   margin-top: 4rem;
-  color: #ffcf60;
+  color: #c2db5d;
 }
 
 .carpet_service .main_info h4 {
@@ -67,7 +68,8 @@ li {
 }
 
 .carpet_service .main_info span {
-  color: blue;
+  color: #217e37;
+  text-decoration: underline;
   font-size: 2rem;
   line-height: 3rem;
   cursor: pointer;

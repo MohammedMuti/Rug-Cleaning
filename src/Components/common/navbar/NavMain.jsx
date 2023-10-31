@@ -26,6 +26,15 @@ const Navbar = () => {
   return (
     <>
       <div className={"navbarM"}>
+        <div id="scroll-container">
+          <div id="scroll-text">
+            Pure N Bright Cleaning is taking all the necessary precautions and
+            following safety guidelines for Covid19, which have been instructed
+            by the Australian Government for our staff and clients. For more
+            updates Click here
+          </div>
+        </div>
+
         <div className="navbar_wrapper">
           <div className="navbar_logo">
             <Link to={"/"}>

@@ -5,8 +5,42 @@ img {
 }
 
 .work .heading {
-  font-size: 3rem;
+  text-align: center;
+  font-size: 4rem;
   //   margin-top: 0.5rem;
   margin-bottom: 2rem;
-  color: $orange;
+  color: black;
+}
+
+.works {
+  .works-content {
+    img {
+      width: 100%;
+    }
+
+    grid-gap: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  }
+
+  .more-images {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4a4a4c;
+    border-bottom: 5px solid $main;
+    h1 {
+      font-size: 3rem;
+      padding: 4rem 2rem;
+      color: white;
+    }
+
+    img {
+      margin-right: 5rem;
+      width: 10rem;
+      height: 7rem;
+    }
+  }
 }

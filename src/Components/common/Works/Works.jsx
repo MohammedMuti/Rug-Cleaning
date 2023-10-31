@@ -7,55 +7,29 @@ import "./Works.css";
 const Works = () => {
   return (
     <>
-      <section className="work">
-        <h1 className="heading"> Before and After Rug Cleaning. </h1>
-        <Swiper
-          loop={true}
-          grabCursor={true}
-          spaceBetween={20}
-          autoplay={{ delay: 2500, disableOnInteraction: false }}
-          modules={[Autoplay]}
-          breakpoints={{
-            640: {
-              slidesPerView: 1,
-            },
-            768: {
-              slidesPerView: 2,
-            },
-            991: {
-              slidesPerView: 3,
-            },
-          }}
-        >
-          <div className="swiper reviews-slider">
-            <div className="swiper-wrapper">
-              <SwiperSlide>
-                <div className="swiper-slide slide">
-                  <img
-                    src={require("../../../Assets/Images/Work/work1.png")}
-                    alt=""
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="swiper-slide slide">
-                  <img
-                    src={require("../../../Assets/Images/Work/work2.jpeg")}
-                    alt=""
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="swiper-slide slide">
-                  <img
-                    src={require("../../../Assets/Images/Work/work3.png")}
-                    alt=""
-                  />
-                </div>
-              </SwiperSlide>
-            </div>
-          </div>
-        </Swiper>
+      <section className="works">
+        <h1 className="heading">Before & After Rug Cleaning Work</h1>
+        <div className="works-content">
+          <img
+            src={require("../../../Assets/Images/Gallery/Rug/28.png")}
+            alt=""
+          />
+          <img
+            src={require("../../../Assets/Images/Gallery/Rug/29.png")}
+            alt=""
+          />
+          <img
+            src={require("../../../Assets/Images/Gallery/Rug/30.jpeg")}
+            alt=""
+          />
+        </div>
+        <div className="more-images">
+          <h1>FOR MORE IMAGES CHECK OUT OUR GALLERY</h1>
+          <img
+            src={require("../../../Assets/Images/Icons/enquire-icon.png")}
+            alt=""
+          />
+        </div>
       </section>
     </>
   );

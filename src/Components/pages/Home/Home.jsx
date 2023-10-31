@@ -1,4 +1,10 @@
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCheckCircle,
+  faCircleCheck,
+  faPhone,
+  faShield,
+  faShieldVirus,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ContactComponent from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
@@ -18,9 +24,9 @@ const Home = () => {
       <div className="home">
         <div className="main_banner">
           <div className="main_banner_content">
-            {/* <h1>PURE N BRIGHT </h1>
-            <h3>High Quality Rug Cleaning | Repair | Restoration Services</h3>
-            <h4>
+            <h1>HIGH QUALITY </h1>
+            <h3>RUG CLEANING SERVICE</h3>
+            {/* <h4>
               <Typewriter
                 loop={true}
                 speed={40}
@@ -28,14 +34,16 @@ const Home = () => {
                 delay={1000}
                 random={100}
               />
-            </h4>
-            <Link
-              to={
-                "https://www.google.com/search?q=pure+n+bright&sca_esv=561015036&rlz=1C1GCEO_enIN1023IN1023&ei=8QDuZMXPLojuseMPuYyO-AQ&ved=0ahUKEwiFjKSvioKBAxUId2wGHTmGA08Q4dUDCA8&uact=5&oq=pure+n+bright&gs_lp=Egxnd3Mtd2l6LXNlcnAiDXB1cmUgbiBicmlnaHQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5IumlQAFjXZ3AIeAGQAQCYAYgBoAHGFaoBBDQuMjG4AQPIAQD4AQHCAgcQABiKBRhDwgILEAAYigUYsQMYgwHCAgsQABiABBixAxiDAcICDhAAGIoFGLEDGIMBGJECwgINEC4YigUYsQMYgwEYQ8ICCBAAGIoFGJECwgIIEAAYgAQYsQPCAggQABiABBjJA8ICCBAAGIoFGJIDwgIREC4YgAQYsQMYgwEYxwEYrwHCAhEQLhiABBixAxiDARjHARjRA8ICCxAAGIoFGLEDGJECwgIIEAAYigUYsQPCAgsQLhiABBjHARivAcICCxAuGK8BGMcBGIAEwgIHEAAYDRiABMICCBAAGIoFGIYDwgIGEAAYHhgNwgIIEAAYHhgNGA_iAwQYACBBiAYB&sclient=gws-wiz-serp#lrd=0x6ad61d8ad97d9141:0x22fb7df3fb0d7bf6,1,,,,"
-              }
-            >
-              <img src={require("../../../Assets/googleBadge.webp")} alt="" />
-            </Link> */}
+            </h4> */}
+            <p>at Affordable Prices</p>
+            <Link>
+              <span>Enquire Now </span>
+
+              <img
+                src={require("../../../Assets/Images/Icons/enquire-blue.png")}
+                alt=""
+              />
+            </Link>
           </div>
         </div>
 
@@ -76,50 +84,78 @@ const Home = () => {
 
         <div className="methods section">
           <div className="methods heading">
-            <h2>Methods of Cleaning</h2>
+            <h2>TYPES OF RUG CLEANING</h2>
           </div>
           <div className="methods content">
             <div className="methods info">
               <div className="methods type">
-                <div className="methods type img">
+                <div className="methods-type-heading">
+                  <h2>FACTORY DEEP WASHING</h2>
+                </div>
+                <div className="methods-type-img">
                   <img
                     src={require("../../../Assets/Images/Methods/FactoryDeepWashing.png")}
                     alt=""
                   />
                 </div>
-                <div className="methods type title">Factory Deep Washing</div>
+                <div className="methods-type-info">
+                  The most effective method to clean rugs thoroughly in order to
+                  get rid of 100% dirt and bad odours is where the rugs get
+                  submerged in a deep bath with delicate shampoos (Rug Specific)
+                  and rinsed with running fresh water to make sure no soap
+                  residue remains. This process makes the rugs look like new and
+                  smell fresh. Please call us to know more.
+                </div>
               </div>
 
               <div className="methods type">
-                <div className="methods type img">
+                <div className="methods-type-heading">
+                  <h2>DRY / STEAM CLEANING</h2>
+                </div>
+                <div className="methods-type-img">
                   <img
                     src={require("../../../Assets/Images/Methods/HandCleaning.jpg")}
                     alt=""
                   />
                 </div>
-                <div className="methods type title">Hand Cleaning</div>
+                <div className="methods-type-info">
+                  For refreshing lightly soiled rugs, we use an advanced steam
+                  cleaning method in our rug cleaning service. This process
+                  includes pre-spray, agitation, scrubbing and hot water
+                  extraction, followed by sanitising which allows us to safely
+                  remove dirt and stains, leaving behind a clean area rug and no
+                  residue. For more information feel free to send us a message
+                  +61 490255640 or an email at info@purenbrightcleaning.com.au
+                </div>
               </div>
 
               <div className="methods type">
-                <div className="methods type img">
+                <div className="methods-type-heading">
+                  <h2> HAND CLEANING</h2>
+                </div>
+                <div className="methods-type-img">
                   <img
                     src={require("../../../Assets/Images/Methods/StemCleaning.jpg")}
                     alt=""
                   />
                 </div>
-                <div className="methods type title">Stem Cleaning</div>
+                <div className="methods-type-info">
+                  For delicate rugs, we use our traditional and time-tested hand
+                  cleaning of rugs. Our expert rug cleaners first analyse the
+                  material, detect the damage, stubborn stains and the areas
+                  requiring more attention. A gentle yet thorough handling
+                  ensures the rug’s shape and colour is maintained while
+                  cleaning. Feel free to call us on 1300 360 274 for more info.
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         <div className="types section">
-          <div className="types heading">
-            <h2>Types of Rugs</h2>
-          </div>
           <div className="types content">
             <div className="types info">
-              <h3>We Clean All Types Of Rugs.</h3>
+              <h2>We Clean All Types Of Rugs</h2>
               <p>
                 Wool | Jute | Turkish | Viscouse | Art Silk | Silk | Moroccan |
                 Sheep Skin | Cow Hide | Dhurrie | Silk | Oriental | Persian |
@@ -128,7 +164,7 @@ const Home = () => {
             </div>
             <div className="types img">
               <img
-                src={require("../../../Assets/Images/Types/types3.jpg")}
+                src={require("../../../Assets/Images/Types/all types.png")}
                 alt=""
               />
             </div>
@@ -136,15 +172,12 @@ const Home = () => {
         </div>
 
         <div className="review section">
-          <div className="review heading"></div>
-          <div className="review content">
-            <Review />
-          </div>
+          <Review />
         </div>
 
         <div className="choose_us section">
           <div className="choose_us heading">
-            <h2>Why Choose Us...?</h2>
+            <h2>Why Choose Us?</h2>
           </div>
           <div className="choose_us content">
             <div className="choose_us info">
@@ -152,16 +185,78 @@ const Home = () => {
                 <li>HASSLE FREE PICKUP & DROP OFF</li>
                 <li>QUALITY SERVICES</li>
                 <li>ECONOMICAL</li>
+              </ul>
+              <ul>
                 <li>SANITIZATION & DISINFECTION</li>
                 <li>HEALTHY ENVIRONMENT</li>
                 <li>NEW LOOK</li>
               </ul>
             </div>
-            <div className="choose_us img">
-              <img
-                src={require("../../../Assets/Images/Choose/choose1.webp")}
-                alt=""
-              />
+          </div>
+        </div>
+
+        <div className="extra section">
+          <div className="extra1">
+            <h2>Satisfaction Guarantee</h2>
+            <p>
+              We are passionate about rugs and work hard to beat all our
+              customers' expectations. Let our experts clean your rugs and
+              provide the shine they deserve.{" "}
+            </p>
+          </div>
+          <div className="extra2">
+            <img
+              src={require("../../../Assets/Images/RugRepair/rug-repair-img.jpg")}
+              alt=""
+            />
+            <span>
+              Our Rug Cleaning Service Also Provides Repairs & Restoration For
+              Your Valuable & Precious Rugs. Feel Free to Call us on{" "}
+              <strong>1300 360 274</strong> or Email us{" "}
+              <strong> info@purenbrightcleaning.com.au</strong> for more
+              Information
+            </span>
+          </div>
+        </div>
+
+        <div className="work section">
+          <div className="work heading">
+            <h2>Check Out Our Recent</h2>
+          </div>
+          <div className="work content">
+            <Works />
+          </div>
+        </div>
+
+        <div className="frequency-wrapper">
+          <div className="frequency">
+            <h1>Frequency Of Rug Cleaning</h1>
+            <p>
+              The rug cleaning needs to be done at regular intervals in order to
+              enhance the life and appearance of the rug.
+            </p>
+            <div className="frequency-content">
+              <div className="frequency-box">
+                <img
+                  src={require("../../../Assets/Images/Frequency/frequency1.png")}
+                  alt=""
+                />
+                <h2>6 TO 8 MONTHS</h2>
+              </div>
+              <div className="frequency-box">
+                <img
+                  src={require("../../../Assets/Images/Frequency/frequency2.png")}
+                  alt=""
+                />
+                <h2>6 TO 8 MONTHS</h2>
+              </div>
+              <div className="frequency-box">
+                <img
+                  src={require("../../../Assets/Images/Frequency/frequency3.png")}
+                  alt=""
+                />
+                <h2>6 TO 8 MONTHS</h2>
+              </div>
             </div>
           </div>
         </div>
@@ -179,19 +274,10 @@ const Home = () => {
             </div>
             <div className="protect img">
               <img
-                src={require("../../../Assets/Images/Pets/pet.jpg")}
+                src={require("../../../Assets/Images/Pets/pet.webp")}
                 alt=""
               />
             </div>
-          </div>
-        </div>
-
-        <div className="work section">
-          <div className="work heading">
-            <h2>Our Recent Works</h2>
-          </div>
-          <div className="work content">
-            <Works />
           </div>
         </div>
 
