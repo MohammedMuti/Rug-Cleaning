@@ -18,7 +18,7 @@ const Home = () => {
       <div className="home">
         <div className="main_banner">
           <div className="main_banner_content">
-            <h1>PURE N BRIGHT </h1>
+            {/* <h1>PURE N BRIGHT </h1>
             <h3>High Quality Rug Cleaning | Repair | Restoration Services</h3>
             <h4>
               <Typewriter
@@ -35,7 +35,7 @@ const Home = () => {
               }
             >
               <img src={require("../../../Assets/googleBadge.webp")} alt="" />
-            </Link>
+            </Link> */}
           </div>
         </div>
 
