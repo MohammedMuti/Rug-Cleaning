@@ -24,12 +24,12 @@ const ServiceComp = (props) => {
         <img src={props.img} alt="" />
         <div className="info">
           <div className="service-icon">
-            <span>
+            {/* <span>
               <img
                 src={require("../../../Assets/Images/Services/rug-icon.png")}
                 alt=""
               />
-            </span>
+            </span> */}
           </div>
           <h1>{props.title}</h1>
           <div className="more">
