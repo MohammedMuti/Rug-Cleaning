@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Rug-Cleaning/static/css/main.b641f421.css",
-    "main.js": "/Rug-Cleaning/static/js/main.5265ee3c.js",
+    "main.css": "/Rug-Cleaning/static/css/main.db000754.css",
+    "main.js": "/Rug-Cleaning/static/js/main.2b5cf98b.js",
+    "static/media/home-banner.png": "/Rug-Cleaning/static/media/home-banner.f5837950e6420b4491e9.png",
     "static/media/work1.png": "/Rug-Cleaning/static/media/work1.2f42c85503ee8617750c.png",
     "static/media/work3.png": "/Rug-Cleaning/static/media/work3.4eea71b88e8d545001fe.png",
     "static/media/19.jpg": "/Rug-Cleaning/static/media/19.d1a0a61bc311d45523d0.jpg",
@@ -55,7 +56,6 @@
     "static/media/17.jpg": "/Rug-Cleaning/static/media/17.5b27391a54b5ef0ea2b9.jpg",
     "static/media/27.jpg": "/Rug-Cleaning/static/media/27.4b8dd696435ee50cdd93.jpg",
     "static/media/5.webp": "/Rug-Cleaning/static/media/5.a64c1908b6e86d258a47.webp",
-    "static/media/4.webp": "/Rug-Cleaning/static/media/4.63c10b1a85e787b63814.webp",
     "static/media/rug.webp": "/Rug-Cleaning/static/media/rug.cae857a088b5110f8015.webp",
     "static/media/traditional.jpg": "/Rug-Cleaning/static/media/traditional.b4e1b9fe8be7e694126c.jpg",
     "static/media/pet.jpg": "/Rug-Cleaning/static/media/pet.c218ce7986bde50ac8a1.jpg",
@@ -83,18 +83,18 @@
     "static/media/2.webp": "/Rug-Cleaning/static/media/2.464bfeb83b290c28b392.webp",
     "static/media/1.webp": "/Rug-Cleaning/static/media/1.700eed8a5d92137087da.webp",
     "static/media/Pure-N-Bright-Logo.png.webp": "/Rug-Cleaning/static/media/Pure-N-Bright-Logo.png.abf0916acbed2e550e4c.webp",
-    "static/media/googleBadge.webp": "/Rug-Cleaning/static/media/googleBadge.fdc365d9b010e5f708ea.webp",
     "static/media/6.webp": "/Rug-Cleaning/static/media/6.80761eeac176d78b1350.webp",
     "static/media/7.webp": "/Rug-Cleaning/static/media/7.238e8f99f3fe86f2c6c8.webp",
+    "static/media/4.webp": "/Rug-Cleaning/static/media/4.63c10b1a85e787b63814.webp",
     "static/media/8.webp": "/Rug-Cleaning/static/media/8.7a379e70006fd2364bb6.webp",
     "static/media/3.webp": "/Rug-Cleaning/static/media/3.403f0972a27df7de79da.webp",
     "static/media/mail-icon.webp": "/Rug-Cleaning/static/media/mail-icon.36aa90628ca50c630f41.webp",
     "index.html": "/Rug-Cleaning/index.html",
-    "main.b641f421.css.map": "/Rug-Cleaning/static/css/main.b641f421.css.map",
-    "main.5265ee3c.js.map": "/Rug-Cleaning/static/js/main.5265ee3c.js.map"
+    "main.db000754.css.map": "/Rug-Cleaning/static/css/main.db000754.css.map",
+    "main.2b5cf98b.js.map": "/Rug-Cleaning/static/js/main.2b5cf98b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b641f421.css",
-    "static/js/main.5265ee3c.js"
+    "static/css/main.db000754.css",
+    "static/js/main.2b5cf98b.js"
   ]
 }
