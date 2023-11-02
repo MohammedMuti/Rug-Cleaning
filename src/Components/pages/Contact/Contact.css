@@ -1,1 +1,231 @@
-/* No CSS *//*# sourceMappingURL=Contact.css.map */
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Montserrat";
+}
+
+p,
+li {
+  color: #686868;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.contactMain {
+  padding: 5rem 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .contactMain {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .contactMain {
+    padding: 5rem 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .contactMain {
+    gap: 5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.contactMain .form-wrapper {
+  width: 130%;
+}
+
+@media (max-width: 700px) {
+  .contactMain .form-wrapper {
+    width: 100%;
+  }
+}
+
+.contactMain .form-wrapper h2 {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+.contactMain .form-wrapper h2 span {
+  font-size: 3.5rem;
+  color: #008f34;
+}
+
+.contactMain .form-wrapper form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.contactMain .form-wrapper form input {
+  width: 100%;
+  background-color: white;
+  height: 2rem;
+  padding: 2.5rem 0;
+  font-size: 2rem;
+  padding-left: 1rem;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+}
+
+.contactMain .form-wrapper form textarea {
+  padding: 1rem 0;
+  background-color: white;
+  height: 15rem;
+  font-size: 2rem;
+  padding-left: 1rem;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+}
+
+.contactMain .form-wrapper form button {
+  width: 18rem;
+  background-color: transparent;
+  padding: 0;
+  padding-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #0189b1;
+  border-radius: 4rem;
+}
+
+.contactMain .form-wrapper form button span {
+  font-size: 2.2rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+.contactMain .form-wrapper form button img {
+  width: 7rem;
+  height: 5rem;
+}
+
+.contactMain .form-wrapper form .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.contactMain .info-wrapper {
+  width: 70%;
+}
+
+@media (max-width: 700px) {
+  .contactMain .info-wrapper {
+    width: 100%;
+  }
+}
+
+.contactMain .info-wrapper h2 {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+  color: #217e37;
+}
+
+.contactMain .info-wrapper .info-p {
+  margin-bottom: 4rem;
+  line-height: 3rem;
+}
+
+.contactMain .info-wrapper .info-box {
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contactMain .info-wrapper .info-box .icon svg {
+  font-size: 3rem;
+  color: #008f34;
+  margin-right: 3rem;
+}
+
+.contactMain .info-wrapper .info-box .content span {
+  font-size: 2.5rem;
+  color: black;
+}
+
+.contactMain .info-wrapper .info-box .content p {
+  margin-top: 1rem;
+  font-size: 2.2rem;
+  color: #008f34;
+}
+
+.melborne {
+  padding: 5rem 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .melborne {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .melborne {
+    padding: 5rem 2rem;
+  }
+}
+
+.melborne h1 {
+  text-align: center;
+  color: #008f34;
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+}
+
+.melborne img {
+  max-width: 70rem;
+  padding: 1rem;
+}
+/*# sourceMappingURL=Contact.css.map */

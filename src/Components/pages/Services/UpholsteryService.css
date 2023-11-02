@@ -1,0 +1,274 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Montserrat";
+}
+
+p,
+li {
+  color: #686868;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  line-height: 3rem;
+}
+
+.upholstery {
+  padding: 5rem 15%;
+}
+
+@media (max-width: 1200px) {
+  .upholstery {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .upholstery {
+    padding: 5rem 2rem;
+  }
+}
+
+.upholstery .heading {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.upholstery .heading h1 {
+  font-size: 3.5rem;
+  color: #008f34;
+  margin-bottom: 3rem;
+}
+
+.upholstery .heading p {
+  text-align: start;
+}
+
+.upholstery .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+}
+
+@media (max-width: 750px) {
+  .upholstery .info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.upholstery .info .img-container {
+  width: 55%;
+}
+
+@media (max-width: 750px) {
+  .upholstery .info .img-container {
+    width: 100%;
+  }
+}
+
+.upholstery .info .img-container img {
+  width: 100%;
+}
+
+.upholstery .info .img-content {
+  width: 45%;
+}
+
+@media (max-width: 750px) {
+  .upholstery .info .img-content {
+    width: 100%;
+  }
+}
+
+.advantages {
+  background: url(../../../Assets/Images/Banner/Upholstery-sub-banner.jpg);
+  background-size: cover;
+  position: relative;
+  padding: 8rem 13%;
+}
+
+@media (max-width: 1200px) {
+  .advantages {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .advantages {
+    padding: 5rem 2rem;
+  }
+}
+
+.advantages .wrapper {
+  background-color: transparent;
+  opacity: 0.5;
+  -webkit-transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#06ff63), to(#f2295b));
+  background-image: linear-gradient(180deg, #06ff63 0%, #f2295b 100%);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.advantages .heading {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.advantages .heading h1 {
+  margin-bottom: 3rem;
+  color: black;
+  font-size: 4rem;
+}
+
+.advantages .heading h2 {
+  font-size: 4rem;
+  color: #008f34;
+}
+
+.advantages .content-container {
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  -ms-grid-columns: (minmax(40rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  position: relative;
+  z-index: 10;
+}
+
+.advantages .content-container .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.advantages .content-container .content .img {
+  background-color: white;
+  margin-right: 3rem;
+  border-radius: 50%;
+}
+
+.advantages .content-container .content .img img {
+  width: 8rem;
+}
+
+.advantages .content-container .content .info p {
+  color: white;
+}
+
+.professional {
+  padding: 8rem 15%;
+  background-color: #eee;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .professional {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .professional {
+    padding: 5rem 2rem;
+  }
+}
+
+.professional .professional_heading {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.professional .professional_heading h2 {
+  color: #008f34;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.professional .professional_heading h3 {
+  text-align: center;
+  color: black;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+
+.professional .professional_content {
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.professional .professional_content .professional_box {
+  background-color: white;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.professional .professional_content .professional_box h2 {
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  color: #008f34;
+}
+
+.professional .professional_content .professional_box h3 {
+  min-height: 5rem;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.professional .professional_content .professional_box p {
+  line-height: 3rem;
+}
+
+.professional .professional_content .professional_box p span {
+  color: #008f34;
+  font-size: 2rem;
+  line-height: 3rem;
+  cursor: pointer;
+}
+
+.professional .professional_content .professional_box img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=UpholsteryService.css.map */

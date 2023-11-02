@@ -4,14 +4,14 @@ why us                      --Done
 Navbar                      --Done
 Gallery                     --Done
 Gallerys                    --Done
-Service                     --Done
+Footer                      --Done 
 Blog                        --Done
 Blogs                       --Done
+Service                     --Done
 Services
 Home
 Contact                     
 Online Booking Form
-Footer
 Thankyou                              
 
 

@@ -1,0 +1,147 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+  font-family: "Montserrat";
+}
+
+p,
+li {
+  color: #686868;
+  font-size: 2rem;
+  font-family: "Montserrat";
+}
+
+.contact.section .contact.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 2rem;
+}
+
+@media (max-width: 750px) {
+  .contact.section .contact.content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.contact.section .contact.content .contact.img {
+  width: 50%;
+}
+
+.contact.section .contact.content .contact.img img {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .contact.section .contact.content .contact.img {
+    display: none;
+  }
+}
+
+.contact.section .contact.content .contact.info {
+  width: 50%;
+}
+
+@media (max-width: 750px) {
+  .contact.section .contact.content .contact.info {
+    width: 100%;
+  }
+}
+
+.contact.section .contact.content .contact.info h2 {
+  color: #008f34;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact.section .contact.content .contact.info h1 {
+  color: black;
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+.contact.section .contact.content .contact.info form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+}
+
+.contact.section .contact.content .contact.info form input {
+  width: 100%;
+  background-color: white;
+  height: 2rem;
+  padding: 2.5rem 0;
+  font-size: 2rem;
+  padding-left: 1rem;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+}
+
+.contact.section .contact.content .contact.info form textarea {
+  padding: 1rem 0;
+  background-color: white;
+  height: 15rem;
+  font-size: 2rem;
+  padding-left: 1rem;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+}
+
+.contact.section .contact.content .contact.info form button {
+  width: 18rem;
+  background-color: transparent;
+  padding: 0;
+  padding-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #0189b1;
+  border-radius: 4rem;
+}
+
+.contact.section .contact.content .contact.info form button span {
+  font-size: 2.2rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+}
+
+.contact.section .contact.content .contact.info form button img {
+  width: 7rem;
+  height: 5rem;
+}
+
+.contact.section .contact.content .contact.info form .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+/*# sourceMappingURL=ContactComponent.css.map */

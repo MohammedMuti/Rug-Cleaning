@@ -107,8 +107,8 @@ const NavMain = () => {
                       link: "/services/rug-cleaning-melbourne",
                     },
                     {
-                      name: "Rug Repair Melbourne",
-                      link: "/services/rug-repair-melbourne",
+                      name: "Upholstery Cleaning Melbourne",
+                      link: "/services/upholstery-cleaning-melbourne",
                     },
                   ]}
                 />

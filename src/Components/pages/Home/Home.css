@@ -544,55 +544,6 @@ li {
   width: 100%;
 }
 
-.home .contact.section .contact.heading {
-  text-align: left;
-  margin-bottom: 4rem;
-}
-
-.home .contact.section .contact.heading h2 {
-  color: #ffb400;
-  font-size: 4rem;
-}
-
-.home .contact.section .contact.content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 5rem;
-}
-
-@media (max-width: 750px) {
-  .home .contact.section .contact.content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.home .contact.section .contact.content .contact.img img {
-  width: 100%;
-}
-
-@media (max-width: 750px) {
-  .home .contact.section .contact.content .contact.img {
-    display: none;
-  }
-}
-
-.home .contact.section .contact.content .contact.info {
-  width: 250%;
-}
-
-@media (max-width: 750px) {
-  .home .contact.section .contact.content .contact.info {
-    width: 100%;
-  }
-}
-
 .home .copyright.section {
   background-color: #eee;
 }

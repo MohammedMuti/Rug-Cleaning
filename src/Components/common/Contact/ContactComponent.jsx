@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Contact.css";
+import "./ContactComponent.css";
 import "../../pages/Home/Home.css";
 import schema from "./validate";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -159,24 +159,22 @@ const ContactComp = () => {
   return (
     <>
       <div className="contact section">
-        <div className="contact heading">
-          <h2>We're Here To Help...</h2>
-        </div>
         <div className="contact content">
           <div className="contact img">
             <img
-              src={require("../../../Assets/Images/Contact/contact.jpeg")}
+              src={require("../../../Assets/Images/Icons/contact-avatar.jpeg")}
               alt=""
             />
           </div>
           <div className="contact info">
             <section className="contact1" id="contact">
+              <h2>We're Here To Help...</h2>
               <h1 className="heading"> Contact Us </h1>
-              <div className="row">
-                <form onSubmit={submitEmail} action="">
+              <form onSubmit={submitEmail} action="">
+                <div className="name">
                   <input
                     type="text"
-                    placeholder="Name"
+                    placeholder="First Name*"
                     name="fullName"
                     className="box"
                     value={mailerState.fullName}
@@ -185,22 +183,23 @@ const ContactComp = () => {
                   {fullNameError ? (
                     <p className="errorMessage">{fullNameError}</p>
                   ) : null}
-
                   <input
-                    type="email"
-                    placeholder="Email"
-                    name="email"
+                    type="text"
+                    placeholder="Last Name*"
+                    name="fullName"
                     className="box"
-                    value={mailerState.email}
+                    value={mailerState.fullName}
                     onChange={handleStateChange}
                   />
-                  {emailError ? (
-                    <p className="errorMessage">{emailError}</p>
+                  {fullNameError ? (
+                    <p className="errorMessage">{fullNameError}</p>
                   ) : null}
+                </div>
 
+                <div className="name">
                   <input
                     type="number"
-                    placeholder="Phone"
+                    placeholder="Phone Number*"
                     name="phone"
                     className="box"
                     value={mailerState.phone}
@@ -210,33 +209,51 @@ const ContactComp = () => {
                     <p className="errorMessage">{phoneError}</p>
                   ) : null}
 
-                  <textarea
-                    name="message"
-                    placeholder="Message"
+                  <input
+                    type="email"
+                    placeholder="E-mail*"
+                    name="email"
                     className="box"
-                    id=""
-                    cols="30"
-                    rows="10"
-                    value={mailerState.message}
+                    value={mailerState.email}
                     onChange={handleStateChange}
                   />
-                  {messageError ? (
-                    <p className="errorMessage">{messageError}</p>
+                  {emailError ? (
+                    <p className="errorMessage">{emailError}</p>
                   ) : null}
+                </div>
 
-                  <div
-                    style={{ transformOrigin: "0 0", width: "100%" }}
-                    className="captcha"
-                  >
-                    <ReCAPTCHA
-                      sitekey="6LePrU4kAAAAAJtpRmNFy9i-u7PNdMnjp-PIeAsP"
-                      onChange={onChange}
-                    />
-                  </div>
+                <textarea
+                  name="message"
+                  placeholder="Message..."
+                  className="box"
+                  id=""
+                  cols="30"
+                  rows="10"
+                  value={mailerState.message}
+                  onChange={handleStateChange}
+                />
+                {messageError ? (
+                  <p className="errorMessage">{messageError}</p>
+                ) : null}
 
-                  <input type="submit" value="send message" className="btn" />
-                </form>
-              </div>
+                <div
+                  style={{ transformOrigin: "0 0", width: "100%" }}
+                  className="captcha"
+                >
+                  <ReCAPTCHA
+                    sitekey="6LePrU4kAAAAAJtpRmNFy9i-u7PNdMnjp-PIeAsP"
+                    onChange={onChange}
+                  />
+                </div>
+
+                <button type="submit" className="submit">
+                  <span>Submit</span>
+                  <img
+                    src={require("../../../Assets/Images/Icons/enquire-blue.png")}
+                    alt=""
+                  />
+                </button>
+              </form>
             </section>
           </div>
           {/* <div className="contact info"></div>

@@ -141,45 +141,167 @@ const RugService = () => {
           </div>
         </div>
       </div>
+
       <div className="helped">
         <div className="helped-heading">
-          <h3>Industries We've Helped For Their Cleaning Needs</h3>
+          <h3>Industries We've Helped For Their </h3>
+          <h2>Cleaning Needs</h2>
         </div>
-        <div className="helped-container">
-          <Helped
-            title={"Real Estate"}
-            img={require("../../../Assets/Images/Services/Rug/helped/1.webp")}
-          />
-          <Helped
-            title={"Health And Medical"}
-            img={require("../../../Assets/Images/Services/Rug/helped/2.webp")}
-          />
-          <Helped
-            title={"Banking And Finance"}
-            img={require("../../../Assets/Images/Services/Rug/helped/3.webp")}
-          />
-          <Helped
-            title={"Education And Training"}
-            img={require("../../../Assets/Images/Services/Rug/helped/4.webp")}
-          />
-          <Helped
-            title={"Goverment"}
-            img={require("../../../Assets/Images/Services/Rug/helped/5.webp")}
-          />
-          <Helped
-            title={"Professional Services"}
-            img={require("../../../Assets/Images/Services/Rug/helped/6.webp")}
-          />
-          <Helped
-            title={"Construction And Engineering"}
-            img={require("../../../Assets/Images/Services/Rug/helped/7.webp")}
-          />
-          <Helped
-            title={"Legal And Property"}
-            img={require("../../../Assets/Images/Services/Rug/helped/8.webp")}
-          />
+        <div className="helped-wrapper">
+          <div className="helped-container">
+            <div className="help-one">
+              <div className="section-1">
+                <Helped
+                  title={"Real Estate"}
+                  img={require("../../../Assets/Images/Services/Rug/helped/1.webp")}
+                />
+                <Helped
+                  title={"Health And Medical"}
+                  img={require("../../../Assets/Images/Services/Rug/helped/2.webp")}
+                />
+              </div>
+              <div className="section-1">
+                <Helped
+                  title={"Banking And Finance"}
+                  img={require("../../../Assets/Images/Services/Rug/helped/3.webp")}
+                />
+                <Helped
+                  title={"Education And Training"}
+                  img={require("../../../Assets/Images/Services/Rug/helped/4.webp")}
+                />
+              </div>
+            </div>
+
+            <div className="help-two">
+              <img
+                src={require("../../../Assets/Images/Logo/Pure-N-Bright-Logo.png.webp")}
+                alt=""
+              />
+            </div>
+
+            <div className="help-one">
+              <div className="section-1">
+                <Helped
+                  title={"Goverment"}
+                  img={require("../../../Assets/Images/Services/Rug/helped/5.webp")}
+                />
+                <Helped
+                  title={"Professional Services"}
+                  img={require("../../../Assets/Images/Services/Rug/helped/6.webp")}
+                />
+              </div>
+              <div className="section-1">
+                <Helped
+                  title={"Construction And Engineering"}
+                  img={require("../../../Assets/Images/Services/Rug/helped/7.webp")}
+                />
+                <Helped
+                  title={"Legal And Property"}
+                  img={require("../../../Assets/Images/Services/Rug/helped/8.webp")}
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <div className="stain">
+        <div className="heading">
+          <h1>Carpet Stain Protectors</h1>
+          <h2>We Can Help You With Any Of Your Carpet Cleaning Needs</h2>
+          <p>
+            Protectors are invisible and don't disturb the touch or quality of
+            the carpet or fabric. Professionally-applied carpet protectors help
+            prevent permanent damage, blot up spills before they become stains,
+            resist soiling and keep dirt from penetrating between the fibers and
+            improve vacuuming efficiency.
+          </p>
+        </div>
+
+        <div className="stain-wrapper">
+          <div className="main-info">
+            <img
+              src={require("../../../Assets/Images/RugCLeaning/icons/clean.webp")}
+              alt=""
+            />
+          </div>
+          <div className="icon-info">
+            <div className="icon-box-wrapper">
+              <div className="icon-box1">
+                <div className="icon">
+                  <img
+                    src={require("../../../Assets/Images/RugCLeaning/icons/1.webp")}
+                    alt=""
+                  />
+                </div>
+                <div className="info">
+                  <h1>MOVE OUT/IN</h1>
+                  <p>
+                    Worried about your bond? our move out carpet cleaning helps
+                    you to get your bond back as we take all the necessary
+                    steps.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="icon-box-wrapper">
+              <div className="icon-box2">
+                <div className="icon">
+                  <img
+                    src={require("../../../Assets/Images/RugCLeaning/icons/2.webp")}
+                    alt=""
+                  />
+                </div>
+                <div className="info">
+                  <h1>FRESHENING UP</h1>
+                  <p>
+                    Getting your carpet cleaned every 4 months provides you the
+                    fresh, healthy and safe environment.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="icon-box-wrapper">
+              <div className="icon-box3">
+                <div className="icon">
+                  <img
+                    src={require("../../../Assets/Images/RugCLeaning/icons/3.webp")}
+                    alt=""
+                  />
+                </div>
+                <div className="info">
+                  <h1>STAIN/SPILL REMOVAL</h1>
+                  <p>
+                    Small kids? pets? any party stains/spills? our fully trained
+                    staff use the latest cleaning technology.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="icon-box-wrapper">
+              <div className="icon-box4">
+                <div className="icon">
+                  <img
+                    src={require("../../../Assets/Images/RugCLeaning/icons/4.webp")}
+                    alt=""
+                  />
+                </div>
+                <div className="info">
+                  <h1>FLOODED CARPET</h1>
+                  <p>
+                    Little delay to get your flooded carpet fixed can end up in
+                    damaged carpet.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <ContactComp />
       <Footer />
     </>
