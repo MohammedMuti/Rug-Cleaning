@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowRight,
   faBars,
+  faMinus,
   faMultiply,
   faPlus,
 } from "@fortawesome/free-solid-svg-icons";
@@ -182,11 +183,19 @@ const NavMain = () => {
                   SERVICES
                 </div>
                 <Link to={"#"}>
-                  <FontAwesomeIcon
-                    onClick={() => setServices(!services)}
-                    className="plusicon"
-                    icon={faPlus}
-                  />
+                  {!services ? (
+                    <FontAwesomeIcon
+                      onClick={() => setServices(!services)}
+                      className="plusicon"
+                      icon={faPlus}
+                    />
+                  ) : (
+                    <FontAwesomeIcon
+                      onClick={() => setServices(!services)}
+                      className="plusicon"
+                      icon={faMinus}
+                    />
+                  )}
                 </Link>
               </li>
               <ul className={services ? "sub-mean servi" : "sub-mean"}>
@@ -259,11 +268,19 @@ const NavMain = () => {
                   WHY US?
                 </div>
                 <Link to={"#"}>
-                  <FontAwesomeIcon
-                    onClick={() => setWhy(!why)}
-                    className="plusicon"
-                    icon={faPlus}
-                  />
+                  {!why ? (
+                    <FontAwesomeIcon
+                      onClick={() => setWhy(!why)}
+                      className="plusicon"
+                      icon={faPlus}
+                    />
+                  ) : (
+                    <FontAwesomeIcon
+                      onClick={() => setWhy(!why)}
+                      className="plusicon"
+                      icon={faMinus}
+                    />
+                  )}
                 </Link>
               </li>
               <ul className={why ? "sub-mean why" : "sub-mean"}>

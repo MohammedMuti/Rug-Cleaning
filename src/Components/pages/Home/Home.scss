@@ -481,25 +481,6 @@
     bottom: 10px;
   }
 }
-
-.whatsapp-button {
-  background-color: none;
-  background-color: #25d365;
-  border-radius: 5px;
-  /* border-top-left-radius: 5px;
-  border-top-right-radius: 5px; */
-  z-index: 10;
-}
-
-.whatsapp-button i {
-  font-size: 4.3rem;
-  margin: 7px;
-  cursor: pointer;
-  color: white;
-  position: relative;
-  z-index: 10;
-}
-
 .Call-now-button {
   background-color: none;
   background-color: #045ad2;
@@ -527,5 +508,41 @@
   }
   @media (max-width: 800px) {
     padding: 5rem 2rem;
+  }
+}
+
+.fixed-top {
+  position: fixed;
+  background-color: $main-l;
+  bottom: 2%;
+  right: 2%;
+  padding: 1.5rem;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  svg {
+    color: white;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  &.active {
+    opacity: 1;
+  }
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 7%;
+  padding: 0.5rem 0.7rem;
+  background-color: #25d365;
+  border-radius: 5px;
+  z-index: 10;
+  left: 1%;
+
+  i {
+    font-size: 4rem;
+    color: white;
   }
 }

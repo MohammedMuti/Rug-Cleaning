@@ -1,9 +1,33 @@
-import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAngleDoubleRight,
+  faAngleDoubleUp,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
+  const [toTop, setToTop] = useState(false);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY < 100) {
+        setToTop(false);
+      } else {
+        setToTop(true);
+      }
+      // setLastScrollY(window.scrollY);
+    });
+  });
+
   return (
     <>
       <footer className="footer">
@@ -124,6 +148,17 @@ const Footer = () => {
           <p>
             Copyright © Pure N Bright Carpet Cleaning 2021. All rights reserved.
           </p>
+        </div>
+
+        <div
+          onClick={scrollToTop}
+          className={toTop ? "fixed-top active" : "fixed-top"}
+        >
+          <FontAwesomeIcon icon={faAngleDoubleUp} />
+        </div>
+
+        <div className="whatsapp-button">
+          <i class="fa-brands fa-whatsapp"></i>
         </div>
       </footer>
     </>

@@ -10,14 +10,13 @@ h3 {
 h1 {
   font-size: 4rem;
   color: #ffb400;
-  font-family: "Montserrat";
 }
 
 p,
 li {
   color: #686868;
   font-size: 2rem;
-  font-family: "Montserrat";
+  line-height: 3rem;
 }
 
 .blogs {

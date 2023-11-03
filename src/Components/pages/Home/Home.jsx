@@ -1,4 +1,5 @@
 import {
+  faAngleDoubleUp,
   faCheckCircle,
   faCircleCheck,
   faPhone,
@@ -15,7 +16,6 @@ import Works from "../../common/Works/Works";
 import Typewriter from "react-ts-typewriter";
 import "./Home.css";
 import { Link } from "react-router-dom";
-
 const Home = () => {
   return (
     <>
@@ -284,28 +284,6 @@ const Home = () => {
         <ContactComponent />
 
         <Footer />
-        {/* <div className="footer section">
-        </div> */}
-
-        {/* <div className="copyright section">
-          <p>
-            Copyright © Pure N Bright Carpet Cleaning 2021. All rights reserved.
-          </p>
-        </div> */}
-
-        <div className="fixed-icon">
-          <div className="whatsapp-button">
-            <a href="https://wa.me/9538989075" target={"_blank"}>
-              <i className="fa-brands fa-whatsapp"></i>
-            </a>
-          </div>
-
-          <div className="Call-now-button">
-            <a href="tel:953-898-9075" target={"_blank"}>
-              <FontAwesomeIcon icon={faPhone} className="phone-icon1" />
-            </a>
-          </div>
-        </div>
       </div>
     </>
   );
