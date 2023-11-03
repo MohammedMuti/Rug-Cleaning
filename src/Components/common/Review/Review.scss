@@ -40,6 +40,9 @@
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 
     padding: 2rem 10rem;
+    @media (max-width: 800px) {
+      padding: 2rem 2rem;
+    }
     .content-box {
       text-align: center;
 

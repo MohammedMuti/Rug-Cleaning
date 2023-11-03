@@ -216,9 +216,9 @@ const NavMain = () => {
                   </li>
                 </Link>
                 <Link
-                  to={"/services/carpet-cleaning-melbourne"}
+                  to={"/services/rug-cleaning-melbourne"}
                   className={
-                    path === "/services/carpet-cleaning-melbourne"
+                    path === "/services/rug-cleaning-melbourne"
                       ? "link active"
                       : "link"
                   }
@@ -228,13 +228,13 @@ const NavMain = () => {
                       className="rightIcon"
                       icon={faArrowRight}
                     />{" "}
-                    Carpet Cleaning Melbourne
+                    Rug Cleaning Melbourne
                   </li>
                 </Link>
                 <Link
-                  to={"/services/carpet-cleaning-melbourne"}
+                  to={"/services/upholstery-cleaning-melbourne"}
                   className={
-                    path === "/services/carpet-cleaning-melbourne"
+                    path === "/services/upholstery-cleaning-melbourne"
                       ? "link active"
                       : "link"
                   }
@@ -244,7 +244,7 @@ const NavMain = () => {
                       className="rightIcon"
                       icon={faArrowRight}
                     />{" "}
-                    Carpet Cleaning Melbourne
+                    Upholstery Cleaning Melbourne
                   </li>
                 </Link>
               </ul>
@@ -329,7 +329,11 @@ const NavMain = () => {
               className={path === "/contact-us" ? "link active" : "link"}
             >
               <li>
-                <FontAwesomeIcon icon={faArrowRight} /> CONTACT US
+                <FontAwesomeIcon
+                  style={{ paddingRight: "1rem" }}
+                  icon={faArrowRight}
+                />{" "}
+                CONTACT US
               </li>
             </Link>
           </ul>

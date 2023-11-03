@@ -227,10 +227,10 @@
     }
     .types.content {
       display: flex;
-      // align-items: center;
       gap: 5rem;
 
       @media (max-width: 750px) {
+        align-items: center;
         flex-direction: column;
       }
 
@@ -254,6 +254,10 @@
 
       .types.img {
         width: 70%;
+
+        @media (max-width: 750px) {
+          width: 100%;
+        }
         img {
           width: 100%;
         }

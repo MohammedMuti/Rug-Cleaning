@@ -170,6 +170,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+
         <div className="MeanNav">
           <ul className={meanNav ? "mean-nav-list active" : "mean-nav-list"}>
             <Link to={"/"} className={path === "/" ? "link active" : "link"}>
@@ -238,9 +239,9 @@ const Navbar = () => {
                   </li>
                 </Link>
                 <Link
-                  to={"/services/carpet-cleaning-melbourne"}
+                  to={"/services/rug-cleaning-melbourne"}
                   className={
-                    path === "/services/carpet-cleaning-melbourne"
+                    path === "/services/rug-cleaning-melbourne"
                       ? "link active"
                       : "link"
                   }
@@ -250,13 +251,13 @@ const Navbar = () => {
                       className="rightIcon"
                       icon={faArrowRight}
                     />{" "}
-                    Carpet Cleaning Melbourne
+                    Rug Cleaning Melbourne
                   </li>
                 </Link>
                 <Link
-                  to={"/services/carpet-cleaning-melbourne"}
+                  to={"/services/upholstery-cleaning-melbourne"}
                   className={
-                    path === "/services/carpet-cleaning-melbourne"
+                    path === "/services/upholstery-cleaning-melbourne"
                       ? "link active"
                       : "link"
                   }
@@ -266,7 +267,7 @@ const Navbar = () => {
                       className="rightIcon"
                       icon={faArrowRight}
                     />{" "}
-                    Carpet Cleaning Melbourne
+                    Upholstery Cleaning Melbourne
                   </li>
                 </Link>
               </ul>
@@ -352,7 +353,11 @@ const Navbar = () => {
               className={path === "/contact-us" ? "link active" : "link"}
             >
               <li>
-                <FontAwesomeIcon className="rightIcon" icon={faArrowRight} />{" "}
+                <FontAwesomeIcon
+                  style={{ paddingRight: "1rem" }}
+                  className="rightIcon"
+                  icon={faArrowRight}
+                />{" "}
                 CONTACT US
               </li>
             </Link>

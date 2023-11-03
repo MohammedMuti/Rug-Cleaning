@@ -344,6 +344,9 @@ li {
 
 @media (max-width: 750px) {
   .home .types.section .types.content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -369,6 +372,12 @@ li {
 
 .home .types.section .types.content .types.img {
   width: 70%;
+}
+
+@media (max-width: 750px) {
+  .home .types.section .types.content .types.img {
+    width: 100%;
+  }
 }
 
 .home .types.section .types.content .types.img img {
