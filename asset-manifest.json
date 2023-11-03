@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rug-Cleaning/static/css/main.f2067cd5.css",
-    "main.js": "/Rug-Cleaning/static/js/main.f5d90bab.js",
+    "main.css": "/Rug-Cleaning/static/css/main.caee8b2b.css",
+    "main.js": "/Rug-Cleaning/static/js/main.8b4ee601.js",
     "static/media/home-banner.png": "/Rug-Cleaning/static/media/home-banner.f5837950e6420b4491e9.png",
     "static/media/Capture.PNG": "/Rug-Cleaning/static/media/Capture.2df50fd518224aa582fd.PNG",
     "static/media/blog-banner.png": "/Rug-Cleaning/static/media/blog-banner.44865b856f9c30c14596.png",
@@ -117,11 +117,11 @@
     "static/media/footer-location.webp": "/Rug-Cleaning/static/media/footer-location.d29147bc58823dee6bc8.webp",
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "static/media/mail-icon.webp": "/Rug-Cleaning/static/media/mail-icon.36aa90628ca50c630f41.webp",
-    "main.f2067cd5.css.map": "/Rug-Cleaning/static/css/main.f2067cd5.css.map",
-    "main.f5d90bab.js.map": "/Rug-Cleaning/static/js/main.f5d90bab.js.map"
+    "main.caee8b2b.css.map": "/Rug-Cleaning/static/css/main.caee8b2b.css.map",
+    "main.8b4ee601.js.map": "/Rug-Cleaning/static/js/main.8b4ee601.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2067cd5.css",
-    "static/js/main.f5d90bab.js"
+    "static/css/main.caee8b2b.css",
+    "static/js/main.8b4ee601.js"
   ]
 }
