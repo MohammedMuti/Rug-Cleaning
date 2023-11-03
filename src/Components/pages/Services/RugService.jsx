@@ -302,6 +302,34 @@ const RugService = () => {
         </div>
       </div>
 
+      <div className="threeD">
+        <div className="wrapper">
+          <div className="container">
+            <div className="comment-box">
+              <img
+                src={require("../../../Assets/Images/Banner/comment-box.webp")}
+                alt=""
+              />
+            </div>
+            <div className="comment-info">
+              <h1>Let’s Shine!</h1>
+              <p>
+                Reduce the dust mite allergen levels in your home with quality
+                steam carpet cleaning melbourne
+              </p>
+
+              <button className="submit">
+                <span>Enquire Now</span>
+                <img
+                  src={require("../../../Assets/Images/Icons/enquire-blue.png")}
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <ContactComp />
       <Footer />
     </>

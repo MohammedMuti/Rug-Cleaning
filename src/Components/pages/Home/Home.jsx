@@ -1,12 +1,3 @@
-import {
-  faAngleDoubleUp,
-  faCheckCircle,
-  faCircleCheck,
-  faPhone,
-  faShield,
-  faShieldVirus,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ContactComponent from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
@@ -182,14 +173,50 @@ const Home = () => {
           <div className="choose_us content">
             <div className="choose_us info">
               <ul>
-                <li>HASSLE FREE PICKUP & DROP OFF</li>
-                <li>QUALITY SERVICES</li>
-                <li>ECONOMICAL</li>
+                <li>
+                  <img
+                    src={require("../../../Assets/Images/Icons/sheild.png")}
+                    alt=""
+                  />{" "}
+                  HASSLE FREE PICKUP & DROP OFF
+                </li>
+                <li>
+                  <img
+                    src={require("../../../Assets/Images/Icons/check.png")}
+                    alt=""
+                  />{" "}
+                  QUALITY SERVICES
+                </li>
+                <li>
+                  <img
+                    src={require("../../../Assets/Images/Icons/economic.png")}
+                    alt=""
+                  />{" "}
+                  ECONOMICAL
+                </li>
               </ul>
               <ul>
-                <li>SANITIZATION & DISINFECTION</li>
-                <li>HEALTHY ENVIRONMENT</li>
-                <li>NEW LOOK</li>
+                <li>
+                  <img
+                    src={require("../../../Assets/Images/Icons/sanitization.png")}
+                    alt=""
+                  />{" "}
+                  SANITIZATION & DISINFECTION
+                </li>
+                <li>
+                  <img
+                    src={require("../../../Assets/Images/Icons/health.png")}
+                    alt=""
+                  />{" "}
+                  HEALTHY ENVIRONMENT
+                </li>
+                <li>
+                  <img
+                    src={require("../../../Assets/Images/Icons/plant.png")}
+                    alt=""
+                  />{" "}
+                  NEW LOOK
+                </li>
               </ul>
             </div>
           </div>

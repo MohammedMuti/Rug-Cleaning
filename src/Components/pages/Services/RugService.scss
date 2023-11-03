@@ -54,6 +54,13 @@
       border-radius: 4rem;
       width: fit-content;
 
+      &:hover {
+        animation-name: btn1;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: 1;
+      }
+
       span {
         font-size: 2.2rem;
         margin-right: 2rem;
@@ -437,6 +444,107 @@
             p {
               line-height: 2.5rem;
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+.threeD {
+  background: url(../../../Assets/Images/Banner/3d-banner.webp);
+  background-position: center;
+  padding: 7rem 0;
+
+  .wrapper {
+    padding: 3rem;
+    @media (max-width: 600px) {
+      padding: 1rem;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      will-change: transform;
+      transform: perspective(700px) rotateY(15deg);
+      transition: transform 1s ease 0s;
+
+      &:hover {
+        transform: perspective(3000px) rotateY(-5deg);
+      }
+
+      .comment-box {
+        img {
+          max-width: 70rem;
+        }
+      }
+
+      .comment-info {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // justify-content: center;
+        position: absolute;
+        padding: 0rem 1rem;
+        top: 5rem;
+        max-width: 58rem;
+
+        h1 {
+          color: #02285e;
+          font-size: 7rem;
+          font-weight: 900;
+          @media (max-width: 600px) {
+            font-size: 5rem;
+          }
+          @media (max-width: 400px) {
+            font-size: 4rem;
+          }
+        }
+
+        p {
+          color: black;
+          font-size: 2.5rem;
+          margin-bottom: 4rem;
+          @media (max-width: 600px) {
+            margin-bottom: 2rem;
+            font-size: 2rem;
+          }
+        }
+
+        button {
+          width: 23rem;
+          background-color: transparent;
+          padding: 0;
+          padding-left: 1rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border: 1px solid rgb(1, 137, 177);
+          border-radius: 4rem;
+          cursor: pointer;
+
+          &:hover {
+            animation-name: btn1;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 1;
+          }
+
+          span {
+            font-size: 2.2rem;
+            margin-right: 1rem;
+            margin-left: 1rem;
+            // font-weight: 600;
+          }
+          img {
+            width: 7rem;
+            height: 5rem;
           }
         }
       }

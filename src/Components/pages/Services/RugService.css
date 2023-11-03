@@ -19,6 +19,60 @@ li {
   line-height: 3rem;
 }
 
+@-webkit-keyframes btn1 {
+  16.65% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes btn1 {
+  16.65% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
 .rug-service {
   padding: 5rem 15%;
   grid-gap: 2rem;
@@ -85,6 +139,17 @@ li {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.rug-service .rug-service-content a:hover {
+  -webkit-animation-name: btn1;
+          animation-name: btn1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 .rug-service .rug-service-content a span {
@@ -599,5 +664,149 @@ li {
 .stain .stain-wrapper .icon-info .icon-box-wrapper .icon-box3 .info p,
 .stain .stain-wrapper .icon-info .icon-box-wrapper .icon-box4 .info p {
   line-height: 2.5rem;
+}
+
+.threeD {
+  background: url(../../../Assets/Images/Banner/3d-banner.webp);
+  background-position: center;
+  padding: 7rem 0;
+}
+
+.threeD .wrapper {
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .threeD .wrapper {
+    padding: 1rem;
+  }
+}
+
+.threeD .wrapper .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  will-change: transform;
+  -webkit-transform: perspective(700px) rotateY(15deg);
+          transform: perspective(700px) rotateY(15deg);
+  -webkit-transition: -webkit-transform 1s ease 0s;
+  transition: -webkit-transform 1s ease 0s;
+  transition: transform 1s ease 0s;
+  transition: transform 1s ease 0s, -webkit-transform 1s ease 0s;
+}
+
+.threeD .wrapper .container:hover {
+  -webkit-transform: perspective(3000px) rotateY(-5deg);
+          transform: perspective(3000px) rotateY(-5deg);
+}
+
+.threeD .wrapper .container .comment-box img {
+  max-width: 70rem;
+}
+
+.threeD .wrapper .container .comment-info {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  padding: 0rem 1rem;
+  top: 5rem;
+  max-width: 58rem;
+}
+
+.threeD .wrapper .container .comment-info h1 {
+  color: #02285e;
+  font-size: 7rem;
+  font-weight: 900;
+}
+
+@media (max-width: 600px) {
+  .threeD .wrapper .container .comment-info h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .threeD .wrapper .container .comment-info h1 {
+    font-size: 4rem;
+  }
+}
+
+.threeD .wrapper .container .comment-info p {
+  color: black;
+  font-size: 2.5rem;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 600px) {
+  .threeD .wrapper .container .comment-info p {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+}
+
+.threeD .wrapper .container .comment-info button {
+  width: 23rem;
+  background-color: transparent;
+  padding: 0;
+  padding-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #0189b1;
+  border-radius: 4rem;
+  cursor: pointer;
+}
+
+.threeD .wrapper .container .comment-info button:hover {
+  -webkit-animation-name: btn1;
+          animation-name: btn1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.threeD .wrapper .container .comment-info button span {
+  font-size: 2.2rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.threeD .wrapper .container .comment-info button img {
+  width: 7rem;
+  height: 5rem;
 }
 /*# sourceMappingURL=RugService.css.map */
