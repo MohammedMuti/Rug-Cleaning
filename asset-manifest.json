@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rug-Cleaning/static/css/main.e25f8ddf.css",
-    "main.js": "/Rug-Cleaning/static/js/main.ab9b7b53.js",
+    "main.js": "/Rug-Cleaning/static/js/main.b3fe35ff.js",
     "static/media/home-banner.png": "/Rug-Cleaning/static/media/home-banner.f5837950e6420b4491e9.png",
     "static/media/Capture.PNG": "/Rug-Cleaning/static/media/Capture.2df50fd518224aa582fd.PNG",
     "static/media/blog-banner.png": "/Rug-Cleaning/static/media/blog-banner.44865b856f9c30c14596.png",
@@ -118,10 +118,10 @@
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "static/media/mail-icon.webp": "/Rug-Cleaning/static/media/mail-icon.36aa90628ca50c630f41.webp",
     "main.e25f8ddf.css.map": "/Rug-Cleaning/static/css/main.e25f8ddf.css.map",
-    "main.ab9b7b53.js.map": "/Rug-Cleaning/static/js/main.ab9b7b53.js.map"
+    "main.b3fe35ff.js.map": "/Rug-Cleaning/static/js/main.b3fe35ff.js.map"
   },
   "entrypoints": [
     "static/css/main.e25f8ddf.css",
-    "static/js/main.ab9b7b53.js"
+    "static/js/main.b3fe35ff.js"
   ]
 }
