@@ -18,7 +18,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
-  const [fullNameError, setFullNameError] = useState("");
+  const [firstNameError, setFirstNameError] = useState("");
+  const [lastNameError, setLastNameError] = useState("");
   const [emailError, setEmailError] = useState("");
   const [phoneError, setPhoneError] = useState();
   const [messageError, setMessageError] = useState("");
@@ -27,7 +28,8 @@ const Contact = () => {
   const [submitMessage, setSubmitMessage] = useState(false);
 
   const [mailerState, setMailerState] = useState({
-    fullName: "",
+    firstName: "",
+    lastName: "",
     email: "",
     phone: "",
     message: "",
@@ -44,7 +46,8 @@ const Contact = () => {
       console.log("You're good!");
       alert("Message Sent Successfully!!");
       setMailerState({
-        fullName: "",
+        firstName: "",
+        lastName: "",
         email: "",
         phone: "",
         message: "",
@@ -53,7 +56,7 @@ const Contact = () => {
 
     if (validation === true) {
       const responsetoself = await axios(
-        "https://purenbright-backend.onrender.com/sendToUser",
+        "https://rug-cleaning-service.onrender.com/sendToUser",
         {
           method: "POST",
           headers: {
@@ -69,7 +72,49 @@ const Contact = () => {
           console.log(err);
         });
       const responseToMuti = await axios(
-        "https://purenbright-backend.onrender.com/sendToMuti",
+        "https://rug-cleaning-service.onrender.com/sendToMuti",
+        {
+          method: "POST",
+          headers: {
+            "Content-type": "application/json",
+          },
+          data: mailerState,
+        }
+      )
+        .then((res) => {
+          console.log(res);
+          if (res.status === 200) {
+            console.log("Message Sent");
+          } else if (res.status === 402) {
+            console.log("Message failed to send");
+          }
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+      const responseToAbuzar = await axios(
+        "https://rug-cleaning-service.onrender.com/sendToAbuzar",
+        {
+          method: "POST",
+          headers: {
+            "Content-type": "application/json",
+          },
+          data: mailerState,
+        }
+      )
+        .then((res) => {
+          console.log(res);
+          if (res.status === 200) {
+            console.log("Message Sent");
+          } else if (res.status === 402) {
+            console.log("Message failed to send");
+          }
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+      const responseToClient = await axios(
+        "https://rug-cleaning-service.onrender.com/sendToClient",
         {
           method: "POST",
           headers: {
@@ -102,7 +147,8 @@ const Contact = () => {
   const validate = (mailerState) => {
     const result = schema.validate(
       {
-        fullName: mailerState.fullName,
+        firstName: mailerState.firstName,
+        lastName: mailerState.lastName,
         email: mailerState.email,
         number: mailerState.phone,
         message: mailerState.message,
@@ -110,7 +156,8 @@ const Contact = () => {
       { abortEarly: false }
     );
     if (!result.error) {
-      setFullNameError("");
+      setFirstNameError("");
+      setLastNameError("");
       setPhoneError("");
       setMessageError("");
       setEmailError("");
@@ -118,11 +165,19 @@ const Contact = () => {
       return true;
     }
     for (let i in result.error.details) {
-      if (result.error.details[i].context.label === "Name") {
-        setFullNameError(result.error.details[i].message);
+      if (result.error.details[i].context.label === "fisrtName") {
+        setFirstNameError(result.error.details[i].message);
         setErrorMessage(true);
         break;
-      } else setFullNameError("");
+      } else setFirstNameError("");
+      setErrorMessage(false);
+    }
+    for (let i in result.error.details) {
+      if (result.error.details[i].context.label === "lastName") {
+        setLastNameError(result.error.details[i].message);
+        setErrorMessage(true);
+        break;
+      } else setLastNameError("");
       setErrorMessage(false);
     }
     for (let i in result.error.details) {
@@ -152,7 +207,8 @@ const Contact = () => {
       setErrorMessage(false);
     }
     if (!result.error) {
-      setFullNameError("");
+      setFirstNameError("");
+      setLastNameError("");
       setPhoneError("");
       setMessageError("");
       setEmailError("");
@@ -184,50 +240,61 @@ const Contact = () => {
           </h2>
           <form onSubmit={submitEmail} action="">
             <div className="name">
-              <input
-                type="text"
-                placeholder="First Name*"
-                name="fullName"
-                className="box"
-                value={mailerState.fullName}
-                onChange={handleStateChange}
-              />
-              {fullNameError ? (
-                <p className="errorMessage">{fullNameError}</p>
-              ) : null}
-              <input
-                type="text"
-                placeholder="Last Name*"
-                name="fullName"
-                className="box"
-                value={mailerState.fullName}
-                onChange={handleStateChange}
-              />
-              {fullNameError ? (
-                <p className="errorMessage">{fullNameError}</p>
-              ) : null}
+              <div className="block">
+                <input
+                  type="text"
+                  placeholder="First Name*"
+                  name="firstName"
+                  className="box"
+                  value={mailerState.firstName}
+                  onChange={handleStateChange}
+                />
+                {firstNameError ? (
+                  <p className="errorMessage">{firstNameError}</p>
+                ) : null}
+              </div>
+              <div className="block">
+                <input
+                  type="text"
+                  placeholder="Last Name*"
+                  name="lastName"
+                  className="box"
+                  value={mailerState.lastName}
+                  onChange={handleStateChange}
+                />
+                {lastNameError ? (
+                  <p className="errorMessage">{lastNameError}</p>
+                ) : null}
+              </div>
             </div>
 
             <div className="name">
-              <input
-                type="number"
-                placeholder="Phone Number*"
-                name="phone"
-                className="box"
-                value={mailerState.phone}
-                onChange={handleStateChange}
-              />
-              {phoneError ? <p className="errorMessage">{phoneError}</p> : null}
-
-              <input
-                type="email"
-                placeholder="E-mail*"
-                name="email"
-                className="box"
-                value={mailerState.email}
-                onChange={handleStateChange}
-              />
-              {emailError ? <p className="errorMessage">{emailError}</p> : null}
+              <div className="block">
+                <input
+                  type="number"
+                  placeholder="Phone Number*"
+                  name="phone"
+                  className="box"
+                  value={mailerState.phone}
+                  onChange={handleStateChange}
+                />
+                {phoneError ? (
+                  <p className="errorMessage">{phoneError}</p>
+                ) : null}
+              </div>
+              <div className="block">
+                <input
+                  type="email"
+                  placeholder="E-mail*"
+                  name="email"
+                  className="box"
+                  value={mailerState.email}
+                  onChange={handleStateChange}
+                />
+                {emailError ? (
+                  <p className="errorMessage">{emailError}</p>
+                ) : null}
+              </div>
             </div>
 
             <textarea

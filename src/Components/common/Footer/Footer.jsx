@@ -3,6 +3,7 @@ import {
   faAngleDoubleUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -10,6 +11,8 @@ import "./Footer.css";
 
 const Footer = () => {
   const [toTop, setToTop] = useState(false);
+  const [emailError, setEmailError] = useState("");
+  const [email, setEmail] = useState("");
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -27,6 +30,105 @@ const Footer = () => {
       // setLastScrollY(window.scrollY);
     });
   });
+
+  const submitEmail = async (e) => {
+    e.preventDefault();
+    // console.log({ mailerState });
+    // const validation = await validate(mailerState);
+    // console.log(validation);
+    // console.log(mailerState);
+
+    // if (validation === true) {
+    console.log("You're good!");
+    alert("Subscribed Successfully!!");
+
+    // }
+
+    // if (validation === true) {
+    const responsetoself = await axios(
+      "https://rug-cleaning-service.onrender.com/sendToUser",
+      {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        data: { email },
+      }
+    )
+      .then((res) => {
+        console.log(email);
+        console.log(res);
+      })
+      .catch((err) => {
+        console.log(email);
+        console.log(err);
+      });
+    const responseToMuti = await axios(
+      "https://rug-cleaning-service.onrender.com/sendEmailToMuti",
+      {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        data: { email },
+      }
+    )
+      .then((res) => {
+        console.log(res);
+        if (res.status === 200) {
+          console.log("Message Sent");
+        } else if (res.status === 402) {
+          console.log("Message failed to send");
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+    const responseToAbuzar = await axios(
+      "https://rug-cleaning-service.onrender.com/sendEmailToAbuzar",
+      {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        data: { email },
+      }
+    )
+      .then((res) => {
+        console.log(res);
+        if (res.status === 200) {
+          console.log("Message Sent");
+        } else if (res.status === 402) {
+          console.log("Message failed to send");
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+    const responseToClient = await axios(
+      "https://rug-cleaning-service.onrender.com/sendEmailToClient",
+      {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        data: { email: email },
+      }
+    )
+      .then((res) => {
+        console.log(res);
+        if (res.status === 200) {
+          console.log("Message Sent");
+        } else if (res.status === 402) {
+          console.log("Message failed to send");
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+    setEmail("");
+    // }
+  };
 
   return (
     <>
@@ -103,19 +205,26 @@ const Footer = () => {
             </div>
             <div className="news-content">
               <p>You will be notified when somthing new will be appear.</p>
-              <input
-                type="text"
-                name="email"
-                placeholder="Enter your e-mail"
-                id=""
-              />
-              <Link>
-                <span>Subscribe</span>
-                <img
-                  src={require("../../../Assets/Images/Icons/enquire-white.png")}
-                  alt=""
+              <form onSubmit={submitEmail} action="">
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Enter your e-mail"
+                  id=""
+                  value={email}
+                  onChange={(e) => setEmail(e.currentTarget.value)}
                 />
-              </Link>
+                {emailError ? (
+                  <p className="errorMessage">{emailError}</p>
+                ) : null}
+                <Link type="submit" onClick={submitEmail}>
+                  <span>Subscribe</span>
+                  <img
+                    src={require("../../../Assets/Images/Icons/enquire-white.png")}
+                    alt=""
+                  />
+                </Link>
+              </form>
             </div>
           </div>
 

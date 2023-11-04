@@ -76,6 +76,7 @@
           justify-content: space-between;
           border: 1px solid rgb(1, 137, 177);
           border-radius: 4rem;
+          cursor: pointer;
 
           &:hover {
             animation-name: btn1;
@@ -99,8 +100,17 @@
         .name {
           display: flex;
           gap: 2rem;
+
+          .block {
+            display: flex;
+            flex-direction: column;
+          }
         }
       }
     }
   }
+}
+
+.errorMessage {
+  color: red;
 }

@@ -176,6 +176,18 @@ li {
           justify-content: space-between;
   border: 1px solid #0189b1;
   border-radius: 4rem;
+  cursor: pointer;
+}
+
+.contactMain .form-wrapper form button:hover {
+  -webkit-animation-name: btn1;
+          animation-name: btn1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
 }
 
 .contactMain .form-wrapper form button span {
