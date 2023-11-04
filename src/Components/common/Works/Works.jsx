@@ -3,6 +3,7 @@ import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination } from "swiper";
 import "./Works.css";
+import { Link } from "react-router-dom";
 
 const Works = () => {
   return (
@@ -23,13 +24,15 @@ const Works = () => {
             alt=""
           />
         </div>
-        <div className="more-images">
-          <h1>FOR MORE IMAGES CHECK OUT OUR GALLERY</h1>
-          <img
-            src={require("../../../Assets/Images/Icons/enquire-icon.png")}
-            alt=""
-          />
-        </div>
+        <Link to={"/gallery/rug-cleaning-gallery"}>
+          <div className="more-images">
+            <h1>FOR MORE IMAGES CHECK OUT OUR GALLERY</h1>
+            <img
+              src={require("../../../Assets/Images/Icons/enquire-icon.png")}
+              alt=""
+            />
+          </div>
+        </Link>
       </section>
     </>
   );
