@@ -29,13 +29,17 @@
   }
 
   .frequency-content {
-    grid-gap: 3rem;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    // grid-gap: 3rem;
+    // display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
 
     .frequency-box {
       img {
-        width: 75%;
+        width: 100%;
         margin-bottom: 4rem;
       }
 

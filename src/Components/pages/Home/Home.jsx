@@ -27,7 +27,7 @@ const Home = () => {
               />
             </h4> */}
             <p>at Affordable Prices</p>
-            <Link>
+            <Link to={"/contact-us"}>
               <span>Enquire Now </span>
 
               <img

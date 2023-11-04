@@ -344,7 +344,7 @@ const Contact = () => {
             <div className="content">
               <span>ADDRESS</span>
               <p style={{ color: "gray" }}>
-                6 Achieve Way, Pakenham Vic 3810,Australia
+                6 Achieve Way, <br /> Pakenham Vic 3810, Australia
               </p>
             </div>
           </div>

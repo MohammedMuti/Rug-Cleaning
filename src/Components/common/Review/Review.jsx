@@ -5,13 +5,16 @@ import "swiper/swiper.min.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination } from "swiper";
 import "./Review.css";
+import { Link } from "react-router-dom";
 
 const Review = () => {
   return (
     <>
       <section className="reviews">
         <div className="heading">
-          <h1> WHAT OUR CUSTOMERS HAVE TO SAY </h1>
+          <Link to={"https://www.productreview.com.au/listings/pure-n-bright"}>
+            <h1> WHAT OUR CUSTOMERS HAVE TO SAY </h1>
+          </Link>
           <img
             src={require("../../../Assets/Images/Icons/enquire-icon.png")}
             alt=""
@@ -64,9 +67,11 @@ const Review = () => {
             </div>
           </div>
         </div>
-        <div className="more-review">
-          <span>For More Reviews Click Here</span>
-        </div>
+        <Link to={"https://www.productreview.com.au/listings/pure-n-bright"}>
+          <div className="more-review">
+            <span>For More Reviews Click Here</span>
+          </div>
+        </Link>
       </section>
     </>
   );

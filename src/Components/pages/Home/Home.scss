@@ -13,7 +13,7 @@
     display: flex;
     align-items: center;
     padding-left: 15%;
-    padding-top: 10rem;
+    padding-top: 15rem;
     animation: jump-shaking 2s ease-out;
 
     @media (max-width: 800px) {
@@ -35,22 +35,31 @@
         background-color: black;
         color: $orange-l;
       }
+
       h1 {
-        font-size: 4rem;
-        // font-weight: 400;
-        // font-family: "Montserrat", Sans-serif;
-        // letter-spacing: 5px;
+        font-size: 5rem;
         color: white;
-      }
-      p {
-        font-size: 2.5rem;
-        color: whitesmoke;
+        text-shadow: 3px 3px 1px $main;
+        font-style: oblique 40deg;
+        @media (max-width: 500px) {
+          font-size: 4rem;
+        }
       }
       h3 {
-        font-size: 4rem;
+        font-size: 5rem;
         color: white;
-        // font-family: "Montserrat", Sans-serif;
-        // font-weight: 800;
+        font-style: oblique 40deg;
+        text-shadow: 3px 3px 1px $main-l;
+
+        @media (max-width: 500px) {
+          font-size: 4rem;
+        }
+      }
+      p {
+        font-style: oblique 40deg;
+        font-size: 3.5rem;
+        text-shadow: 2px 2px 1px white;
+        color: black;
       }
 
       p {
@@ -76,6 +85,7 @@
           margin-right: 2rem;
           margin-left: 1rem;
           font-weight: 600;
+          text-shadow: 2px 2px 2px $blue;
         }
         img {
           width: 7rem;
@@ -166,7 +176,7 @@
         grid-gap: 2rem;
         display: grid;
         gap: 2rem;
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
         .methods.type {
           background-color: white;
           border: black 2px solid;
@@ -385,7 +395,7 @@
     padding-top: 10rem;
     .frequency {
       background-image: url(../../../Assets/Images/Banner/map-banner.webp);
-      padding: 5rem 17%;
+      padding: 5rem 15%;
       // background-color: #eee;
 
       @media (max-width: 1200px) {
@@ -405,13 +415,13 @@
       }
 
       .frequency-content {
-        grid-gap: 3rem;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        // grid-gap: 3rem;
+        // display: grid;
+        // grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 
         .frequency-box {
           img {
-            width: 75%;
+            width: 100%;
             margin-bottom: 4rem;
           }
 

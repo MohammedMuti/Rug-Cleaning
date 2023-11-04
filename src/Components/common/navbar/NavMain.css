@@ -195,6 +195,9 @@ li {
 
 .navbarM .navbar_wrapper .nav-content .nav-content-u .nav-icon-wrapper span {
   font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media (max-width: 850px) {

@@ -92,7 +92,7 @@ li {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 15%;
-  padding-top: 10rem;
+  padding-top: 15rem;
   -webkit-animation: jump-shaking 2s ease-out;
           animation: jump-shaking 2s ease-out;
 }
@@ -126,18 +126,36 @@ li {
 }
 
 .home .main_banner .main_banner_content h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: white;
+  text-shadow: 3px 3px 1px #217e37;
+  font-style: oblique 40deg;
 }
 
-.home .main_banner .main_banner_content p {
-  font-size: 2.5rem;
-  color: whitesmoke;
+@media (max-width: 500px) {
+  .home .main_banner .main_banner_content h1 {
+    font-size: 4rem;
+  }
 }
 
 .home .main_banner .main_banner_content h3 {
-  font-size: 4rem;
+  font-size: 5rem;
   color: white;
+  font-style: oblique 40deg;
+  text-shadow: 3px 3px 1px #008f34;
+}
+
+@media (max-width: 500px) {
+  .home .main_banner .main_banner_content h3 {
+    font-size: 4rem;
+  }
+}
+
+.home .main_banner .main_banner_content p {
+  font-style: oblique 40deg;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 1px white;
+  color: black;
 }
 
 .home .main_banner .main_banner_content p {
@@ -174,6 +192,7 @@ li {
   margin-right: 2rem;
   margin-left: 1rem;
   font-weight: 600;
+  text-shadow: 2px 2px 2px #6ec1e4;
 }
 
 .home .main_banner .main_banner_content a img {
@@ -276,8 +295,8 @@ li {
   display: -ms-grid;
   display: grid;
   gap: 2rem;
-  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  -ms-grid-columns: (minmax(35rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
 }
 
 .home .methods.section .methods.content .methods.info .methods.type {
@@ -513,7 +532,7 @@ li {
 
 .home .frequency-wrapper .frequency {
   background-image: url(../../../Assets/Images/Banner/map-banner.webp);
-  padding: 5rem 17%;
+  padding: 5rem 15%;
   text-align: center;
 }
 
@@ -538,16 +557,8 @@ li {
   margin-bottom: 4rem;
 }
 
-.home .frequency-wrapper .frequency .frequency-content {
-  grid-gap: 3rem;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-}
-
 .home .frequency-wrapper .frequency .frequency-content .frequency-box img {
-  width: 75%;
+  width: 100%;
   margin-bottom: 4rem;
 }
 

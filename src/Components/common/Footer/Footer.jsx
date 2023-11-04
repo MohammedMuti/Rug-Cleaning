@@ -236,26 +236,30 @@ const Footer = () => {
               />
               <span>Melbourne Australia</span>
             </div>
-            <div className="info-box">
-              <img
-                src={require("../../../Assets/Images/Icons/footer-phone.webp")}
-                alt=""
-              />
-              <span>1300 360 274</span>
-            </div>
-            <div className="info-box">
-              <img
-                src={require("../../../Assets/Images/Icons/footer-mail.webp")}
-                alt=""
-              />
-              <span>info@purenbrightcleaning.com.au</span>
-            </div>
+            <Link to={"tel:953-898-9075"}>
+              <div className="info-box">
+                <img
+                  src={require("../../../Assets/Images/Icons/footer-phone.webp")}
+                  alt=""
+                />
+                <span>1300 360 274</span>
+              </div>
+            </Link>
+            <Link to={"mailto:info@purenbrightcleaning.com.au"}>
+              <div className="info-box">
+                <img
+                  src={require("../../../Assets/Images/Icons/footer-mail.webp")}
+                  alt=""
+                />
+                <span>info@purenbrightcleaning.com.au</span>
+              </div>
+            </Link>
           </div>
         </div>
 
         <div className="footer-2">
           <p>
-            Copyright © Pure N Bright Carpet Cleaning 2021. All rights reserved.
+            Copyright © Pure N Bright Carpet Cleaning 2023. All rights reserved.
           </p>
         </div>
 

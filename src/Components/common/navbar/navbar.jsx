@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
           <div className="nav-content">
             <div className="nav-content-u">
-              <Link className="nav-icon-wrapper">
+              <Link to={"/contact-us"} className="nav-icon-wrapper">
                 <div className="nav-icon">
                   <Link>
                     <img
@@ -81,7 +81,7 @@ const Navbar = () => {
                 </div>
                 <span> Contact us</span>
               </Link>
-              <Link className="nav-icon-wrapper">
+              <Link to={"tel:953-898-9075"} className="nav-icon-wrapper">
                 <div className="nav-icon">
                   <Link>
                     <img
@@ -92,7 +92,9 @@ const Navbar = () => {
                 </div>
                 <span>1300 360 274</span>
               </Link>
-              <button>Enquire Now</button>
+              <Link to={"/contact-us"}>
+                <button>Enquire Now</button>
+              </Link>
               <FontAwesomeIcon
                 onClick={() => setMeanNav(!meanNav)}
                 icon={meanNav ? faMultiply : faBars}
@@ -126,7 +128,7 @@ const Navbar = () => {
                       link: "/services/carpet-cleaning-melbourne",
                     },
                     {
-                      name: "Rug Cleaning Melbourne",
+                      name: "Explore Us",
                       link: "/services/rug-cleaning-melbourne",
                     },
                     {
@@ -251,7 +253,7 @@ const Navbar = () => {
                       className="rightIcon"
                       icon={faArrowRight}
                     />{" "}
-                    Rug Cleaning Melbourne
+                    Explore Us
                   </li>
                 </Link>
                 <Link
