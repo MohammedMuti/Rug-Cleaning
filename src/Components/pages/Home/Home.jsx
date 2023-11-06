@@ -266,10 +266,11 @@ const Home = () => {
               <div className="extra2-info">
                 <p>
                   Our Rug Cleaning Service Also Provides Repairs & Restoration
-                  For Your Valuable & Precious Rugs. Feel Free to Call us on{" "}
-                  <strong>1300 360 274</strong> or Email us{" "}
-                  <strong> info@purenbrightcleaning.com.au</strong> for more
-                  Information
+                  For Your Valuable & Precious Rugs. All rugs come with age
+                  related issues. We can help to restore rugs with our Fringe
+                  repair, Hole repair, Moth damage, Patching, Side Repair,
+                  Binding, Color fading, Repairing tears, Backing repair and
+                  much more.
                 </p>
               </div>
               <div className="extra2-img">
