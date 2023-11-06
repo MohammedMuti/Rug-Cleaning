@@ -27,8 +27,8 @@ const Banner = (props) => {
       <div
         className="banner"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.25)),
-          url(${props.img || require("../../../Assets/Images/Back/1.avif")})`,
+          backgroundImage: `
+          url(${require("../../../Assets/Images/Back/Main/1.jpg")})`,
         }}
       >
         <div className="banner-content">

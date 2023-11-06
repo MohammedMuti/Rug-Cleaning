@@ -12,15 +12,15 @@ const Works = () => {
         <h1 className="heading">Before & After Rug Cleaning Work</h1>
         <div className="works-content">
           <img
-            src={require("../../../Assets/Images/Gallery/Rug/28.png")}
+            src={require("../../../Assets/Images/Gallery/Rug/20.jpg")}
             alt=""
           />
           <img
-            src={require("../../../Assets/Images/Gallery/Rug/29.png")}
+            src={require("../../../Assets/Images/Gallery/Rug/13.jpg")}
             alt=""
           />
           <img
-            src={require("../../../Assets/Images/Gallery/Rug/30.jpeg")}
+            src={require("../../../Assets/Images/Gallery/Rug/6.jpg")}
             alt=""
           />
         </div>

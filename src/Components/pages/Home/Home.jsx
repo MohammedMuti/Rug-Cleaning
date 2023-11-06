@@ -84,7 +84,7 @@ const Home = () => {
             <div className="methods info">
               <div className="methods type">
                 <div className="methods-type-heading">
-                  <h2>FACTORY DEEP WASHING</h2>
+                  <h2>Factory Deep Washing</h2>
                 </div>
                 <div className="methods-type-img">
                   <img
@@ -111,7 +111,7 @@ const Home = () => {
 
               <div className="methods type">
                 <div className="methods-type-heading">
-                  <h2>DRY / STEAM CLEANING</h2>
+                  <h2>Dry / Steam Cleaning</h2>
                 </div>
                 <div className="methods-type-img">
                   <img
@@ -140,7 +140,7 @@ const Home = () => {
 
               <div className="methods type">
                 <div className="methods-type-heading">
-                  <h2> HAND CLEANING</h2>
+                  <h2> Hand Cleaning</h2>
                 </div>
                 <div className="methods-type-img">
                   <img

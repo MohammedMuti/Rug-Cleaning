@@ -17,3 +17,8 @@ Thankyou
 
 Go to BlogPage component in line 11 & 13, the paths may be diffrent 
 after they are deployed.
+
+
+Review gap
+rug rapair gap
+background

@@ -118,11 +118,13 @@ li {
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   padding: 2rem 10rem;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 800px) {
   .reviews .review-content {
     padding: 2rem 2rem;
+    gap: 4rem;
   }
 }
 
@@ -133,6 +135,15 @@ li {
 .reviews .review-content .content-box p {
   font-size: 2.5rem;
   min-height: 22rem;
+}
+
+@media (max-width: 650px) {
+  .reviews .review-content .content-box p {
+    padding-bottom: 1rem;
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+  }
 }
 
 .reviews .review-content .content-box span {

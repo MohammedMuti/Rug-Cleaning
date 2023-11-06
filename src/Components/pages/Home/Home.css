@@ -93,7 +93,7 @@ li {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 15%;
-  padding-top: 15rem;
+  padding-top: 20rem;
   -webkit-animation: jump-shaking 2s ease-out;
           animation: jump-shaking 2s ease-out;
 }
@@ -283,9 +283,13 @@ li {
   width: 100%;
 }
 
+.home .methods.section {
+  background-color: #eee;
+}
+
 .home .methods.section .methods.heading h2 {
   text-align: center;
-  border: #777 3px solid;
+  color: #008f34;
   padding: 0.5rem 0rem;
   margin-bottom: 3rem;
   font-size: 3.5rem;
@@ -302,7 +306,6 @@ li {
 
 .home .methods.section .methods.content .methods.info .methods.type {
   background-color: white;
-  border: black 2px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -312,8 +315,6 @@ li {
           flex-direction: column;
   overflow: hidden;
   min-width: 30rem;
-  -webkit-box-shadow: 0px 0px 10px 0px #000;
-          box-shadow: 0px 0px 10px 0px #000;
 }
 
 .home .methods.section .methods.content .methods.info .methods.type .methods-type-heading {
@@ -322,6 +323,8 @@ li {
 
 .home .methods.section .methods.content .methods.info .methods.type .methods-type-heading h2 {
   font-size: 2.5rem;
+  text-transform: capitalize;
+  color: #008f34;
   text-align: center;
 }
 
@@ -332,6 +335,7 @@ li {
 
 .home .methods.section .methods.content .methods.info .methods.type .methods-type-img img {
   cursor: pointer;
+  border-radius: 0.5rem;
   width: 100%;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
@@ -514,7 +518,7 @@ li {
 }
 
 .home .extra .extra2 .heading {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .home .extra .extra2 .heading h1 {

@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     padding-left: 15%;
-    padding-top: 15rem;
+    padding-top: 20rem;
     animation: jump-shaking 2s ease-out;
 
     @media (max-width: 800px) {
@@ -161,11 +161,12 @@
   }
 
   .methods.section {
-    // background-color: #333;
+    background-color: #eee;
     .methods.heading {
       h2 {
         text-align: center;
-        border: #777 3px solid;
+        // border: #777 3px solid;
+        color: $main-l;
         padding: 0.5rem 0rem;
         margin-bottom: 3rem;
         // color: white;
@@ -181,18 +182,20 @@
         grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
         .methods.type {
           background-color: white;
-          border: black 2px solid;
+          // border: black 2px solid;
           display: flex;
           flex-direction: column;
           overflow: hidden;
           min-width: 30rem;
-          box-shadow: 0px 0px 10px 0px #000;
+          // box-shadow: 0px 0px 10px 0px #000;
 
           .methods-type-heading {
             padding-top: 5rem;
             h2 {
               font-size: 2.5rem;
               // margin-bottom: 2rem;
+              text-transform: capitalize;
+              color: $main-l;
               text-align: center;
             }
           }
@@ -202,6 +205,7 @@
             overflow: hidden;
             img {
               cursor: pointer;
+              border-radius: 0.5rem;
               width: 100%;
               transition: 0.2s linear;
               max-height: 38rem;
@@ -385,7 +389,7 @@
       background: url(../../../Assets/Images/Banner/pet-banner.webp);
       margin-top: 5rem;
       .heading {
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         h1 {
           color: #000;
         }
