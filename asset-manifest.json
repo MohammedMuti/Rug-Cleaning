@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rug-Cleaning/static/css/main.55f9a57e.css",
-    "main.js": "/Rug-Cleaning/static/js/main.3a60d613.js",
+    "main.css": "/Rug-Cleaning/static/css/main.844a5d4d.css",
+    "main.js": "/Rug-Cleaning/static/js/main.5ef8d9db.js",
     "static/media/home-banner.png": "/Rug-Cleaning/static/media/home-banner.f5837950e6420b4491e9.png",
     "static/media/HandWash.png": "/Rug-Cleaning/static/media/HandWash.b747f2fae035441c4231.png",
     "static/media/Capture.PNG": "/Rug-Cleaning/static/media/Capture.2df50fd518224aa582fd.PNG",
@@ -17,7 +17,6 @@
     "static/media/20.jpg": "/Rug-Cleaning/static/media/20.194086e02a40160648f3.jpg",
     "static/media/21.jpeg": "/Rug-Cleaning/static/media/21.8aebde74eed778affbb2.jpeg",
     "static/media/22.jpeg": "/Rug-Cleaning/static/media/22.61b363a20d109273ef8e.jpeg",
-    "static/media/repair.webp": "/Rug-Cleaning/static/media/repair.dc26f90487088113cbe8.webp",
     "static/media/all types.png": "/Rug-Cleaning/static/media/all types.a6619b545e26fdfcbff5.png",
     "static/media/1.jpg": "/Rug-Cleaning/static/media/1.af06df4f1c8b03f74021.jpg",
     "static/media/Upholstery3.jpg": "/Rug-Cleaning/static/media/Upholstery3.e89d6afe39972a38ef1a.jpg",
@@ -118,11 +117,11 @@
     "static/media/footer-location.webp": "/Rug-Cleaning/static/media/footer-location.d29147bc58823dee6bc8.webp",
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "static/media/mail-icon.webp": "/Rug-Cleaning/static/media/mail-icon.36aa90628ca50c630f41.webp",
-    "main.55f9a57e.css.map": "/Rug-Cleaning/static/css/main.55f9a57e.css.map",
-    "main.3a60d613.js.map": "/Rug-Cleaning/static/js/main.3a60d613.js.map"
+    "main.844a5d4d.css.map": "/Rug-Cleaning/static/css/main.844a5d4d.css.map",
+    "main.5ef8d9db.js.map": "/Rug-Cleaning/static/js/main.5ef8d9db.js.map"
   },
   "entrypoints": [
-    "static/css/main.55f9a57e.css",
-    "static/js/main.3a60d613.js"
+    "static/css/main.844a5d4d.css",
+    "static/js/main.5ef8d9db.js"
   ]
 }
