@@ -16,7 +16,7 @@ const Works = () => {
             alt=""
           />
           <img
-            src={require("../../../Assets/Images/Gallery/Rug/13.jpg")}
+            src={require("../../../Assets/Images/Gallery/Rug/1.jpg")}
             alt=""
           />
           <img
