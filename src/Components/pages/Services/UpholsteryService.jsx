@@ -5,6 +5,7 @@ import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
 import NavMain from "../../common/navbar/NavMain";
 import "./UpholsteryService.css";
+import ReactReadMoreReadLess from "react-read-more-read-less";
 
 const UpholsteryService = () => {
   return (
@@ -12,6 +13,8 @@ const UpholsteryService = () => {
       <NavMain />
       <Navbar />
       <Banner
+        sublink="Services"
+        sublink2="Upholstery Cleaning Melbourne"
         img={require("../../../Assets/Images/Banner/Upholstery-banner.jpeg")}
       />
       <div className="upholstery">
@@ -202,12 +205,19 @@ const UpholsteryService = () => {
               alt=""
             />
             <p>
-              If your furniture starts looking patchy at places, it might be due
-              to the dirt and dust accumulation in the fibres of the fabric.
-              Sometimes it is not possible to get rid of the dirt with regular
-              vacuuming. Even though we do perform the cleaning of our furniture
-              after a regular interval of time we still need to get them
-              professionally cleaned after a certain time period.
+              <ReactReadMoreReadLess
+                charLimit={200}
+                readMoreText={"Read more ▼"}
+                readLessText={"Read less ▲"}
+              >
+                {/* {myLongText} */}
+                If your furniture starts looking patchy at places, it might be
+                due to the dirt and dust accumulation in the fibres of the
+                fabric. Sometimes it is not possible to get rid of the dirt with
+                regular vacuuming. Even though we do perform the cleaning of our
+                furniture after a regular interval of time we still need to get
+                them professionally cleaned after a certain time period.
+              </ReactReadMoreReadLess>
             </p>
           </div>
           <div className="professional_box">
@@ -217,13 +227,20 @@ const UpholsteryService = () => {
               alt=""
             />
             <p>
-              Sometimes our loved ones tend to spill food on the couches by
-              accident. The most common spills that happen on the couches are
-              tea/coffee. When we spill it the first instinct is to clean it
-              ourselves quickly. So most people start to use home remedies like
-              vinegar and baking soda etc to get rid of the stain. In reality
-              that makes things even worse as these things react with the fibres
-              and cause permanent discolouration.
+              <ReactReadMoreReadLess
+                charLimit={200}
+                readMoreText={"Read more ▼"}
+                readLessText={"Read less ▲"}
+              >
+                {/* {myLongText} */}
+                Sometimes our loved ones tend to spill food on the couches by
+                accident. The most common spills that happen on the couches are
+                tea/coffee. When we spill it the first instinct is to clean it
+                ourselves quickly. So most people start to use home remedies
+                like vinegar and baking soda etc to get rid of the stain. In
+                reality that makes things even worse as these things react with
+                the fibres and cause permanent discolouration.
+              </ReactReadMoreReadLess>
             </p>
           </div>
           <div className="professional_box">
@@ -233,11 +250,18 @@ const UpholsteryService = () => {
               alt=""
             />
             <p>
-              If you have had the furniture for a long time and never got it
-              professionally cleaned you need to get it done due to hygienic
-              reasons. The dirt and dust mites get accumulated in the fibres of
-              the upholstery and can flare up the allergies. It is ideal to get
-              the upholstery professionally cleaned once a year.
+              <ReactReadMoreReadLess
+                charLimit={200}
+                readMoreText={"Read more ▼"}
+                readLessText={"Read less ▲"}
+              >
+                {/* {myLongText} */}
+                If you have had the furniture for a long time and never got it
+                professionally cleaned you need to get it done due to hygienic
+                reasons. The dirt and dust mites get accumulated in the fibres
+                of the upholstery and can flare up the allergies. It is ideal to
+                get the upholstery professionally cleaned once a year.
+              </ReactReadMoreReadLess>
             </p>
           </div>
         </div>

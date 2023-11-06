@@ -128,12 +128,12 @@ const Navbar = () => {
                       link: "/services/carpet-cleaning-melbourne",
                     },
                     {
-                      name: "Upholstery Cleaning Melbourne",
-                      link: "/services/upholstery-cleaning-melbourne",
-                    },
-                    {
                       name: "Explore Us",
                       link: "/services/rug-cleaning-melbourne",
+                    },
+                    {
+                      name: "Upholstery Cleaning Melbourne",
+                      link: "/services/upholstery-cleaning-melbourne",
                     },
                   ]}
                 />

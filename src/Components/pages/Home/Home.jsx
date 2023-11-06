@@ -7,6 +7,8 @@ import Works from "../../common/Works/Works";
 import Typewriter from "react-ts-typewriter";
 import "./Home.css";
 import { Link } from "react-router-dom";
+import ReactReadMoreReadLess from "react-read-more-read-less";
+
 const Home = () => {
   return (
     <>
@@ -90,12 +92,19 @@ const Home = () => {
                   />
                 </div>
                 <div className="methods-type-info">
-                  The most effective method to clean rugs thoroughly in order to
-                  get rid of 100% dirt and bad odours is where the rugs get
-                  submerged in a deep bath with delicate shampoos (Rug Specific)
-                  and rinsed with running fresh water to make sure no soap
-                  residue remains. This process makes the rugs look like new and
-                  smell fresh. Please call us to know more.
+                  <ReactReadMoreReadLess
+                    charLimit={200}
+                    readMoreText={"Read more ▼"}
+                    readLessText={"Read less ▲"}
+                  >
+                    {/* {myLongText} */}
+                    The most effective method to clean rugs thoroughly in order
+                    to get rid of 100% dirt and bad odours is where the rugs get
+                    submerged in a deep bath with delicate shampoos (Rug
+                    Specific) and rinsed with running fresh water to make sure
+                    no soap residue remains. This process makes the rugs look
+                    like new and smell fresh. Please call us to know more.
+                  </ReactReadMoreReadLess>
                 </div>
               </div>
 
@@ -110,13 +119,21 @@ const Home = () => {
                   />
                 </div>
                 <div className="methods-type-info">
-                  For refreshing lightly soiled rugs, we use an advanced steam
-                  cleaning method in our rug cleaning service. This process
-                  includes pre-spray, agitation, scrubbing and hot water
-                  extraction, followed by sanitising which allows us to safely
-                  remove dirt and stains, leaving behind a clean area rug and no
-                  residue. For more information feel free to send us a message
-                  +61 490255640 or an email at info@purenbrightcleaning.com.au
+                  <ReactReadMoreReadLess
+                    charLimit={200}
+                    readMoreText={"Read more ▼"}
+                    readLessText={"Read less ▲"}
+                  >
+                    {/* {myLongText} */}
+                    For refreshing lightly soiled rugs, we use an advanced steam
+                    cleaning method in our rug cleaning service. This process
+                    includes pre-spray, agitation, scrubbing and hot water
+                    extraction, followed by sanitising which allows us to safely
+                    remove dirt and stains, leaving behind a clean area rug and
+                    no residue. For more information feel free to send us a
+                    message +61 490255640 or an email at
+                    info@purenbrightcleaning.com.au
+                  </ReactReadMoreReadLess>
                 </div>
               </div>
 
@@ -131,18 +148,22 @@ const Home = () => {
                   />
                 </div>
                 <div className="methods-type-info">
-                  <p>
+                  <ReactReadMoreReadLess
+                    charLimit={200}
+                    readMoreText={"Read more ▼"}
+                    readLessText={"Read less ▲"}
+                  >
                     For delicate rugs, we use our traditional and time-tested
                     hand cleaning of rugs. Our expert rug cleaners first analyse
                     the material, detect the damage, stubborn stains and the
                     areas requiring more attention. A gentle yet thorough
                     handling ensures the rug’s shape and colour is maintained
-                    while cleaning. Feel free to call us on
-                    <Link to={"tel:1300360274"}>
-                      <span> 1300360274</span>{" "}
-                    </Link>
-                    for more info.
-                  </p>
+                    while cleaning. Feel free to call us on 1300360274 for more
+                    info.
+                  </ReactReadMoreReadLess>
+                  {/* <Link to={"tel:1300360274"}>
+                    <span> 1300360274</span>{" "}
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -228,8 +249,8 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="extra section">
-          <div className="extra1">
+        <div className="extra">
+          <div className="extra1 section">
             <h2>Satisfaction Guarantee</h2>
             <p>
               We are passionate about rugs and work hard to beat all our
@@ -237,9 +258,9 @@ const Home = () => {
               provide the shine they deserve.{" "}
             </p>
           </div>
-          <div className="extra2">
+          <div className="extra2 section">
             <div className="heading">
-              <h1>We Provide Rug Repair Service</h1>
+              <h1>Rug Repair Service</h1>
             </div>
             <div className="extra2-wrapper">
               <div className="extra2-info">
@@ -253,7 +274,7 @@ const Home = () => {
               </div>
               <div className="extra2-img">
                 <img
-                  src={require("../../../Assets/Images/RugRepair/rug-repair-img.jpg")}
+                  src={require("../../../Assets/Images/RugRepair/repair-rug-melbourne.png")}
                   alt=""
                 />
               </div>

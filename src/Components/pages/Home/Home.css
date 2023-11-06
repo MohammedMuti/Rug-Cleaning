@@ -351,6 +351,13 @@ li {
   color: #686868;
 }
 
+.home .methods.section .methods.content .methods.info .methods.type .methods-type-info span {
+  color: #008f34;
+  font-size: 2rem;
+  line-height: 3rem;
+  cursor: pointer;
+}
+
 .home .methods.section .methods.content .methods.info .methods.type .methods-type-info a span {
   font-size: 2rem;
   line-height: 3rem;
@@ -491,33 +498,30 @@ li {
   width: 100%;
 }
 
-.home .extra.section .extra1 {
+.home .extra .extra1 {
   text-align: center;
 }
 
-.home .extra.section .extra1 h2 {
+.home .extra .extra1 h2 {
   margin-bottom: 2rem;
   font-size: 3rem;
   color: #000;
 }
 
-.home .extra.section .extra1 p {
-  margin-bottom: 5rem;
-}
-
-.home .extra.section .extra2 {
+.home .extra .extra2 {
+  background: url(../../../Assets/Images/Banner/pet-banner.webp);
   margin-top: 5rem;
 }
 
-.home .extra.section .extra2 .heading {
+.home .extra .extra2 .heading {
   margin-bottom: 2rem;
 }
 
-.home .extra.section .extra2 .heading h1 {
+.home .extra .extra2 .heading h1 {
   color: #000;
 }
 
-.home .extra.section .extra2 .extra2-wrapper {
+.home .extra .extra2 .extra2-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -527,7 +531,10 @@ li {
 }
 
 @media (max-width: 700px) {
-  .home .extra.section .extra2 .extra2-wrapper {
+  .home .extra .extra2 .extra2-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -535,26 +542,32 @@ li {
   }
 }
 
-.home .extra.section .extra2 .extra2-wrapper .extra2-img {
+.home .extra .extra2 .extra2-wrapper .extra2-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 170%;
   padding: 1rem;
 }
 
 @media (max-width: 700px) {
-  .home .extra.section .extra2 .extra2-wrapper .extra2-img {
+  .home .extra .extra2 .extra2-wrapper .extra2-img {
     width: 100%;
   }
 }
 
-.home .extra.section .extra2 .extra2-wrapper .extra2-img img {
-  min-height: 20rem;
+.home .extra .extra2 .extra2-wrapper .extra2-img img {
+  max-width: 40rem;
 }
 
-.home .extra.section .extra2 .extra2-wrapper .extra2-info p {
+.home .extra .extra2 .extra2-wrapper .extra2-info p {
   font-size: 2.2rem;
 }
 
-.home .extra.section .extra2 .extra2-wrapper .extra2-info p strong {
+.home .extra .extra2 .extra2-wrapper .extra2-info p strong {
   font-size: inherit;
 }
 
