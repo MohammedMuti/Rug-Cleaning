@@ -13,7 +13,7 @@
   .heading {
     h2 {
       text-align: center;
-      color: $blue;
+      color: $main-l;
       font-size: 4rem;
     }
     margin-bottom: 4rem;
@@ -65,6 +65,8 @@
 
       p {
         line-height: 3.2rem;
+        // padding: 2rem;
+        text-align: center;
       }
 
       &.active {

@@ -17,6 +17,8 @@ li {
   color: #686868;
   font-size: 2rem;
   line-height: 3rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @-webkit-keyframes btn1 {
@@ -111,10 +113,10 @@ li {
 }
 
 .reviews .review-content {
-  grid-gap: 2rem;
+  grid-gap: 4rem;
   display: -ms-grid;
   display: grid;
-  gap: 2rem;
+  gap: 4rem;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   padding: 2rem 10rem;
@@ -134,7 +136,7 @@ li {
 
 .reviews .review-content .content-box p {
   font-size: 2.5rem;
-  min-height: 22rem;
+  min-height: 25rem;
 }
 
 @media (max-width: 650px) {

@@ -17,6 +17,8 @@ li {
   color: #686868;
   font-size: 2rem;
   line-height: 3rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @-webkit-keyframes btn1 {
@@ -682,6 +684,7 @@ li {
 
 .home .protect.section .protect.content .protect.img img {
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 .home .copyright.section {

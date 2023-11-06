@@ -17,6 +17,8 @@ li {
   color: #686868;
   font-size: 2rem;
   line-height: 3rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @-webkit-keyframes btn1 {
@@ -95,7 +97,7 @@ li {
 
 .services .heading h2 {
   text-align: center;
-  color: #6ec1e4;
+  color: #008f34;
   font-size: 4rem;
 }
 
@@ -151,6 +153,7 @@ li {
 
 .services .content .service p {
   line-height: 3.2rem;
+  text-align: center;
 }
 
 .services .content .service.active .info {

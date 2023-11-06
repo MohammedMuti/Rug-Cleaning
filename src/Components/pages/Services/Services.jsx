@@ -38,9 +38,9 @@ const Services = () => {
           </Link>
           <Link to={"/services/rug-cleaning-melbourne"}>
             <ServiceComp
-              title="Rug Repair"
-              info="RUG REPAIR MELBOURNE Pure N Bright Carpet Cleaning"
-              img={require("../../../Assets/Images/Services/repair.webp")}
+              title="Upholstery Cleaning"
+              info="UPHOLSTERY/SOFA CLEANING MELBOURNE Pure N Bright Carpet Cleaning"
+              img={require("../../../Assets/Images/Banner/Upholstery-banner.jpeg")}
             />
           </Link>
         </div>

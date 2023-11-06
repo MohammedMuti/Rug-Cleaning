@@ -17,6 +17,8 @@ li {
   color: #686868;
   font-size: 2rem;
   line-height: 3rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 @-webkit-keyframes btn1 {

@@ -249,13 +249,13 @@ const Navbar = () => {
                       : "link"
                   }
                 >
-                  {/* <li>
+                  <li>
                     <FontAwesomeIcon
                       className="rightIcon"
                       icon={faArrowRight}
                     />{" "}
                     Carpet Cleaning
-                  </li> */}
+                  </li>
                 </Link>
                 <Link
                   to={"/services/rug-cleaning-melbourne"}
