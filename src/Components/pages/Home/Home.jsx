@@ -17,8 +17,10 @@ const Home = () => {
       <div className="home">
         <div className="main_banner">
           <div className="main_banner_content">
-            <h1>PROFESSIONAL</h1>
-            <h3>RUG CLEANING SERVICE</h3>
+            <h1>
+              PROFESSIONAL <br /> RUG CLEANING SERVICE <br />
+              MELBOURNE
+            </h1>
             {/* <h4>
               <Typewriter
                 loop={true}
@@ -28,7 +30,7 @@ const Home = () => {
                 random={100}
               />
             </h4> */}
-            <p>at Affordable Prices</p>
+            {/* <p>at Affordable Prices</p> */}
             <Link to={"/contact-us"}>
               <span>Enquire Now </span>
 
@@ -42,11 +44,10 @@ const Home = () => {
 
         <div className="pick_up section">
           <div className="pick_up heading">
-            <h2>Rug Cleaning Melbourne - We Serve All Suburbs</h2>
+            <h2>Pick Up And Drop Off Service - We Serve All Suburbs</h2>
           </div>
           <div className="pick_up content">
             <div className="pick_up info">
-              <h5>Pick Up And Drop Off Service</h5>
               <p>
                 Rug Cleaning Melbourne - Cleaning the rugs using the DIY methods
                 only cleans the surface, leaving behind a mix of soil and
