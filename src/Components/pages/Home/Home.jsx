@@ -15,7 +15,7 @@ const Home = () => {
       <div className="home">
         <div className="main_banner">
           <div className="main_banner_content">
-            <h1>HIGH QUALITY </h1>
+            <h1>PROFESSIONAL</h1>
             <h3>RUG CLEANING SERVICE</h3>
             {/* <h4>
               <Typewriter
@@ -131,12 +131,18 @@ const Home = () => {
                   />
                 </div>
                 <div className="methods-type-info">
-                  For delicate rugs, we use our traditional and time-tested hand
-                  cleaning of rugs. Our expert rug cleaners first analyse the
-                  material, detect the damage, stubborn stains and the areas
-                  requiring more attention. A gentle yet thorough handling
-                  ensures the rug’s shape and colour is maintained while
-                  cleaning. Feel free to call us on 1300 360 274 for more info.
+                  <p>
+                    For delicate rugs, we use our traditional and time-tested
+                    hand cleaning of rugs. Our expert rug cleaners first analyse
+                    the material, detect the damage, stubborn stains and the
+                    areas requiring more attention. A gentle yet thorough
+                    handling ensures the rug’s shape and colour is maintained
+                    while cleaning. Feel free to call us on
+                    <Link to={"tel:1300360274"}>
+                      <span> 1300360274</span>{" "}
+                    </Link>
+                    for more info.
+                  </p>
                 </div>
               </div>
             </div>
@@ -232,17 +238,26 @@ const Home = () => {
             </p>
           </div>
           <div className="extra2">
-            <img
-              src={require("../../../Assets/Images/RugRepair/rug-repair-img.jpg")}
-              alt=""
-            />
-            <span>
-              Our Rug Cleaning Service Also Provides Repairs & Restoration For
-              Your Valuable & Precious Rugs. Feel Free to Call us on{" "}
-              <strong>1300 360 274</strong> or Email us{" "}
-              <strong> info@purenbrightcleaning.com.au</strong> for more
-              Information
-            </span>
+            <div className="heading">
+              <h1>We Provide Rug Repair Service</h1>
+            </div>
+            <div className="extra2-wrapper">
+              <div className="extra2-info">
+                <p>
+                  Our Rug Cleaning Service Also Provides Repairs & Restoration
+                  For Your Valuable & Precious Rugs. Feel Free to Call us on{" "}
+                  <strong>1300 360 274</strong> or Email us{" "}
+                  <strong> info@purenbrightcleaning.com.au</strong> for more
+                  Information
+                </p>
+              </div>
+              <div className="extra2-img">
+                <img
+                  src={require("../../../Assets/Images/RugRepair/rug-repair-img.jpg")}
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
 

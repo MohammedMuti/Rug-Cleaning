@@ -12,13 +12,9 @@ const Review = () => {
     <>
       <section className="reviews">
         <div className="heading">
-          <Link to={"https://www.productreview.com.au/listings/pure-n-bright"}>
-            <h1> WHAT OUR CUSTOMERS HAVE TO SAY </h1>
-          </Link>
-          <img
-            src={require("../../../Assets/Images/Icons/enquire-icon.png")}
-            alt=""
-          />
+          {/* <Link to={"https://www.productreview.com.au/listings/pure-n-bright"}> */}
+          <h1> WHAT OUR CUSTOMERS HAVE TO SAY </h1>
+          {/* </Link> */}
         </div>
         <div className="review-content">
           <div className="content-box">

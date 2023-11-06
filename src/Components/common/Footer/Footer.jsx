@@ -204,7 +204,7 @@ const Footer = () => {
               <h1>NEWSLETTER</h1>
             </div>
             <div className="news-content">
-              <p>You will be notified when somthing new will be appear.</p>
+              <p>You will be notified when something new will appear.</p>
               <form onSubmit={submitEmail} action="">
                 <input
                   type="text"

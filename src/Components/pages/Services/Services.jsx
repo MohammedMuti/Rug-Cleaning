@@ -19,7 +19,7 @@ const Services = () => {
       />
       <div className="services">
         <div className="heading">
-          <h2>Services</h2>
+          <h2>Our Services</h2>
         </div>
         <div className="content">
           <Link to={"/services/carpet-cleaning-melbourne"}>

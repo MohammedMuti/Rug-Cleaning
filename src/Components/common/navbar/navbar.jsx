@@ -81,7 +81,7 @@ const Navbar = () => {
                 </div>
                 <span> Contact us</span>
               </Link>
-              <Link to={"tel:953-898-9075"} className="nav-icon-wrapper">
+              <Link to={"tel:1300360274"} className="nav-icon-wrapper">
                 <div className="nav-icon">
                   <Link>
                     <img
@@ -128,12 +128,12 @@ const Navbar = () => {
                       link: "/services/carpet-cleaning-melbourne",
                     },
                     {
-                      name: "Explore Us",
-                      link: "/services/rug-cleaning-melbourne",
-                    },
-                    {
                       name: "Upholstery Cleaning Melbourne",
                       link: "/services/upholstery-cleaning-melbourne",
+                    },
+                    {
+                      name: "Explore Us",
+                      link: "/services/rug-cleaning-melbourne",
                     },
                   ]}
                 />
