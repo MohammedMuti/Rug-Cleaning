@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rug-Cleaning/static/css/main.99886b24.css",
-    "main.js": "/Rug-Cleaning/static/js/main.7a67b922.js",
+    "main.css": "/Rug-Cleaning/static/css/main.ba17acdc.css",
+    "main.js": "/Rug-Cleaning/static/js/main.80df712f.js",
     "static/media/home-banner.png": "/Rug-Cleaning/static/media/home-banner.f5837950e6420b4491e9.png",
     "static/media/Capture.PNG": "/Rug-Cleaning/static/media/Capture.2df50fd518224aa582fd.PNG",
     "static/media/blog-banner.png": "/Rug-Cleaning/static/media/blog-banner.44865b856f9c30c14596.png",
@@ -86,10 +86,10 @@
     "static/media/versus.jpg": "/Rug-Cleaning/static/media/versus.954501e355781b61bbc2.jpg",
     "static/media/why-banner.webp": "/Rug-Cleaning/static/media/why-banner.f85c93a6a206a2483ad9.webp",
     "static/media/experts.jpg": "/Rug-Cleaning/static/media/experts.993e8ac1945e7d02427a.jpg",
-    "static/media/pet.webp": "/Rug-Cleaning/static/media/pet.6938df0ad378a241498f.webp",
     "static/media/rug-cleaning1.webp": "/Rug-Cleaning/static/media/rug-cleaning1.33186ea72d8d25af3377.webp",
     "static/media/HandCleaning.jpg": "/Rug-Cleaning/static/media/HandCleaning.81a868c708fc4e8dcbe1.jpg",
     "static/media/sanitization.png": "/Rug-Cleaning/static/media/sanitization.da00b56bf58518954c42.png",
+    "static/media/spraying-carpet-cleaner.webp": "/Rug-Cleaning/static/media/spraying-carpet-cleaner.040d2f0e78b8cd814f33.webp",
     "static/media/carpet-sub-banner2.webp": "/Rug-Cleaning/static/media/carpet-sub-banner2.b69af68be49820704f2c.webp",
     "static/media/StemCleaning.jpg": "/Rug-Cleaning/static/media/StemCleaning.e4cdfb9e4395f8146322.jpg",
     "static/media/rug-cleaning-album.webp": "/Rug-Cleaning/static/media/rug-cleaning-album.76cc9b1aff91c4f0772f.webp",
@@ -119,11 +119,11 @@
     "static/media/footer-location.webp": "/Rug-Cleaning/static/media/footer-location.d29147bc58823dee6bc8.webp",
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "static/media/mail-icon.webp": "/Rug-Cleaning/static/media/mail-icon.36aa90628ca50c630f41.webp",
-    "main.99886b24.css.map": "/Rug-Cleaning/static/css/main.99886b24.css.map",
-    "main.7a67b922.js.map": "/Rug-Cleaning/static/js/main.7a67b922.js.map"
+    "main.ba17acdc.css.map": "/Rug-Cleaning/static/css/main.ba17acdc.css.map",
+    "main.80df712f.js.map": "/Rug-Cleaning/static/js/main.80df712f.js.map"
   },
   "entrypoints": [
-    "static/css/main.99886b24.css",
-    "static/js/main.7a67b922.js"
+    "static/css/main.ba17acdc.css",
+    "static/js/main.80df712f.js"
   ]
 }
