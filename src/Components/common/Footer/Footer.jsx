@@ -141,7 +141,7 @@ const Footer = () => {
             <div className="content">
               <ul>
                 <li>
-                  <Link to={""}>
+                  <Link to={"/services"}>
                     <FontAwesomeIcon icon={faAngleDoubleRight} /> Services
                   </Link>
                 </li>
@@ -151,12 +151,12 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={""}>
+                  <Link to={"/gallery"}>
                     <FontAwesomeIcon icon={faAngleDoubleRight} /> Gallery
                   </Link>
                 </li>
                 <li>
-                  <Link to={""}>
+                  <Link to={"/why-us"}>
                     <FontAwesomeIcon icon={faAngleDoubleRight} /> Why Us?
                   </Link>
                 </li>
@@ -166,12 +166,12 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={""}>
-                    <FontAwesomeIcon icon={faAngleDoubleRight} /> ContactUs
+                  <Link to={"/contact-us"}>
+                    <FontAwesomeIcon icon={faAngleDoubleRight} /> Contact Us
                   </Link>
                 </li>
                 <li>
-                  <Link to={""}>
+                  <Link to={"/blog"}>
                     <FontAwesomeIcon icon={faAngleDoubleRight} /> Blog
                   </Link>
                 </li>
@@ -181,18 +181,25 @@ const Footer = () => {
 
           <div className="service-off">
             <div className="heading">
-              <h1>SERVICE WE OFFER</h1>
+              <h1>SERVICES WE OFFER</h1>
             </div>
             <div className="content">
               <ul>
                 <li>
-                  <Link to={""}>
-                    <FontAwesomeIcon icon={faAngleDoubleRight} /> Services
+                  <Link to={"/services/carpet-cleaning-melbourne"}>
+                    <FontAwesomeIcon icon={faAngleDoubleRight} /> Carpet
+                    Cleaning
                   </Link>
                 </li>
                 <li>
-                  <Link to={""}>
-                    <FontAwesomeIcon icon={faAngleDoubleRight} /> Specials
+                  <Link to={"/services/rug-cleaning-melbourne"}>
+                    <FontAwesomeIcon icon={faAngleDoubleRight} /> Rug Cleaning
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/services/upholstery-cleaning-melbourne"}>
+                    <FontAwesomeIcon icon={faAngleDoubleRight} /> Upholstery
+                    Cleaning
                   </Link>
                 </li>
               </ul>

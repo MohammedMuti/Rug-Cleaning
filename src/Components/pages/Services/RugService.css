@@ -84,7 +84,6 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 10rem;
 }
 
 @media (max-width: 1200px) {
@@ -95,8 +94,29 @@ li {
 
 @media (max-width: 800px) {
   .rug-service {
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
   }
+}
+
+.rug-service .rug-service-img h2 {
+  display: none;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: #217e37;
+  font-size: 3.5rem;
+}
+
+@media (max-width: 580px) {
+  .rug-service .rug-service-img h2 {
+    display: block;
+  }
+}
+
+.rug-service .rug-service-img h4 {
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
 }
 
 .rug-service .rug-service-img img {
@@ -107,6 +127,12 @@ li {
   margin-bottom: 1rem;
   color: #217e37;
   font-size: 3.5rem;
+}
+
+@media (max-width: 580px) {
+  .rug-service .rug-service-content h2 {
+    display: none;
+  }
 }
 
 .rug-service .rug-service-content h4 {
@@ -167,6 +193,46 @@ li {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+}
+
+.rug-service.reverse .rug-service-img h2 {
+  display: none;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #217e37;
+  font-size: 3.5rem;
+}
+
+@media (max-width: 580px) {
+  .rug-service.reverse .rug-service-img h2 {
+    display: block;
+  }
+}
+
+.rug-service.reverse .rug-service-img h4 {
+  display: none;
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+}
+
+@media (max-width: 580px) {
+  .rug-service.reverse .rug-service-img h4 {
+    display: block;
+  }
+}
+
+.rug-service.reverse .rug-service-content h4 {
+  color: black;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+}
+
+@media (max-width: 580px) {
+  .rug-service.reverse .rug-service-content h4 {
+    display: none;
+  }
 }
 
 .benefits {

@@ -130,7 +130,6 @@ li {
   font-size: 5rem;
   color: white;
   text-shadow: 3px 3px 1px black;
-  font-style: oblique 40deg;
 }
 
 @media (max-width: 500px) {
@@ -142,7 +141,6 @@ li {
 .home .main_banner .main_banner_content h3 {
   font-size: 5rem;
   color: white;
-  font-style: oblique 40deg;
   text-shadow: 3px 3px 1px black;
 }
 
@@ -281,6 +279,7 @@ li {
 
 .home .pick_up.section .pick_up.content .pick_up.img img {
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 .home .methods.section {
@@ -339,7 +338,7 @@ li {
   width: 100%;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
-  max-height: 38rem;
+  max-height: 36rem;
 }
 
 .home .methods.section .methods.content .methods.info .methods.type .methods-type-img img:hover {
@@ -580,10 +579,6 @@ li {
   text-align: center;
   color: #008f34;
   font-size: 3.5rem;
-}
-
-.home .frequency-wrapper {
-  padding-top: 10rem;
 }
 
 .home .frequency-wrapper .frequency {

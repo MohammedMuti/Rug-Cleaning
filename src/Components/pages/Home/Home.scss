@@ -41,7 +41,7 @@
         font-size: 5rem;
         color: white;
         text-shadow: 3px 3px 1px black;
-        font-style: oblique 40deg;
+        // font-style: oblique 40deg;
         @media (max-width: 500px) {
           font-size: 4rem;
         }
@@ -49,7 +49,7 @@
       h3 {
         font-size: 5rem;
         color: white;
-        font-style: oblique 40deg;
+        // font-style: oblique 40deg;
         text-shadow: 3px 3px 1px black;
 
         @media (max-width: 500px) {
@@ -155,6 +155,7 @@
       .pick_up.img {
         img {
           width: 100%;
+          border-radius: 0.5rem;
         }
       }
     }
@@ -208,7 +209,7 @@
               border-radius: 0.5rem;
               width: 100%;
               transition: 0.2s linear;
-              max-height: 38rem;
+              max-height: 36rem;
 
               &:hover {
                 transform: scale(1.1);
@@ -450,7 +451,7 @@
   }
 
   .frequency-wrapper {
-    padding-top: 10rem;
+    // padding-top: 10rem;
     .frequency {
       background-image: url(../../../Assets/Images/Banner/map-banner.webp);
       padding: 5rem 15%;

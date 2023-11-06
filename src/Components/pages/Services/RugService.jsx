@@ -20,14 +20,15 @@ const RugService = () => {
       />
       <div className="rug-service">
         <div className="rug-service-img">
+          <h2>Rug Cleaning Specialists</h2>
+
           <img
             src={require("../../../Assets/Images/Services/Rug/main/rug-cleaning1.webp")}
             alt=""
           />
         </div>
         <div className="rug-service-content">
-          <h2>Welcome to Pure N Bright</h2>
-          <h4>Rug Cleaning Melbourne</h4>
+          <h2>Rug Cleaning Specialists</h2>
           <p>
             Pure N Bright carpet steam cleaning operators use advanced
             technology machines that will restore and maintain the look and feel
@@ -52,6 +53,8 @@ const RugService = () => {
       </div>
       <div className="rug-service reverse">
         <div className="rug-service-img">
+          <h2>Steam Carpet</h2>
+          <h4>Cleaning Melbourne</h4>
           <img
             src={require("../../../Assets/Images/Services/Rug/main/rug-cleaning2.webp")}
             alt=""

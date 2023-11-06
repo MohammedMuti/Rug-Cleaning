@@ -22,7 +22,7 @@ const CarpetService = () => {
       />
       <div className="carpet_service">
         <div className="main_info">
-          <h2>CARPET CLEANING MELBOURNE</h2>
+          <h2>OUR CARPET CLEANING PROCESS</h2>
           <p>
             Pure N Bright Carpet Cleaning Melbourne, a professional carpet steam
             cleaning company in Melbourne, uses the latest and best Eco friendly
@@ -32,7 +32,6 @@ const CarpetService = () => {
             technologies in carpet cleaning Melbourne. Get the best carpet
             cleaning services in competitive prices.
           </p>
-          <h3>OUR CARPET CLEANING PROCESS</h3>
           <h4>With Advanced Technology Machines</h4>
           <p>
             Our expert technicians follow an extensive 8 steps process

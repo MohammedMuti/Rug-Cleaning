@@ -108,7 +108,7 @@ const Navbar = () => {
                 >
                   <li>HOME</li>
                 </Link>
-                <Link
+                {/* <Link
                   to={"/services/carpet-cleaning-melbourne"}
                   className={
                     path === "/services/carpet-cleaning-melbourne"
@@ -117,22 +117,22 @@ const Navbar = () => {
                   }
                 >
                   <li>CARPET CLEANING</li>
-                </Link>
+                </Link> */}
                 <SubBars
                   title="Services"
                   titlePath="/services"
                   height={14 + "rem"}
                   opt={[
                     {
-                      name: "Carpet Cleaning Melbourne",
+                      name: "Carpet Cleaning",
                       link: "/services/carpet-cleaning-melbourne",
                     },
                     {
-                      name: "Explore Us",
+                      name: "Rug Cleaning",
                       link: "/services/rug-cleaning-melbourne",
                     },
                     {
-                      name: "Upholstery Cleaning Melbourne",
+                      name: "Upholstery Cleaning",
                       link: "/services/upholstery-cleaning-melbourne",
                     },
                   ]}
@@ -143,6 +143,22 @@ const Navbar = () => {
                 >
                   <li>GALLERY</li>
                 </Link>
+
+                <Link
+                  to={"/why-us"}
+                  className={path === "/gallery" ? "link active" : "link"}
+                >
+                  <li>WHY US?</li>
+                </Link>
+
+                <Link
+                  to={"/blog"}
+                  className={path === "/gallery" ? "link active" : "link"}
+                >
+                  <li>BLOG</li>
+                </Link>
+
+                {/* 
                 <SubBars
                   title="Why Us?"
                   titlePath="/why-us"
@@ -161,7 +177,8 @@ const Navbar = () => {
                       link: "/terms-and-conditions",
                     },
                   ]}
-                />
+                /> */}
+
                 <Link
                   to={"/contact-us"}
                   className={path === "/contact-us" ? "link active" : "link"}
@@ -181,7 +198,7 @@ const Navbar = () => {
                 HOME
               </li>
             </Link>
-            <Link
+            {/* <Link
               to={"/services/carpet-cleaning-melbourne"}
               className={
                 path === "/services/carpet-cleaning-melbourne"
@@ -193,7 +210,7 @@ const Navbar = () => {
                 <FontAwesomeIcon className="rightIcon" icon={faArrowRight} />{" "}
                 CARPET CLEANING
               </li>
-            </Link>
+            </Link> */}
             <Link
               to={"/services"}
               className={path === "/services" ? "link active" : "link"}
@@ -232,13 +249,13 @@ const Navbar = () => {
                       : "link"
                   }
                 >
-                  <li>
+                  {/* <li>
                     <FontAwesomeIcon
                       className="rightIcon"
                       icon={faArrowRight}
                     />{" "}
-                    Carpet Cleaning Melbourne
-                  </li>
+                    Carpet Cleaning
+                  </li> */}
                 </Link>
                 <Link
                   to={"/services/rug-cleaning-melbourne"}
@@ -253,7 +270,7 @@ const Navbar = () => {
                       className="rightIcon"
                       icon={faArrowRight}
                     />{" "}
-                    Explore Us
+                    Rug Cleaning
                   </li>
                 </Link>
                 <Link
@@ -269,7 +286,7 @@ const Navbar = () => {
                       className="rightIcon"
                       icon={faArrowRight}
                     />{" "}
-                    Upholstery Cleaning Melbourne
+                    Upholstery Cleaning
                   </li>
                 </Link>
               </ul>
@@ -284,7 +301,28 @@ const Navbar = () => {
                 GALLERY
               </li>
             </Link>
+
             <Link
+              to={"/why-us"}
+              className={path === "/why-us" ? "link active" : "link"}
+            >
+              <li>
+                <FontAwesomeIcon className="rightIcon" icon={faArrowRight} />{" "}
+                WHY US?
+              </li>
+            </Link>
+
+            <Link
+              to={"/blog"}
+              className={path === "/blog" ? "link active" : "link"}
+            >
+              <li>
+                <FontAwesomeIcon className="rightIcon" icon={faArrowRight} />{" "}
+                BLOG
+              </li>
+            </Link>
+
+            {/* <Link
               to={"/why-us"}
               className={path === "/why-us" ? "link active" : "link"}
             >
@@ -350,6 +388,8 @@ const Navbar = () => {
                 </Link>
               </ul>
             </Link>
+             */}
+
             <Link
               to={"/contact-us"}
               className={path === "/contact-us" ? "link active" : "link"}

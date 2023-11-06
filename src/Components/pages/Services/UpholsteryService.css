@@ -135,6 +135,7 @@ li {
 
 .upholstery .info .img-container img {
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 .upholstery .info .img-content {

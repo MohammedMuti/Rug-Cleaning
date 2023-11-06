@@ -19,14 +19,8 @@ const UpholsteryService = () => {
       />
       <div className="upholstery">
         <div className="heading">
-          <h1>Upholstery Cleaning Melbourne</h1>
-          <p>
-            Pure n bright Melbourne offers the best solution for all your
-            upholstery cleaning needs. Here at Pure N bright we have a team of
-            highly professional and fully trained staff, fully equipped to
-            fulfil all your upholstery cleaning needs. We provide satisfaction
-            guaranteed service for all our clients.{" "}
-          </p>
+          <h1>Professional Upholstery Cleaning Melbourne</h1>
+          <p></p>
         </div>
 
         <div className="info">
@@ -38,16 +32,21 @@ const UpholsteryService = () => {
           </div>
           <div className="img-content">
             <p>
-              The upholstery like couches, sofas, chairs, recliners and the
-              furniture are the integral part of our home and as the time passes
-              they start to show the signs of ageing and stop looking the way we
-              bought them. The signs include dirt, pet hair, change in colour in
-              some parts, stains and odours. Even if the upholstery does not
-              look like it needs cleaning there is still a requirement of
-              getting it washed after a certain period of time due to hygienic
-              reasons as there might be germs or other pathogens residing in it.
-              That is why it is very important to get some professional help to
-              keep them looking like new.
+              Pure n bright Melbourne offers the best solution for all your
+              upholstery cleaning needs. Here at Pure N bright we have a team of
+              highly professional and fully trained staff, fully equipped to
+              fulfil all your upholstery cleaning needs. We provide satisfaction
+              guaranteed service for all our clients. The upholstery like
+              couches, sofas, chairs, recliners and the furniture are the
+              integral part of our home and as the time passes they start to
+              show the signs of ageing and stop looking the way we bought them.
+              The signs include dirt, pet hair, change in colour in some parts,
+              stains and odours. Even if the upholstery does not look like it
+              needs cleaning there is still a requirement of getting it washed
+              after a certain period of time due to hygienic reasons as there
+              might be germs or other pathogens residing in it. That is why it
+              is very important to get some professional help to keep them
+              looking like new.
             </p>
           </div>
         </div>
@@ -270,7 +269,7 @@ const UpholsteryService = () => {
       <div className="carpet_service">
         <div className="cleaning_info">
           <h2>Check Our Recent Work</h2>
-          <h3>BEFORE / AFTER CARPET CLEANING WORK</h3>
+          <h3>BEFORE / AFTER COUCH CLEANING WORK</h3>
           <div className="imgs">
             <div className="img-content">
               <img
@@ -299,8 +298,8 @@ const UpholsteryService = () => {
         <div className="content-u">
           <h1>OVER 15 YEARS EXPERIENCE IN</h1>
           <h2>
-            Cleaning industry we understand how much you love your carpet so as
-            we, our fully trained technicians bring your carpet back to life.
+            Cleaning industry we understand how much you love your sofa so as
+            we, our fully trained technicians bring your sofa back to life.
           </h2>
         </div>
         <div className="content-d">
@@ -314,7 +313,7 @@ const UpholsteryService = () => {
             <h1>MOVING OUT?</h1>
             <h2>WORRIED ABOUT YOUR BOND?</h2>
             <p>
-              - Our end of lease carpet cleaning gives 100% bond back guarantee.
+              - Our end of lease sofa cleaning gives 100% bond back guarantee.
             </p>
           </div>
         </div>

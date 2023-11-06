@@ -144,7 +144,7 @@ const Home = () => {
                 </div>
                 <div className="methods-type-img">
                   <img
-                    src={require("../../../Assets/Images/Methods/StemCleaning.jpg")}
+                    src={require("../../../Assets/Images/Methods/HandWash.png")}
                     alt=""
                   />
                 </div>

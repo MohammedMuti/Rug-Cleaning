@@ -33,7 +33,7 @@ const Banner = (props) => {
       >
         <div className="banner-content">
           <div className="banner-title">
-            <h2>{props.sublink2 ? props.sublink2 : props.sublink}</h2>
+            <h1>{props.sublink2 ? props.sublink2 : props.sublink}</h1>
             {/* <p>{props.slogan}</p> */}
             <div className="buttons">
               <Link to={"/contact-us"}>
