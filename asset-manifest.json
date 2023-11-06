@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rug-Cleaning/static/css/main.e25f8ddf.css",
-    "main.js": "/Rug-Cleaning/static/js/main.b3fe35ff.js",
+    "main.css": "/Rug-Cleaning/static/css/main.2adf1615.css",
+    "main.js": "/Rug-Cleaning/static/js/main.f7bcf497.js",
     "static/media/home-banner.png": "/Rug-Cleaning/static/media/home-banner.f5837950e6420b4491e9.png",
     "static/media/Capture.PNG": "/Rug-Cleaning/static/media/Capture.2df50fd518224aa582fd.PNG",
     "static/media/blog-banner.png": "/Rug-Cleaning/static/media/blog-banner.44865b856f9c30c14596.png",
@@ -17,6 +17,7 @@
     "static/media/22.jpeg": "/Rug-Cleaning/static/media/22.61b363a20d109273ef8e.jpeg",
     "static/media/repair.webp": "/Rug-Cleaning/static/media/repair.dc26f90487088113cbe8.webp",
     "static/media/all types.png": "/Rug-Cleaning/static/media/all types.a6619b545e26fdfcbff5.png",
+    "static/media/1.avif": "/Rug-Cleaning/static/media/1.53a88ea01044925e46bc.avif",
     "static/media/1.jpg": "/Rug-Cleaning/static/media/1.a7ee6170d084507e1f61.jpg",
     "static/media/Upholstery3.jpg": "/Rug-Cleaning/static/media/Upholstery3.e89d6afe39972a38ef1a.jpg",
     "static/media/gallery-banner.jpg": "/Rug-Cleaning/static/media/gallery-banner.5bfcc371537f6a7cd199.jpg",
@@ -87,6 +88,7 @@
     "static/media/pet.webp": "/Rug-Cleaning/static/media/pet.6938df0ad378a241498f.webp",
     "static/media/rug-cleaning1.webp": "/Rug-Cleaning/static/media/rug-cleaning1.33186ea72d8d25af3377.webp",
     "static/media/HandCleaning.jpg": "/Rug-Cleaning/static/media/HandCleaning.81a868c708fc4e8dcbe1.jpg",
+    "static/media/sanitization.png": "/Rug-Cleaning/static/media/sanitization.da00b56bf58518954c42.png",
     "static/media/rug-repair-img.jpg": "/Rug-Cleaning/static/media/rug-repair-img.c308a3be02305b701f98.jpg",
     "static/media/carpet-sub-banner2.webp": "/Rug-Cleaning/static/media/carpet-sub-banner2.b69af68be49820704f2c.webp",
     "static/media/StemCleaning.jpg": "/Rug-Cleaning/static/media/StemCleaning.e4cdfb9e4395f8146322.jpg",
@@ -117,11 +119,11 @@
     "static/media/footer-location.webp": "/Rug-Cleaning/static/media/footer-location.d29147bc58823dee6bc8.webp",
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "static/media/mail-icon.webp": "/Rug-Cleaning/static/media/mail-icon.36aa90628ca50c630f41.webp",
-    "main.e25f8ddf.css.map": "/Rug-Cleaning/static/css/main.e25f8ddf.css.map",
-    "main.b3fe35ff.js.map": "/Rug-Cleaning/static/js/main.b3fe35ff.js.map"
+    "main.2adf1615.css.map": "/Rug-Cleaning/static/css/main.2adf1615.css.map",
+    "main.f7bcf497.js.map": "/Rug-Cleaning/static/js/main.f7bcf497.js.map"
   },
   "entrypoints": [
-    "static/css/main.e25f8ddf.css",
-    "static/js/main.b3fe35ff.js"
+    "static/css/main.2adf1615.css",
+    "static/js/main.f7bcf497.js"
   ]
 }
