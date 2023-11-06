@@ -293,6 +293,7 @@ li {
 }
 
 .navbarM .navbar_wrapper .nav-content .nav-content-u button {
+  cursor: pointer;
   background-color: #217e37;
   padding: 1.4rem 3rem;
   border: none;

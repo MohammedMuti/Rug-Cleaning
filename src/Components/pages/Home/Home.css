@@ -528,6 +528,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 2rem;
 }
 
 @media (max-width: 700px) {
@@ -654,7 +655,7 @@ li {
 }
 
 .home .protect.section .protect.content .protect.info {
-  width: 60%;
+  width: 90%;
 }
 
 @media (max-width: 750px) {

@@ -394,6 +394,7 @@
       .extra2-wrapper {
         display: flex;
         align-items: center;
+        gap: 2rem;
 
         @media (max-width: 700px) {
           justify-content: center;
@@ -507,7 +508,7 @@
       }
 
       .protect.info {
-        width: 60%;
+        width: 90%;
 
         @media (max-width: 750px) {
           width: 100%;

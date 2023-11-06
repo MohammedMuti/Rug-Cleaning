@@ -339,7 +339,7 @@ const Home = () => {
             </div>
             <div className="protect img">
               <img
-                src={require("../../../Assets/Images/Pets/pet.webp")}
+                src={require("../../../Assets/Images/Pets/spraying-carpet-cleaner.webp")}
                 alt=""
               />
             </div>
