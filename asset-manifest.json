@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/Rug-Cleaning/static/css/main.2adf1615.css",
-    "main.js": "/Rug-Cleaning/static/js/main.f7bcf497.js",
+    "main.css": "/Rug-Cleaning/static/css/main.ec1a92e9.css",
+    "main.js": "/Rug-Cleaning/static/js/main.c5420ffd.js",
     "static/media/home-banner.png": "/Rug-Cleaning/static/media/home-banner.f5837950e6420b4491e9.png",
     "static/media/Capture.PNG": "/Rug-Cleaning/static/media/Capture.2df50fd518224aa582fd.PNG",
     "static/media/blog-banner.png": "/Rug-Cleaning/static/media/blog-banner.44865b856f9c30c14596.png",
     "static/media/Upholstery-sub-banner.jpg": "/Rug-Cleaning/static/media/Upholstery-sub-banner.1603c9b30b4b7a113c22.jpg",
     "static/media/Upholstery2.jpg": "/Rug-Cleaning/static/media/Upholstery2.e5c7f61b63db0360ba46.jpg",
+    "static/media/repair-rug-melbourne.png": "/Rug-Cleaning/static/media/repair-rug-melbourne.b9b55ed33b6aaf21401d.png",
     "static/media/19.jpg": "/Rug-Cleaning/static/media/19.d1a0a61bc311d45523d0.jpg",
     "static/media/carpet-banner.jpg": "/Rug-Cleaning/static/media/carpet-banner.996d68feed9da004e482.jpg",
     "static/media/Sheep.png": "/Rug-Cleaning/static/media/Sheep.8f6462b9eb97d72c21db.png",
@@ -89,7 +90,6 @@
     "static/media/rug-cleaning1.webp": "/Rug-Cleaning/static/media/rug-cleaning1.33186ea72d8d25af3377.webp",
     "static/media/HandCleaning.jpg": "/Rug-Cleaning/static/media/HandCleaning.81a868c708fc4e8dcbe1.jpg",
     "static/media/sanitization.png": "/Rug-Cleaning/static/media/sanitization.da00b56bf58518954c42.png",
-    "static/media/rug-repair-img.jpg": "/Rug-Cleaning/static/media/rug-repair-img.c308a3be02305b701f98.jpg",
     "static/media/carpet-sub-banner2.webp": "/Rug-Cleaning/static/media/carpet-sub-banner2.b69af68be49820704f2c.webp",
     "static/media/StemCleaning.jpg": "/Rug-Cleaning/static/media/StemCleaning.e4cdfb9e4395f8146322.jpg",
     "static/media/rug-cleaning-album.webp": "/Rug-Cleaning/static/media/rug-cleaning-album.76cc9b1aff91c4f0772f.webp",
@@ -119,11 +119,11 @@
     "static/media/footer-location.webp": "/Rug-Cleaning/static/media/footer-location.d29147bc58823dee6bc8.webp",
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "static/media/mail-icon.webp": "/Rug-Cleaning/static/media/mail-icon.36aa90628ca50c630f41.webp",
-    "main.2adf1615.css.map": "/Rug-Cleaning/static/css/main.2adf1615.css.map",
-    "main.f7bcf497.js.map": "/Rug-Cleaning/static/js/main.f7bcf497.js.map"
+    "main.ec1a92e9.css.map": "/Rug-Cleaning/static/css/main.ec1a92e9.css.map",
+    "main.c5420ffd.js.map": "/Rug-Cleaning/static/js/main.c5420ffd.js.map"
   },
   "entrypoints": [
-    "static/css/main.2adf1615.css",
-    "static/js/main.f7bcf497.js"
+    "static/css/main.ec1a92e9.css",
+    "static/js/main.c5420ffd.js"
   ]
 }
