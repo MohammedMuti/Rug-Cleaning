@@ -243,7 +243,7 @@ const Footer = () => {
               />
               <span>Melbourne Australia</span>
             </div>
-            <Link to={"tel:953-898-9075"}>
+            <Link to={"tel:1300 360 274"}>
               <div className="info-box">
                 <img
                   src={require("../../../Assets/Images/Icons/footer-phone.webp")}
