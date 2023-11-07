@@ -1,0 +1,115 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+}
+
+p,
+li {
+  color: #686868;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@-webkit-keyframes btn1 {
+  16.65% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes btn1 {
+  16.65% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.sitemap {
+  padding: 5rem 12%;
+}
+
+@media (max-width: 1200px) {
+  .sitemap {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .sitemap {
+    padding: 5rem 2rem;
+  }
+}
+
+.sitemap .heading {
+  margin-bottom: 3rem;
+}
+
+.sitemap .heading h2 {
+  text-transform: uppercase;
+}
+
+.sitemap .content .main {
+  padding-left: 3rem;
+}
+
+.sitemap .content .main li {
+  text-align: start;
+  color: #008f34;
+  text-transform: capitalize;
+}
+
+.sitemap .content .main .sub {
+  padding-left: 3rem;
+}
+/*# sourceMappingURL=Sitemap.css.map */

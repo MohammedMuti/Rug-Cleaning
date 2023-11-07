@@ -19,11 +19,15 @@ import RugService from "./Components/pages/Services/RugService";
 import RugRepair from "./Components/pages/Services/RugRepair";
 import UpholsteryService from "./Components/pages/Services/UpholsteryService";
 import Specials from "./Components/pages/Specials/Specials";
+import Location from "./Components/pages/Location/Location";
+import ScrollToTop from "./Components/common/Scroll/ScrollToTop";
+import Sitemap from "./Components/pages/Sitemap/Sitemap";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route exact path="/" element={<Home />} />
 
@@ -32,6 +36,12 @@ function App() {
 
           {/* Specials */}
           <Route exact path="/special-deals" element={<Specials />} />
+
+          {/* Location */}
+          <Route exact path="/locations" element={<Location />} />
+
+          {/* SiteMap */}
+          <Route exact path="/sitemap" element={<Sitemap />} />
 
           {/* Gallery */}
           <Route exact path="/gallery" element={<Gallery />} />

@@ -1,0 +1,37 @@
+@import "../../common/variables/variables.scss";
+
+.sitemap {
+  padding: 5rem 12%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+
+  .heading {
+    margin-bottom: 3rem;
+    h2 {
+      text-transform: uppercase;
+    }
+  }
+  .content {
+    .main {
+      padding-left: 3rem;
+
+      div {
+        // width: max-content;
+      }
+      li {
+        text-align: start;
+        color: $main-l;
+        text-transform: capitalize;
+      }
+
+      .sub {
+        padding-left: 3rem;
+      }
+    }
+  }
+}

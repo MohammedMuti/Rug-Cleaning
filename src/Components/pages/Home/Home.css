@@ -314,7 +314,6 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  overflow: hidden;
   min-width: 30rem;
 }
 
@@ -331,7 +330,6 @@ li {
 
 .home .methods.section .methods.content .methods.info .methods.type .methods-type-img {
   padding: 4rem;
-  overflow: hidden;
 }
 
 .home .methods.section .methods.content .methods.info .methods.type .methods-type-img img {

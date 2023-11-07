@@ -10,6 +10,8 @@ import { Link } from "react-router-dom";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 
 const Home = () => {
+  // window.location.reload(false);
+
   return (
     <>
       <NavMain />

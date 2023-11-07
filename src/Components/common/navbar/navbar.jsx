@@ -35,6 +35,8 @@ const Navbar = () => {
   console.log(why);
 
   useEffect(() => {
+    // window.scrollTo(0, 0);
+
     window.addEventListener("scroll", () => {
       if (window.scrollY < 300) {
         setNavbar(false);

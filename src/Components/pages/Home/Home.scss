@@ -186,7 +186,7 @@
           // border: black 2px solid;
           display: flex;
           flex-direction: column;
-          overflow: hidden;
+          // overflow: hidden;
           min-width: 30rem;
           // box-shadow: 0px 0px 10px 0px #000;
 
@@ -203,7 +203,7 @@
 
           .methods-type-img {
             padding: 4rem;
-            overflow: hidden;
+            // overflow: hidden;
             img {
               cursor: pointer;
               border-radius: 0.5rem;

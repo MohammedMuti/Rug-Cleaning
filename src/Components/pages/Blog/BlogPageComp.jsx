@@ -737,7 +737,7 @@ const BlogPageComp = () => {
 
       {path?.pathname === "/blog/why-do-you-need-rug-cleaning-experts" ? (
         <BlogPage
-          title={"Sheep Skin Rug Cleaning"}
+          title={"Why Do You Need Rug Cleaning Experts?"}
           img={require(`../../../Assets/Images/Blogs/Sheep.jpg`)}
           content={
             <>
