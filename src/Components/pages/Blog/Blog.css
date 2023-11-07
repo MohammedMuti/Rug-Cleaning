@@ -76,6 +76,13 @@ li {
 }
 
 .blogs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 5rem 8%;
 }
 
@@ -98,6 +105,42 @@ li {
 .blogs .blog.heading h2 {
   font-size: 4rem;
   color: #c047c0;
+}
+
+.blogs ul {
+  margin-top: 5rem;
+  -ms-flex-item-align: center;
+      align-self: center;
+  border: 1px #cbcbcb solid;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.blogs ul li {
+  border-left: 1px #cbcbcb solid;
+  color: #0d6efd;
+  height: 100%;
+  cursor: pointer;
+  padding: 1rem 0rem;
+}
+
+.blogs ul li a {
+  padding: 1.5rem 1.5rem;
+}
+
+.blogs ul .previous.disabled,
+.blogs ul .next.disabled {
+  color: #686868;
+}
+
+.blogs ul .selected {
+  color: white;
+  background-color: #0d6efd;
 }
 
 .blogs .blog.content {
@@ -192,9 +235,15 @@ li {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  color: #008f34;
 }
 
 .blogs .blog.content .blog .blog_info a .button {
-  font-size: 2.5rem;
+  gap: 0.5rem;
+  font-size: 2rem;
+}
+
+.blogs .blog.content .blog .blog_info a .button svg {
+  font-size: 1.8rem;
 }
 /*# sourceMappingURL=Blog.css.map */

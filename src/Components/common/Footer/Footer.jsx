@@ -146,7 +146,7 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={""}>
+                  <Link to={"/special-deals"}>
                     <FontAwesomeIcon icon={faAngleDoubleRight} /> Specials
                   </Link>
                 </li>

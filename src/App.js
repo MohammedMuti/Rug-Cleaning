@@ -18,6 +18,7 @@ import TilesGallery from "./Components/pages/Gallery/TilesGallery";
 import RugService from "./Components/pages/Services/RugService";
 import RugRepair from "./Components/pages/Services/RugRepair";
 import UpholsteryService from "./Components/pages/Services/UpholsteryService";
+import Specials from "./Components/pages/Specials/Specials";
 
 function App() {
   return (
@@ -25,8 +26,12 @@ function App() {
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
+
           {/* Contact Us */}
           <Route exact path="/contact-us" element={<Contact />} />
+
+          {/* Specials */}
+          <Route exact path="/special-deals" element={<Specials />} />
 
           {/* Gallery */}
           <Route exact path="/gallery" element={<Gallery />} />

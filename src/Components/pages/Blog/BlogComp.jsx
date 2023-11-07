@@ -1,5 +1,6 @@
 import "./Blog.css";
 import {
+  faAngleDoubleRight,
   faArrowRight,
   faChevronRight,
   faComment,
@@ -20,8 +21,10 @@ const BlogComp = (props) => {
           </div>
         </Link>
         <div className="blog_info">
-          <h4>{props.title}</h4>
-          <div className="extras">
+          <Link state={{ image: props.img }} to={props.link}>
+            <h4>{props.title}</h4>
+          </Link>
+          {/* <div className="extras">
             <span>
               <FontAwesomeIcon icon={faUser} />
               by Pure N Bright Team
@@ -29,13 +32,13 @@ const BlogComp = (props) => {
             <span>
               <FontAwesomeIcon icon={faComment} />0 Comments
             </span>
-          </div>
+          </div> */}
           <div className="desc">
             <p>{props.desc}</p>
           </div>
           <Link state={{ image: props.img }} to={props.link}>
             <div className="button">
-              READ MORE <FontAwesomeIcon icon={faArrowRight} />
+              Read More <FontAwesomeIcon icon={faAngleDoubleRight} />
             </div>
           </Link>
         </div>

@@ -1,0 +1,58 @@
+@import "../../common/variables/variables.scss";
+
+.specials {
+  padding: 5rem 13%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+  .heading {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h2 {
+      color: $main-l;
+      font-size: 4rem;
+
+      span {
+        font-size: inherit;
+        color: #000;
+      }
+    }
+  }
+
+  .content {
+    grid-gap: 2rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+
+    .img-container {
+      box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.7);
+      animation-name: fade-in;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      a {
+        cursor: pointer;
+
+        img {
+          //   transform: scale(0);
+        }
+      }
+    }
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}

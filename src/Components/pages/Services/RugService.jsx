@@ -42,13 +42,13 @@ const RugService = () => {
             Let our technicians bring your carpets back to life and make your
             home or workplace a more pleasant place to spend time
           </h3>
-          <Link>
+          {/* <Link>
             <span>Read More</span>
             <img
               src={require("../../../Assets/Images/Icons/enquire-blue.png")}
               alt=""
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="rug-service reverse">

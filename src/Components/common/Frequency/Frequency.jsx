@@ -4,11 +4,10 @@ const Frequency = () => {
   return (
     <>
       <div className="frequency">
-        <h1>Frequency Of </h1>
-        <h2>Rug Cleaning</h2>
+        <h1>Frequency Of Cleaning</h1>
         <p>
-          The rug cleaning needs to be done at regular intervals in order to
-          enhance the life and appearance of the rug.
+          The cleaning needs to be done at regular intervals in order to enhance
+          the life and appearance of the rug/carpet/upholstery.
         </p>
         <div className="frequency-content">
           <div className="frequency-box">
