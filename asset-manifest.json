@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rug-Cleaning/static/css/main.73bcda8b.css",
-    "main.js": "/Rug-Cleaning/static/js/main.a4d9dfc8.js",
+    "main.js": "/Rug-Cleaning/static/js/main.30fa2f49.js",
     "static/media/home-banner.png": "/Rug-Cleaning/static/media/home-banner.f5837950e6420b4491e9.png",
     "static/media/HandWash.png": "/Rug-Cleaning/static/media/HandWash.b747f2fae035441c4231.png",
     "static/media/baking-soda-rug-cleaning-melbourne.png": "/Rug-Cleaning/static/media/baking-soda-rug-cleaning-melbourne.962942de2b547edf021b.png",
@@ -123,10 +123,10 @@
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "static/media/mail-icon.webp": "/Rug-Cleaning/static/media/mail-icon.36aa90628ca50c630f41.webp",
     "main.73bcda8b.css.map": "/Rug-Cleaning/static/css/main.73bcda8b.css.map",
-    "main.a4d9dfc8.js.map": "/Rug-Cleaning/static/js/main.a4d9dfc8.js.map"
+    "main.30fa2f49.js.map": "/Rug-Cleaning/static/js/main.30fa2f49.js.map"
   },
   "entrypoints": [
     "static/css/main.73bcda8b.css",
-    "static/js/main.a4d9dfc8.js"
+    "static/js/main.30fa2f49.js"
   ]
 }
