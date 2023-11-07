@@ -22,6 +22,7 @@ import Specials from "./Components/pages/Specials/Specials";
 import Location from "./Components/pages/Location/Location";
 import ScrollToTop from "./Components/common/Scroll/ScrollToTop";
 import Sitemap from "./Components/pages/Sitemap/Sitemap";
+import NotFound from "./Components/pages/404/NotFound";
 
 function App() {
   return (
@@ -105,10 +106,13 @@ function App() {
 
           {/* Thank You */}
           <Route exact path="/thank-you" element={<Thank />} />
+
           {/* Why Us */}
           <Route exact path="/why-us" element={<WhyUs />} />
+
           {/* Blog  */}
           <Route exact path="/blog" element={<Blog />} />
+
           <Route
             exact
             path="/blog/sheep-skin-rug-cleaning"
@@ -160,9 +164,12 @@ function App() {
             path="/blog/how-to-clean-a-rug"
             element={<BlogPageComp />}
           />
+
           <Route exact path="/faq" element={<FAQ />} />
+
           {/* Terms and Conditions */}
           <Route exact path="/terms-and-conditions" element={<Terms />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </div>

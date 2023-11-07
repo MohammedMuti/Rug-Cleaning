@@ -13,25 +13,25 @@ import { useState } from "react";
 const items = [
   <BlogComp
     title="Sheep Skin Rug Cleaning"
-    img={require("../../../Assets/Images/Blogs/Sheep.png")}
+    img={require("../../../Assets/Images/Blogs/steps-to-clean-sheepskin-rug.png")}
     link={"/blog/sheep-skin-rug-cleaning"}
     desc="The sheepskin rug that lies in your home, whether it is in the living, in"
   />,
   <BlogComp
     title="How to use baking soda for rug cleaning"
-    img={require("../../../Assets/Images/Blogs/soda.jpg")}
+    img={require("../../../Assets/Images/Blogs/baking-soda-rug-cleaning-melbourne.png")}
     link={"/blog/how-to-use-baking-soda-for-rug-cleaning"}
     desc="Professional rug cleaners have their own set of tools and techniques to"
   />,
   <BlogComp
     title="Rug cleaning vs Carpet cleaning"
-    img={require("../../../Assets/Images/Blogs/versus.jpg")}
+    img={require("../../../Assets/Images/Blogs/cold, smooth & tasty..png")}
     link={"/blog/rug-cleaning-vs-carpet-cleaning"}
     desc="Many people think that Rugs and carpets are the same thing and wash"
   />,
   <BlogComp
     title="Why do I need a professional rug cleaner?"
-    img={require("../../../Assets/Images/Blogs/professional.jpg")}
+    img={require("../../../Assets/Images/Blogs/cold, smooth & tasty. (1).png")}
     link={"/blog/why-do-I-need-a-professional-rug-cleaner"}
     desc="If your rug is dirt and unclean, Hire a professional rug cleaner in Melbourne to"
   />,
@@ -43,7 +43,7 @@ const items = [
   />,
   <BlogComp
     title="How to Wash Rugs for Best Results?"
-    img={require("../../../Assets/Images/Blogs/wash.jpg")}
+    img={require("../../../Assets/Images/Blogs/how-to-wash-rugs-for-best-results.png")}
     link={"/blog/how-to-wash-rugs-for-best-results"}
     desc="Making up a home being a household is the worst part that can ever found."
   />,

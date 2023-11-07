@@ -16,6 +16,7 @@ import {
   faMailBulk,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const [firstNameError, setFirstNameError] = useState("");
@@ -26,6 +27,7 @@ const Contact = () => {
   const [errorMessage, setErrorMessage] = useState(true);
   const [verfied, setVerfied] = useState(false);
   const [submitMessage, setSubmitMessage] = useState(false);
+  const navigate = useNavigate();
 
   const [mailerState, setMailerState] = useState({
     firstName: "",
@@ -53,6 +55,7 @@ const Contact = () => {
         message: "",
       });
     }
+    navigate("/thank-you");
 
     if (validation === true) {
       const responsetoself = await axios(

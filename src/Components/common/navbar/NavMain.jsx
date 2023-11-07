@@ -13,7 +13,7 @@ import "./NavMain.css";
 import React from "react";
 import SubBars from "./SubBars";
 
-const NavMain = () => {
+const NavMain = (props) => {
   const [click, setClick] = useState(true);
   const [meanNav, setMeanNav] = useState(false);
   const [services, setServices] = useState(false);
@@ -29,7 +29,10 @@ const NavMain = () => {
 
   return (
     <>
-      <div className={"navbarM"}>
+      <div
+        className={"navbarM"}
+        style={{ background: props.bgc || "rgba(255, 255, 255, 0.9)" }}
+      >
         <div id="scroll-container">
           <div id="scroll-text">
             Pure N Bright Cleaning is taking all the necessary precautions and
