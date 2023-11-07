@@ -69,12 +69,12 @@ const items = [
     }
     desc="Despite the best efforts and maintenance regimes, the carpets and rugs are prone to stains,"
   />,
-  <BlogComp
-    title="How to Clean a Rug?"
-    img={require("../../../Assets/Images/Blogs/clean.jpg")}
-    link={"/blog/how-to-clean-a-rug?"}
-    desc="Rugs are expensive and delicate. Cleaning a rug is very different from cleaning any other"
-  />,
+  // <BlogComp
+  //   title="How to Clean a Rug?"
+  //   img={require("../../../Assets/Images/Blogs/clean.jpg")}
+  //   link={"/blog/how-to-clean-a-rug?"}
+  //   desc="Rugs are expensive and delicate. Cleaning a rug is very different from cleaning any other"
+  // />,
 ];
 
 function Items({ currentItems }) {
