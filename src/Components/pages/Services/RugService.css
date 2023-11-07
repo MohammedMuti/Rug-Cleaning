@@ -217,6 +217,7 @@ li {
   text-align: center;
   margin-bottom: 1rem;
   font-size: 3.5rem;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 580px) {
@@ -771,8 +772,8 @@ li {
           justify-content: center;
   position: relative;
   will-change: transform;
-  -webkit-transform: perspective(700px) rotateY(15deg);
-          transform: perspective(700px) rotateY(15deg);
+  -webkit-transform: perspective(700px) rotateY(5deg);
+          transform: perspective(700px) rotateY(5deg);
   -webkit-transition: -webkit-transform 1s ease 0s;
   transition: -webkit-transform 1s ease 0s;
   transition: transform 1s ease 0s;
@@ -786,6 +787,12 @@ li {
 
 .threeD .wrapper .container .comment-box img {
   max-width: 70rem;
+}
+
+@media (max-width: 400px) {
+  .threeD .wrapper .container .comment-box img {
+    min-height: 42rem;
+  }
 }
 
 .threeD .wrapper .container .comment-info {

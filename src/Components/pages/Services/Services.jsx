@@ -36,7 +36,7 @@ const Services = () => {
               img={require("../../../Assets/Images/Services/rug.webp")}
             />
           </Link>
-          <Link to={"/services/rug-cleaning-melbourne"}>
+          <Link to={"/services/upholstery-cleaning-melbourne"}>
             <ServiceComp
               title="Upholstery Cleaning"
               info="UPHOLSTERY/SOFA CLEANING MELBOURNE Pure N Bright Carpet Cleaning"

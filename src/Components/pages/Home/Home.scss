@@ -218,6 +218,7 @@
           }
           .methods-type-info {
             // height: fit-content;
+            text-align: justify;
             span {
               color: $main-l;
               font-size: 2rem;
@@ -426,6 +427,7 @@
         .extra2-info {
           p {
             font-size: 2.2rem;
+            line-height: 4rem;
             strong {
               font-size: inherit;
             }
