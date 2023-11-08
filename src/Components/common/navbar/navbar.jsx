@@ -75,6 +75,7 @@ const Navbar = () => {
               <Link to={"/contact-us"} className="nav-icon-wrapper">
                 <div className="nav-icon">
                   <Link>
+                    {/* <FontAwesomeIcon icon={faEnvelope} /> */}
                     <img
                       src={require("../../../Assets/Images/Icons/mail-icon.webp")}
                       alt=""

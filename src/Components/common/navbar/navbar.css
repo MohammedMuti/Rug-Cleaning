@@ -216,6 +216,16 @@ li {
           animation: pulse2 infinite 2s;
 }
 
+.navbar .navbar_wrapper .nav-content .nav-content-u .nav-icon-wrapper .nav-icon svg {
+  top: 5px;
+  left: 5px;
+  color: white;
+  background: #008f34;
+  position: relative;
+  display: block;
+  font-size: 3rem;
+}
+
 .navbar .navbar_wrapper .nav-content .nav-content-u .nav-icon-wrapper .nav-icon::before {
   content: "";
   height: 48px;

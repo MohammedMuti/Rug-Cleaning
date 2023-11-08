@@ -321,13 +321,15 @@ const RugService = () => {
                 steam carpet cleaning melbourne
               </p>
 
-              <button className="submit">
-                <span>Enquire Now</span>
-                <img
-                  src={require("../../../Assets/Images/Icons/enquire-blue.png")}
-                  alt=""
-                />
-              </button>
+              <Link to={"/contact-us"}>
+                <button className="submit">
+                  <span>Enquire Now</span>
+                  <img
+                    src={require("../../../Assets/Images/Icons/enquire-blue.png")}
+                    alt=""
+                  />
+                </button>
+              </Link>
             </div>
           </div>
         </div>

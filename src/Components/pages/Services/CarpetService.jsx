@@ -58,10 +58,16 @@ const CarpetService = () => {
               />
             </div>
           </div>
-          <span>
-            Carpet can be thoroughly cleaned using different processes depending
-            upon the requirement.
-          </span>
+          <Link
+            to={
+              "/blog/what-is-best-for-you-rug-steam-dry-or-traditional-hand-cleaning"
+            }
+          >
+            <span>
+              Carpet can be thoroughly cleaned using different processes
+              depending upon the requirement.
+            </span>
+          </Link>
         </div>
       </div>
 
@@ -167,7 +173,9 @@ const CarpetService = () => {
             <p>
               Don't panic, we understand how eager you are to see it all gone,
               leave it to us we will take care of it! Call now{" "}
-              <span> 1300 360 274</span>
+              <Link to={"tel:1300 360 274"}>
+                <span> 1300 360 274</span>
+              </Link>
             </p>
           </div>
         </div>

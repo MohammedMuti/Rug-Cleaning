@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronCircleDown, faStar } from "@fortawesome/free-solid-svg-icons";
 import ContactComp from "../../common/Contact/ContactComponent";
 import img from "../../../Assets/Images/Banner/why-banner.webp";
+import { Link } from "react-router-dom";
 
 const WhyUs = () => {
   return (
@@ -32,18 +33,24 @@ const WhyUs = () => {
             wasn’t much choice available. Although there were some companies
             doing domestic cleaning, the prices were too high. We thought of
             changing the situation. This is when we decided to set up a
-            <span> domestic cleaning service in Melbourne</span> that offers the
-            best services at the best price.
+            <Link to={"/services/rug-cleaning-melbourne"}>
+              <span> domestic cleaning service in Melbourne</span>
+            </Link>{" "}
+            that offers the best services at the best price.
           </p>
           <p>
             With an efficient, affordable and a competent cleaning service in
-            mind, we started <span> Pure N Bright Cleaning</span>. We knew it
-            won’t be possible without the help of a fully skilled, expert
-            cleaning and customer service staff. Delivering the best cleaning
-            services is not easy unless you have experts working for you. So we
-            started to hunt, select and train the professionals and brushed
-            their skills even further. Now, all our clients can trust on the
-            skill, politeness and prompt work attitude of our cleaners and
+            mind, we started{" "}
+            <Link to={"/services/rug-cleaning-melbourne"}>
+              {" "}
+              <span> Pure N Bright Cleaning</span>
+            </Link>
+            . We knew it won’t be possible without the help of a fully skilled,
+            expert cleaning and customer service staff. Delivering the best
+            cleaning services is not easy unless you have experts working for
+            you. So we started to hunt, select and train the professionals and
+            brushed their skills even further. Now, all our clients can trust on
+            the skill, politeness and prompt work attitude of our cleaners and
             support staff, alike. All of them together work to make house
             cleaning a breeze for our customers.
           </p>
@@ -96,10 +103,6 @@ const WhyUs = () => {
               <FontAwesomeIcon icon={faStar} />
               “On-call” service available for urgent weekend or after-hours
               jobs.
-            </li>
-            <li>
-              <FontAwesomeIcon icon={faStar} />
-              Fully insured
             </li>
           </ul>
         </div>

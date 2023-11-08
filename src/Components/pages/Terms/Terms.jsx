@@ -4,6 +4,7 @@ import Banner from "../../common/Banner/Banner";
 import Footer from "../../common/Footer/Footer";
 import ContactComp from "../../common/Contact/ContactComponent";
 import NavMain from "../../common/navbar/NavMain";
+import { Link } from "react-router-dom";
 
 const Terms = () => {
   return (
@@ -32,7 +33,12 @@ const Terms = () => {
           </p>
           <p>We charge $15 extra as an apartment fee.</p>
           <p>
-            For more information please contact us <span>1300 360 274.</span>
+            For more information please contact us{" "}
+            <Link to={"tel:1300 360 274"}>
+              {" "}
+              <span>1300 360 274</span>
+            </Link>
+            .
           </p>
         </div>
       </div>

@@ -117,7 +117,7 @@ const Home = () => {
                 </div>
                 <div className="methods-type-img">
                   <img
-                    src={require("../../../Assets/Images/Methods/HandCleaning.jpg")}
+                    src={require("../../../Assets/Images/Methods/StemCleaning.jpg")}
                     alt=""
                   />
                 </div>
@@ -345,7 +345,7 @@ const Home = () => {
             </div>
             <div className="protect img">
               <img
-                src={require("../../../Assets/Images/Pets/spraying-carpet-cleaner.webp")}
+                src={require("../../../Assets/Images/Pets/pet.webp")}
                 alt=""
               />
             </div>

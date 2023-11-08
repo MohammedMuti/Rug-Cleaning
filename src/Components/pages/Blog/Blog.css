@@ -197,6 +197,15 @@ li {
   min-height: 9rem;
 }
 
+@media (max-width: 800px) {
+  .blogs .blog.content .blog .blog_info h4 {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    margin-bottom: 1rem;
+  }
+}
+
 .blogs .blog.content .blog .blog_info .extras {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -226,7 +235,17 @@ li {
   min-height: 13rem;
 }
 
+@media (max-width: 800px) {
+  .blogs .blog.content .blog .blog_info .desc {
+    min-height: -webkit-fit-content;
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    margin-bottom: 2rem;
+  }
+}
+
 .blogs .blog.content .blog .blog_info .desc p {
+  text-align: start;
   font-size: 2.3rem;
   line-height: 3.5rem;
 }

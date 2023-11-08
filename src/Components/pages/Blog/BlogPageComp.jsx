@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Banner from "../../common/Banner/Banner";
 import BlogPage from "./BlogPage";
 
@@ -28,8 +28,14 @@ const BlogPageComp = () => {
                 regular wash for it not only restores it to its best self every
                 time, but makes sure that it stays with you in the best
                 condition for the longest time possible. Feel free to call us
-                for more information at 1300 360 274 or email us at
-                <span> info@purenbrightcleaning.com.au</span>
+                for more information at{" "}
+                <Link to={"tel:1300 360 274"}>
+                  <span> 1300 360 274</span>{" "}
+                </Link>{" "}
+                or email us at
+                <Link to={"mailto:info@purenbrightcleaning.com.au"}>
+                  <span> info@purenbrightcleaning.com.au</span>
+                </Link>
               </p>
             </>
           }
@@ -43,9 +49,11 @@ const BlogPageComp = () => {
           content={
             <>
               <p>
-                <span> Professional rug cleaners</span> have their own set of
-                tools and techniques to clean rugs using baking soda. Learn
-                about them here!
+                <Link to={"/"}>
+                  <span> Professional rug cleaners </span>
+                </Link>
+                have their own set of tools and techniques to clean rugs using
+                baking soda. Learn about them here!
               </p>
               <p>
                 Rugs, whether they are wall-to-wall or just a few area rugs,
@@ -143,14 +151,16 @@ const BlogPageComp = () => {
               </p>
               <h3>The Rug Industry</h3>
               <p>
-                <span>Rug cleaning </span> and carpet cleaning are two different
-                things. Carpet cleaning is the process of removing dirt, dust,
-                and other debris from carpets using a vacuum cleaner or other
-                machine. Rug cleaning, on the other hand, is the process of
-                removing dirt, dust, and other debris from rugs using a brush or
-                other tool. Rug cleaning is a more delicate process than carpet
-                cleaning and should be done more carefully to avoid damaging the
-                rug.
+                <Link to={"/services/rug-cleaning-melbourne"}>
+                  <span>Rug cleaning </span>
+                </Link>
+                and carpet cleaning are two different things. Carpet cleaning is
+                the process of removing dirt, dust, and other debris from
+                carpets using a vacuum cleaner or other machine. Rug cleaning,
+                on the other hand, is the process of removing dirt, dust, and
+                other debris from rugs using a brush or other tool. Rug cleaning
+                is a more delicate process than carpet cleaning and should be
+                done more carefully to avoid damaging the rug.
               </p>
               <p>
                 What to Consider When Deciding Between Rug Cleaning and Carpet
@@ -262,13 +272,19 @@ const BlogPageComp = () => {
             <>
               <p>
                 If your rug is dirt and unclean, Hire a professional{" "}
-                <span>rug cleaner in Melbourne</span> to shine your rug again –
-                It best Rug pickup and cleaner in Melbourne.
+                <Link to={"/"}>
+                  <span>rug cleaner in Melbourne </span>
+                </Link>
+                to shine your rug again – It best Rug pickup and cleaner in
+                Melbourne.
               </p>
               <p>
                 Does your rug appear to be dirty and drab? If so, it’s time to
                 hire a
-                <span> professional rug cleaning service in Melbourne</span> to
+                <Link to={"/services/rug-cleaning-melbourne"}>
+                  <span> professional rug cleaning service in Melbourne</span>{" "}
+                  to
+                </Link>
                 restore the shine of your rug and assure a longer lifespan.
               </p>
               <p>
@@ -332,7 +348,9 @@ const BlogPageComp = () => {
               </p>
               <p>Remove stain marks from Rugs:</p>
               <p>
-                <span>Rug cleaners </span>
+                <Link to={"/"}>
+                  <span>Rug cleaners </span>
+                </Link>
                 can assist in removing even the most stubborn stain marks from
                 rugs, making them look new and appealing. These professionals
                 can assist in removing stains from all of the following surfaces
@@ -706,8 +724,11 @@ const BlogPageComp = () => {
                 the custom requirements.
               </p>
               <p>
-                <span>Carpet steam cleaning ensures longer life</span>, gives a
-                refreshing look again and helps protect your home’s air quality.
+                <Link to={"/"}>
+                  <span>Carpet steam cleaning ensures longer life</span>
+                </Link>
+                , gives a refreshing look again and helps protect your home’s
+                air quality.
               </p>
               <h3>
                 GET THE ORIGINAL COLOUR BACK AND GIVE A TREATMENT YOUR CARPET
@@ -758,14 +779,17 @@ const BlogPageComp = () => {
               </p>
               <h3>Reliable</h3>
               <p>
-                <span> Rug cleaning</span> alone can be time-consuming as well
-                as wasteful. Rug cleaning Baton Rouge experts have rug cleaning
-                methods that are quicker and more effective, and they have been
-                using them for years. As experts, they know how to clean rugs of
-                various sizes, fabrics and colours efficiently. These businesses
-                also use state-of-the-art equipment and methods that are
-                approved. The machines allow them to quickly remove stains and
-                dirt from rugs while preserving the rug’s texture.
+                <Link to={"/services/rug-cleaning-melbourne"}>
+                  <span> Rug cleaning </span>
+                </Link>
+                alone can be time-consuming as well as wasteful. Rug cleaning
+                Baton Rouge experts have rug cleaning methods that are quicker
+                and more effective, and they have been using them for years. As
+                experts, they know how to clean rugs of various sizes, fabrics
+                and colours efficiently. These businesses also use
+                state-of-the-art equipment and methods that are approved. The
+                machines allow them to quickly remove stains and dirt from rugs
+                while preserving the rug’s texture.
               </p>
               <h3>Remove the Need for Labour</h3>
               <p>
@@ -810,14 +834,19 @@ const BlogPageComp = () => {
               <h3>Wrapping Up</h3>
               <p>
                 At <strong> Pure N Bright</strong>, we offer the best{" "}
-                <span> rug cleaning services</span>. We are passionate about
-                rugs and aspire to fulfill all our customer’s needs. The secret
-                to producing superior results is that it is easy to identify and
-                appreciate the building materials and dyes used in your rugs.
-                Taking care of your rug will prolong its life with occasional
-                dusting & washing and keep it looking fabulous.{" "}
-                <span> Contact us</span> now to help you in achieving your
-                needs.
+                <Link to={"/services/rug-cleaning-melbourne"}>
+                  <span> rug cleaning services</span>
+                </Link>
+                . We are passionate about rugs and aspire to fulfill all our
+                customer’s needs. The secret to producing superior results is
+                that it is easy to identify and appreciate the building
+                materials and dyes used in your rugs. Taking care of your rug
+                will prolong its life with occasional dusting & washing and keep
+                it looking fabulous.
+                <Link to={"/contact-us"}>
+                  <span> Contact us </span>
+                </Link>
+                now to help you in achieving your needs.
               </p>
             </>
           }
@@ -842,10 +871,13 @@ const BlogPageComp = () => {
                 decide which method is perfect for your carpet cleaning.
               </p>
               <p>
-                The most common methods of <span> carpet cleaning</span> are
-                steam cleaning, traditional hand cleaning and dry cleaning. But,
-                does one have advantages over the other? Which method is more
-                effective? How can you decide which one to choose for your
+                The most common methods of
+                <Link to={"/services/carpet-cleaning-melbourne"}>
+                  <span> carpet cleaning </span>
+                </Link>
+                are steam cleaning, traditional hand cleaning and dry cleaning.
+                But, does one have advantages over the other? Which method is
+                more effective? How can you decide which one to choose for your
                 carpets? Pure N Bright carpet steam cleaners professionally
                 restore and maintain the look and feel of your carpets at
                 affordable rates. Here, we answer all your concerns and decide
@@ -878,10 +910,12 @@ const BlogPageComp = () => {
                 the cleaning companies use more chemical-based cleaning
                 solutions which can actually harm the fibers of the carpet.
                 Whereas, a deep steam cleaning method uses{" "}
-                <span> eco-friendly cleaning solutions </span> and advanced
-                equipment to clean the carpets more effectively and without
-                considerable damage. It is also human and pet-friendly and does
-                no harm to the environment.
+                <Link to={"/services"}>
+                  <span> eco-friendly cleaning solutions </span>
+                </Link>
+                and advanced equipment to clean the carpets more effectively and
+                without considerable damage. It is also human and pet-friendly
+                and does no harm to the environment.
               </p>
               <h3>HOW DOES DEEP STEAM CARPET CLEANING WORK?</h3>
               <p>
@@ -907,7 +941,7 @@ const BlogPageComp = () => {
                 cleaners know what is best for the carpets and rugs!
               </p>
               <p>
-                <strong>Warning:</strong>
+                <strong>Warning: </strong>
                 We always highly recommend getting it done by professionals as
                 doing it on your own might damage your carpets and rugs.
               </p>
