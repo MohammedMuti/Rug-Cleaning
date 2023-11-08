@@ -136,9 +136,8 @@ const Blog = () => {
       />
 
       <div className="blogs">
-        <div className="blog heading">{/* <h2>Blogs</h2> */}</div>
-        {/* <div className="blog content"> */}
-        <PaginatedItems itemsPerPage={3} />,{/* </div> */}
+        <div className="blog heading"></div>
+        <PaginatedItems itemsPerPage={3} />
       </div>
       <ContactComp />
       <Footer />

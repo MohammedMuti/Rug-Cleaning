@@ -208,6 +208,7 @@ li {
 }
 
 .navbarM .navbar_wrapper .nav-content .nav-content-u .nav-icon-wrapper .nav-icon {
+  background-color: #217e37;
   position: relative;
   text-align: center;
   height: 38px;
@@ -217,6 +218,22 @@ li {
   margin-right: 20px;
   -webkit-animation: pulse2 infinite 2s;
           animation: pulse2 infinite 2s;
+}
+
+.navbarM .navbar_wrapper .nav-content .nav-content-u .nav-icon-wrapper .nav-icon svg {
+  top: 7px;
+  left: 8px;
+  color: white;
+  position: relative;
+  display: block;
+  font-size: 2.2rem;
+}
+
+@media (max-width: 450px) {
+  .navbarM .navbar_wrapper .nav-content .nav-content-u .nav-icon-wrapper .nav-icon svg {
+    top: 9px;
+    left: 10px;
+  }
 }
 
 .navbarM .navbar_wrapper .nav-content .nav-content-u .nav-icon-wrapper .nav-icon::before {

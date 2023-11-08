@@ -4,8 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowRight,
   faBars,
+  faEnvelope,
   faMinus,
   faMultiply,
+  faPhone,
   faPlus,
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../../Assets/Images/Logo/Pure-N-Bright-Logo.png.webp";
@@ -25,7 +27,7 @@ const NavMain = (props) => {
   };
 
   const path = useLocation().pathname;
-  console.log(path);
+  // console.log(path);
 
   return (
     <>
@@ -54,10 +56,11 @@ const NavMain = (props) => {
               <Link to={"/contact-us"} className="nav-icon-wrapper">
                 <div className="nav-icon">
                   <Link>
-                    <img
+                    <FontAwesomeIcon icon={faEnvelope} />
+                    {/* <img
                       src={require("../../../Assets/Images/Icons/mail-icon.webp")}
                       alt=""
-                    />
+                    /> */}
                   </Link>
                 </div>
                 <span>Contact us</span>
@@ -65,10 +68,11 @@ const NavMain = (props) => {
               <Link to={"tel:1300360274"} className="nav-icon-wrapper">
                 <div className="nav-icon">
                   <Link>
-                    <img
+                    <FontAwesomeIcon icon={faPhone} />
+                    {/* <img
                       src={require("../../../Assets/Images/Icons/phone-icon.png")}
                       alt=""
-                    />
+                    /> */}
                   </Link>
                 </div>
                 <span>1300 360 274</span>
