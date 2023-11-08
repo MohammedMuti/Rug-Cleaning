@@ -479,6 +479,7 @@ li {
 }
 
 .home .choose_us.section .choose_us.content .choose_us.info ul li {
+  text-align: start;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -489,6 +490,12 @@ li {
   font-weight: 600;
   font-size: 2.8rem;
   margin-bottom: 2.5rem;
+}
+
+@media (max-width: 500px) {
+  .home .choose_us.section .choose_us.content .choose_us.info ul li {
+    font-size: 2rem;
+  }
 }
 
 .home .choose_us.section .choose_us.content .choose_us.info ul li img {

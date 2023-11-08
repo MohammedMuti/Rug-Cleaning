@@ -10,7 +10,7 @@ const BlogPageComp = () => {
       {path?.pathname === "/blog/sheep-skin-rug-cleaning" ? (
         <BlogPage
           title={"Sheep Skin Rug Cleaning"}
-          img={require(`../../../Assets/Images/Blogs/Sheep.jpg`)}
+          img={require(`../../../Assets/Images/Blogs/steps-to-clean-sheepskin-rug.png`)}
           content={
             <>
               <p>
@@ -39,7 +39,7 @@ const BlogPageComp = () => {
       {path?.pathname === "/blog/how-to-use-baking-soda-for-rug-cleaning" ? (
         <BlogPage
           title={"How to use baking soda for rug cleaning"}
-          img={require(`../../../Assets/Images/Blogs/soda.jpg`)}
+          img={require(`../../../Assets/Images/Blogs/baking-soda-rug-cleaning-melbourne.png`)}
           content={
             <>
               <p>
@@ -122,7 +122,7 @@ const BlogPageComp = () => {
       {path?.pathname === "/blog/rug-cleaning-vs-carpet-cleaning" ? (
         <BlogPage
           title={"Rug Cleaning vs Carpet Cleaning"}
-          img={require(`../../../Assets/Images/Blogs/versus.jpg`)}
+          img={require(`../../../Assets/Images/Blogs/cold, smooth & tasty..png`)}
           content={
             <>
               <p>
@@ -257,7 +257,7 @@ const BlogPageComp = () => {
       {path?.pathname === "/blog/why-do-I-need-a-professional-rug-cleaner" ? (
         <BlogPage
           title={"Why do I need a professional rug cleaner?"}
-          img={require(`../../../Assets/Images/Blogs/professional.jpg`)}
+          img={require(`../../../Assets/Images/Blogs/cold, smooth & tasty. (1).png`)}
           content={
             <>
               <p>
@@ -396,7 +396,7 @@ const BlogPageComp = () => {
       {path?.pathname === "/blog/tips-for-cleaning-cowhide-rug" ? (
         <BlogPage
           title={"TIPS for cleaning cowhide Rug"}
-          img={require(`../../../Assets/Images/Blogs/tips.jpg`)}
+          img={require(`../../../Assets/Images/Blogs/Pro vs Diy (4).png`)}
           content={
             <>
               <p>
@@ -557,7 +557,7 @@ const BlogPageComp = () => {
       {path?.pathname === "/blog/how-to-wash-rugs-for-best-results" ? (
         <BlogPage
           title={"How to Wash Rugs for Best Results?"}
-          img={require(`../../../Assets/Images/Blogs/wash.jpg`)}
+          img={require(`../../../Assets/Images/Blogs/how-to-wash-rugs-for-best-results.png`)}
           content={
             <>
               <p>
@@ -663,7 +663,7 @@ const BlogPageComp = () => {
           title={
             "Why You Should Prefer Carpet Steam Cleaning Over DIY Cleaning Methods?"
           }
-          img={require(`../../../Assets/Images/Blogs/steam.jpg`)}
+          img={require(`../../../Assets/Images/Blogs/Pro vs Diy.png`)}
           content={
             <>
               <p>
@@ -738,7 +738,7 @@ const BlogPageComp = () => {
       {path?.pathname === "/blog/why-do-you-need-rug-cleaning-experts" ? (
         <BlogPage
           title={"Why Do You Need Rug Cleaning Experts?"}
-          img={require(`../../../Assets/Images/Blogs/Sheep.jpg`)}
+          img={require(`../../../Assets/Images/Blogs/Pro vs Diy (1).png`)}
           content={
             <>
               <p>
@@ -830,7 +830,7 @@ const BlogPageComp = () => {
           title={
             "What is Best for You? Rug Steam, Dry or Traditional Hand Cleaning?"
           }
-          img={require(`../../../Assets/Images/Blogs/traditional.jpg`)}
+          img={require(`../../../Assets/Images/Blogs/Pro vs Diy (2).png`)}
           content={
             <>
               <p>
@@ -919,7 +919,7 @@ const BlogPageComp = () => {
       {path?.pathname === "/blog/how-to-clean-a-rug" ? (
         <BlogPage
           title={"How to Clean a Rug?"}
-          img={require(`../../../Assets/Images/Blogs/clean.jpg`)}
+          img={require(`../../../Assets/Images/Blogs/Pro vs Diy (2).png`)}
           content={
             <>
               <p>

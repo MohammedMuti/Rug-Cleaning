@@ -33,20 +33,31 @@ const CarpetService = () => {
             cleaning services in competitive prices.
           </p>
           <h4>With Advanced Technology Machines</h4>
-          <p>
-            Our expert technicians follow an extensive 8 steps process
-            (Conditions Apply) to ensure your carpet springs back to life and
-            looks like new again. We inspect the carpet first to decide the
-            course of cleaning required, then the pre-vacuuming, pre spotting
-            and pre-spraying is done which is followed by the pre agitation of
-            the carpet and then the hot water extraction is required to get rid
-            of the dirt, dust and residues from the carpet.
-          </p>
-          <p>
-            The carpet is then deodorized followed by sanitizing if required.
-            Our expert technicians carry out a post inspection to ensure the
-            cleaning is done up to the required standard.
-          </p>
+          <div className="info">
+            <div className="content">
+              <p>
+                Our expert technicians follow an extensive 8 steps process
+                (Conditions Apply) to ensure your carpet springs back to life
+                and looks like new again. We inspect the carpet first to decide
+                the course of cleaning required, then the pre-vacuuming, pre
+                spotting and pre-spraying is done which is followed by the pre
+                agitation of the carpet and then the hot water extraction is
+                required to get rid of the dirt, dust and residues from the
+                carpet.
+              </p>
+              <p>
+                The carpet is then deodorized followed by sanitizing if
+                required. Our expert technicians carry out a post inspection to
+                ensure the cleaning is done up to the required standard.
+              </p>
+            </div>
+            <div className="img">
+              <img
+                src={require("../../../Assets/Images/Banner/truckmounted.jpg")}
+                alt=""
+              />
+            </div>
+          </div>
           <span>
             Carpet can be thoroughly cleaned using different processes depending
             upon the requirement.

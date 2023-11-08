@@ -46,7 +46,8 @@ const Contact = () => {
 
     if (validation === true) {
       console.log("You're good!");
-      alert("Message Sent Successfully!!");
+      navigate("/thank-you");
+      // alert("Message Sent Successfully!!");
       setMailerState({
         firstName: "",
         lastName: "",
@@ -55,7 +56,6 @@ const Contact = () => {
         message: "",
       });
     }
-    navigate("/thank-you");
 
     if (validation === true) {
       const responsetoself = await axios(

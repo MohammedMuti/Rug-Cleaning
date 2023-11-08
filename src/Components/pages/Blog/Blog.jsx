@@ -37,7 +37,7 @@ const items = [
   />,
   <BlogComp
     title="TIPS for cleaning cowhide Rug"
-    img={require("../../../Assets/Images/Blogs/tips.jpg")}
+    img={require("../../../Assets/Images/Blogs/Pro vs Diy (4).png")}
     link={"/blog/tips-for-cleaning-cowhide-rug"}
     desc="A Cowhide Rug is the complete skin and hair of a cow, cured using either"
   />,
@@ -49,7 +49,7 @@ const items = [
   />,
   <BlogComp
     title="Why You Should Prefer Carpet Steam Cleaning Over DIY Cleaning Methods?"
-    img={require("../../../Assets/Images/Blogs/steam.jpg")}
+    img={require("../../../Assets/Images/Blogs/Pro vs Diy.png")}
     link={
       "/blog/why-you-should-prefer-carpet-steam-cleaning-over-diy-cleaning-methods"
     }
@@ -57,13 +57,13 @@ const items = [
   />,
   <BlogComp
     title="Why Do You Need Rug Cleaning Experts?"
-    img={require("../../../Assets/Images/Blogs/experts.jpg")}
+    img={require("../../../Assets/Images/Blogs/Pro vs Diy (1).png")}
     link={"/blog/why-do-you-need-rug-cleaning-experts"}
     desc="A trendy addition to any apartment can be a nice looking area rug. By giving"
   />,
   <BlogComp
     title="What is Best for You? Rug Steam, Dry or Traditional Hand Cleaning?"
-    img={require("../../../Assets/Images/Blogs/traditional.jpg")}
+    img={require("../../../Assets/Images/Blogs/Pro vs Diy (2).png")}
     link={
       "/blog/what-is-best-for-you-rug-steam-dry-or-traditional-hand-cleaning"
     }

@@ -110,6 +110,36 @@ li {
   line-height: 3rem;
 }
 
+.carpet_service .main_info .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+@media (max-width: 500px) {
+  .carpet_service .main_info .info {
+    margin-top: 3rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.carpet_service .main_info .info .content {
+  width: 70%;
+}
+
+@media (max-width: 500px) {
+  .carpet_service .main_info .info .content {
+    width: 100%;
+  }
+}
+
 .carpet_service .main_info h3 {
   margin-top: 4rem;
   color: #c2db5d;
