@@ -117,8 +117,8 @@ li {
   display: -ms-grid;
   display: grid;
   gap: 4rem;
-  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   padding: 2rem 10rem;
   margin-bottom: 3rem;
 }

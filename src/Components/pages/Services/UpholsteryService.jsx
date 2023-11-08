@@ -16,6 +16,7 @@ const UpholsteryService = () => {
         sublink="Services"
         sublink2="Upholstery Cleaning Melbourne"
         img={require("../../../Assets/Images/Banner/Upholstery-banner.jpeg")}
+        bkg={require("../../../Assets/Images/Banner/Upholstery-banner.jpeg")}
       />
       <div className="upholstery">
         <div className="heading">

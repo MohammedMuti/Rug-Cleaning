@@ -28,7 +28,9 @@ const Banner = (props) => {
         className="banner"
         style={{
           backgroundImage: `
-          url(${require("../../../Assets/Images/Back/Main/1.jpg")})`,
+          url(${
+            props.bkg || require("../../../Assets/Images/Back/Main/1.jpg")
+          })`,
         }}
       >
         <div className="banner-content">

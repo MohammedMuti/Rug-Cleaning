@@ -78,13 +78,13 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="methods section">
-          <div className="methods heading">
+        <div className="methods">
+          <div className="methods-heading">
             <h2>TYPES OF RUG CLEANING</h2>
           </div>
-          <div className="methods content">
-            <div className="methods info">
-              <div className="methods type">
+          <div className="methods-content">
+            <div className="methods-info">
+              <div className="methods-type">
                 <div className="methods-type-heading">
                   <h2>Factory Deep Washing</h2>
                 </div>
@@ -111,7 +111,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="methods type">
+              <div className="methods-type">
                 <div className="methods-type-heading">
                   <h2>Dry / Steam Cleaning</h2>
                 </div>
@@ -140,7 +140,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="methods type">
+              <div className="methods-type">
                 <div className="methods-type-heading">
                   <h2> Hand Cleaning</h2>
                 </div>
@@ -219,7 +219,7 @@ const Home = () => {
                 </li>
                 <li>
                   <img
-                    src={require("../../../Assets/Images/Icons/economic.png")}
+                    src={require("../../../Assets/Images/Icons/dollar.png")}
                     alt=""
                   />{" "}
                   ECONOMICAL
@@ -253,7 +253,11 @@ const Home = () => {
         </div>
 
         <div className="extra">
-          <div className="extra1 section">
+          <div className="extra1">
+            <img
+              src={require("../../../Assets/Images/Icons/satisfaction.png")}
+              alt=""
+            />
             <h2>Satisfaction Guarantee</h2>
             <p>
               We are passionate about rugs and work hard to beat all our

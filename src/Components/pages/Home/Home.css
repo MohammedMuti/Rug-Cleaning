@@ -284,11 +284,24 @@ li {
   border-radius: 0.5rem;
 }
 
-.home .methods.section {
+.home .methods {
+  padding: 5rem 10%;
   background-color: #eee;
 }
 
-.home .methods.section .methods.heading h2 {
+@media (max-width: 1200px) {
+  .home .methods {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .home .methods {
+    padding: 5rem 2rem;
+  }
+}
+
+.home .methods .methods-heading h2 {
   text-align: center;
   color: #008f34;
   padding: 0.5rem 0rem;
@@ -296,16 +309,16 @@ li {
   font-size: 3.5rem;
 }
 
-.home .methods.section .methods.content .methods.info {
+.home .methods .methods-content .methods-info {
   grid-gap: 2rem;
   display: -ms-grid;
   display: grid;
   gap: 2rem;
-  -ms-grid-columns: (minmax(35rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
-.home .methods.section .methods.content .methods.info .methods.type {
+.home .methods .methods-content .methods-info .methods-type {
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -317,22 +330,22 @@ li {
   min-width: 30rem;
 }
 
-.home .methods.section .methods.content .methods.info .methods.type .methods-type-heading {
+.home .methods .methods-content .methods-info .methods-type .methods-type-heading {
   padding-top: 5rem;
 }
 
-.home .methods.section .methods.content .methods.info .methods.type .methods-type-heading h2 {
+.home .methods .methods-content .methods-info .methods-type .methods-type-heading h2 {
   font-size: 2.5rem;
   text-transform: capitalize;
   color: #008f34;
   text-align: center;
 }
 
-.home .methods.section .methods.content .methods.info .methods.type .methods-type-img {
+.home .methods .methods-content .methods-info .methods-type .methods-type-img {
   padding: 4rem;
 }
 
-.home .methods.section .methods.content .methods.info .methods.type .methods-type-img img {
+.home .methods .methods-content .methods-info .methods-type .methods-type-img img {
   cursor: pointer;
   border-radius: 0.5rem;
   width: 100%;
@@ -341,12 +354,12 @@ li {
   max-height: 36rem;
 }
 
-.home .methods.section .methods.content .methods.info .methods.type .methods-type-img img:hover {
+.home .methods .methods-content .methods-info .methods-type .methods-type-img img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
-.home .methods.section .methods.content .methods.info .methods.type .methods-type-info {
+.home .methods .methods-content .methods-info .methods-type .methods-type-info {
   text-align: justify;
   cursor: pointer;
   padding: 0rem 2rem 2rem 2rem;
@@ -355,14 +368,14 @@ li {
   color: #686868;
 }
 
-.home .methods.section .methods.content .methods.info .methods.type .methods-type-info span {
+.home .methods .methods-content .methods-info .methods-type .methods-type-info span {
   color: #008f34;
   font-size: 2rem;
   line-height: 3rem;
   cursor: pointer;
 }
 
-.home .methods.section .methods.content .methods.info .methods.type .methods-type-info a span {
+.home .methods .methods-content .methods-info .methods-type .methods-type-info a span {
   font-size: 2rem;
   line-height: 3rem;
   color: #008f34;
@@ -502,7 +515,12 @@ li {
   width: 5rem;
   color: #008f34;
   margin-right: 1rem;
-  color: #217e37;
+}
+
+.home .choose_us.section .choose_us.content .choose_us.info ul li svg {
+  font-size: 3rem;
+  color: #008f34;
+  margin-right: 1rem;
 }
 
 .home .choose_us.section .choose_us.content .choose_us.img img {
@@ -510,18 +528,49 @@ li {
 }
 
 .home .extra .extra1 {
-  text-align: center;
+  background-color: #eee;
+  padding: 5rem 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .home .extra .extra1 {
+    padding: 5rem 15%;
+  }
+}
+
+@media (max-width: 800px) {
+  .home .extra .extra1 {
+    padding: 5rem 2rem;
+  }
+}
+
+.home .extra .extra1 img {
+  max-width: 15rem;
 }
 
 .home .extra .extra1 h2 {
+  text-align: center;
   margin-bottom: 2rem;
   font-size: 3rem;
   color: #000;
 }
 
+.home .extra .extra1 p {
+  text-align: center;
+}
+
 .home .extra .extra2 {
   background: url(../../../Assets/Images/Banner/pet-banner.webp);
-  margin-top: 5rem;
 }
 
 .home .extra .extra2 .heading {

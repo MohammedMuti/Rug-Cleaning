@@ -16,7 +16,7 @@ import {
   faMailBulk,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const [firstNameError, setFirstNameError] = useState("");
@@ -357,7 +357,9 @@ const Contact = () => {
             </div>
             <div className="content">
               <span>PHONE</span>
-              <p>1300 360 274</p>
+              <Link to={"tel:1300360274"}>
+                <p>1300 360 274</p>
+              </Link>
             </div>
           </div>
           <div className="info-box">
@@ -366,7 +368,9 @@ const Contact = () => {
             </div>
             <div className="content">
               <span>E-MAIL</span>
-              <p>info@purenbrightcleaning.com.au</p>
+              <Link to={"mailto:info@purenbrightcleaning.com.au"}>
+                <p>info@purenbrightcleaning.com.au</p>
+              </Link>
             </div>
           </div>
         </div>
