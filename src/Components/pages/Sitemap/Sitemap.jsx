@@ -93,6 +93,7 @@ const pages = [
   { title: "Contact", link: "/contact-us" },
   { title: "FAQ", link: "/faq" },
   { title: "Specials", link: "/special-deals" },
+  { title: "NDIS House Cleaning", link: "/ndis-house-cleaning-australia" },
   { title: "Locations", link: "/locations" },
   { title: "Terms and Conditions", link: "/terms-and-conditions" },
 ];
