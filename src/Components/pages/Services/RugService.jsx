@@ -51,6 +51,7 @@ const RugService = () => {
           </Link> */}
         </div>
       </div>
+
       <div className="rug-service reverse">
         <div className="rug-service-img">
           <h2>Steam Carpet</h2>

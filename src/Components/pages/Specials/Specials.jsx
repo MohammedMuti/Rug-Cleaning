@@ -4,6 +4,7 @@ import NavMain from "../../common/navbar/NavMain";
 import Banner from "../../common/Banner/Banner";
 import "./Specials.css";
 import { Link } from "react-router-dom";
+import ContactComp from "../../common/Contact/ContactComponent";
 
 const Specials = () => {
   return (
@@ -69,6 +70,8 @@ const Specials = () => {
           </div>
         </div>
       </div>
+
+      <ContactComp />
 
       <Footer />
     </>

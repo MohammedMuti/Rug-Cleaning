@@ -1,6 +1,7 @@
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Banner from "../../common/Banner/Banner";
+import ContactComp from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
 import NavMain from "../../common/navbar/NavMain";
@@ -142,6 +143,8 @@ const Location = () => {
           })}
         </div>
       </div>
+
+      <ContactComp />
 
       <Footer />
     </>

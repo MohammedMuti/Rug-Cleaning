@@ -66,6 +66,8 @@ li {
 // animation-timing-function: ease-in-out;
 // animation-iteration-count: 1;
 
+// @import "../../common/variables/variables.scss";
+
 @keyframes btn1 {
   16.65% {
     transform: translateX(8px);

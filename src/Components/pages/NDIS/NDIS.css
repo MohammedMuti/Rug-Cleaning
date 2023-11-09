@@ -1,0 +1,417 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+}
+
+p,
+li {
+  color: #686868;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@-webkit-keyframes btn1 {
+  16.65% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes btn1 {
+  16.65% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.change-slide {
+  background: url(../../../Assets/Images/NDIS/ndis-banner.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 10%;
+}
+
+@media (max-width: 1200px) {
+  .change-slide {
+    padding: 5rem 3%;
+  }
+}
+
+@media (max-width: 800px) {
+  .change-slide {
+    padding: 5rem 2rem;
+  }
+}
+
+.change-slide .container-1 {
+  margin-bottom: 4rem;
+}
+
+.change-slide .container-1 h2 {
+  text-align: center;
+  font-size: 4rem;
+  color: #008f34;
+  margin-bottom: 2rem;
+}
+
+.change-slide .container-1 p {
+  text-align: center;
+}
+
+.change-slide .container-2 h2 {
+  text-align: center;
+  font-size: 4rem;
+  color: #008f34;
+  margin-bottom: 2rem;
+}
+
+.change-slide .container-3 .switch {
+  margin-bottom: 4rem;
+  gap: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.change-slide .container-3 .switch .box {
+  cursor: pointer;
+  min-width: 17rem;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+.change-slide .container-3 .switch .box img {
+  width: 8rem;
+  margin-bottom: 2rem;
+}
+
+.change-slide .container-3 .switch .box p {
+  text-align: center;
+  color: black;
+}
+
+.change-slide .container-3 .switch .box.active {
+  background-color: #c2db5d;
+}
+
+.change-slide .container-3 .content {
+  margin: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #008f34;
+}
+
+@media (max-width: 600px) {
+  .change-slide .container-3 .content {
+    margin: 0;
+  }
+}
+
+.change-slide .container-3 .content .info {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 5rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.change-slide .container-3 .content .info h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.change-slide .container-3 .content .info p {
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.change-slide .container-3 .content .info a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid white;
+  border-radius: 4rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.change-slide .container-3 .content .info a:hover {
+  -webkit-animation-name: btn1;
+          animation-name: btn1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.change-slide .container-3 .content .info a span {
+  font-size: 2.2rem;
+  margin-right: 2rem;
+  margin-left: 1rem;
+  color: white;
+}
+
+.change-slide .container-3 .content .info a img {
+  width: 7rem;
+  height: 5rem;
+}
+
+.change-slide .container-3 .content .img {
+  -webkit-clip-path: circle(65% at 65% 50%);
+          clip-path: circle(65% at 65% 50%);
+}
+
+@media (max-width: 1080px) {
+  .change-slide .container-3 .content .img {
+    display: none;
+  }
+}
+
+.change-slide .container-3 .content .img img {
+  max-height: 50rem;
+}
+
+.ndis-main-info {
+  padding: 5rem 13%;
+}
+
+@media (max-width: 1200px) {
+  .ndis-main-info {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .ndis-main-info {
+    padding: 5rem 2rem;
+  }
+}
+
+.ndis-main-info .container-1-wrapper,
+.ndis-main-info .container-3-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 500px) {
+  .ndis-main-info .container-1-wrapper,
+  .ndis-main-info .container-3-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.ndis-main-info .container-1-wrapper .container-1 .heading,
+.ndis-main-info .container-1-wrapper .container-3 .heading,
+.ndis-main-info .container-3-wrapper .container-1 .heading,
+.ndis-main-info .container-3-wrapper .container-3 .heading {
+  margin-bottom: 2rem;
+}
+
+.ndis-main-info .container-1-wrapper .container-1 .heading p,
+.ndis-main-info .container-1-wrapper .container-3 .heading p,
+.ndis-main-info .container-3-wrapper .container-1 .heading p,
+.ndis-main-info .container-3-wrapper .container-3 .heading p {
+  font-weight: 550;
+}
+
+.ndis-main-info .container-1-wrapper .container-1 .content,
+.ndis-main-info .container-1-wrapper .container-3 .content,
+.ndis-main-info .container-3-wrapper .container-1 .content,
+.ndis-main-info .container-3-wrapper .container-3 .content {
+  display: inline;
+}
+
+.ndis-main-info .container-1-wrapper .container-1 .content span,
+.ndis-main-info .container-1-wrapper .container-3 .content span,
+.ndis-main-info .container-3-wrapper .container-1 .content span,
+.ndis-main-info .container-3-wrapper .container-3 .content span {
+  font-size: inherit;
+  color: #008f34;
+}
+
+.ndis-main-info .container-1-wrapper .container-1 .content img,
+.ndis-main-info .container-1-wrapper .container-3 .content img,
+.ndis-main-info .container-3-wrapper .container-1 .content img,
+.ndis-main-info .container-3-wrapper .container-3 .content img {
+  width: 30rem;
+  float: right;
+  padding: 2rem;
+}
+
+@media (max-width: 500px) {
+  .ndis-main-info .container-1-wrapper .container-1 .content img,
+  .ndis-main-info .container-1-wrapper .container-3 .content img,
+  .ndis-main-info .container-3-wrapper .container-1 .content img,
+  .ndis-main-info .container-3-wrapper .container-3 .content img {
+    float: right;
+    padding-left: 2rem;
+    width: 100%;
+  }
+}
+
+.ndis-main-info .container-1-wrapper .container-1 ul,
+.ndis-main-info .container-1-wrapper .container-3 ul,
+.ndis-main-info .container-3-wrapper .container-1 ul,
+.ndis-main-info .container-3-wrapper .container-3 ul {
+  margin-left: 3rem;
+}
+
+.ndis-main-info .container-1-wrapper .container-3-img,
+.ndis-main-info .container-3-wrapper .container-3-img {
+  margin-top: 4rem;
+}
+
+.ndis-main-info .container-1-wrapper .container-3-img img,
+.ndis-main-info .container-3-wrapper .container-3-img img {
+  width: 30rem;
+}
+
+.ndis-main-info .container-1-wrapper .container-1-img,
+.ndis-main-info .container-3-wrapper .container-1-img {
+  margin-top: 4rem;
+}
+
+@media (max-width: 500px) {
+  .ndis-main-info .container-1-wrapper .container-1-img,
+  .ndis-main-info .container-3-wrapper .container-1-img {
+    margin-top: 0rem;
+  }
+}
+
+.ndis-main-info .container-2-wrapper {
+  margin-bottom: 3rem;
+}
+
+.ndis-main-info .container-2-wrapper .heading {
+  margin-bottom: 1rem;
+}
+
+.ndis-main-info .container-2-wrapper .heading p {
+  font-weight: 550;
+}
+
+.ndis-img {
+  padding: 5rem 15%;
+}
+
+@media (max-width: 1200px) {
+  .ndis-img {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .ndis-img {
+    padding: 5rem 2rem;
+  }
+}
+
+.ndis-img .img-1 {
+  margin-bottom: 3rem;
+}
+
+.ndis-img .img-2 h2 {
+  color: #008f34;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=NDIS.css.map */

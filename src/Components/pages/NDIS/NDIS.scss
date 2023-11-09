@@ -1,0 +1,243 @@
+@import "../../common/variables/variables.scss";
+
+.change-slide {
+  background: url(../../../Assets/Images/NDIS/ndis-banner.webp);
+  background-size: cover;
+  background-position: center;
+  padding: 5rem 10%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 3%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+  .container-1 {
+    margin-bottom: 4rem;
+    h2 {
+      text-align: center;
+      font-size: 4rem;
+      color: $main-l;
+      margin-bottom: 2rem;
+    }
+    p {
+      text-align: center;
+    }
+  }
+  .container-2 {
+    h2 {
+      text-align: center;
+      font-size: 4rem;
+      color: $main-l;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .container-3 {
+    .switch {
+      margin-bottom: 4rem;
+      gap: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .box {
+        cursor: pointer;
+        min-width: 17rem;
+        background-color: white;
+        // max-height: 15rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        img {
+          width: 8rem;
+          margin-bottom: 2rem;
+        }
+
+        p {
+          text-align: center;
+          color: black;
+        }
+
+        &.active {
+          background-color: #c2db5d;
+        }
+      }
+    }
+
+    .content {
+      //   cursor: grab;
+      //   max-height: 50rem;
+      margin: 3rem;
+      @media (max-width: 600px) {
+        margin: 0;
+      }
+      display: flex;
+      align-items: center;
+      background-color: $main-l;
+      .info {
+        flex: 1;
+        padding: 5rem 4rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h2 {
+          text-align: center;
+          color: white;
+          margin-bottom: 2rem;
+        }
+
+        p {
+          color: white;
+          text-align: center;
+          margin-bottom: 3rem;
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+          border: 1px solid white;
+          border-radius: 4rem;
+          width: fit-content;
+
+          &:hover {
+            animation-name: btn1;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 1;
+          }
+
+          span {
+            font-size: 2.2rem;
+            margin-right: 2rem;
+            margin-left: 1rem;
+            color: white;
+          }
+          img {
+            width: 7rem;
+            height: 5rem;
+          }
+        }
+      }
+
+      .img {
+        @media (max-width: 1080px) {
+          display: none;
+        }
+        // max-width: 50%;
+        clip-path: circle(65% at 65% 50%);
+        img {
+          max-height: 50rem;
+        }
+      }
+    }
+  }
+}
+
+.ndis-main-info {
+  padding: 5rem 13%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+  .container-1-wrapper,
+  .container-3-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-bottom: 3rem;
+
+    @media (max-width: 500px) {
+      flex-direction: column-reverse;
+    }
+
+    .container-1,
+    .container-3 {
+      .heading {
+        margin-bottom: 2rem;
+        p {
+          font-weight: 550;
+        }
+      }
+
+      .content {
+        display: inline;
+        span {
+          font-size: inherit;
+          color: $main-l;
+        }
+        img {
+          width: 30rem;
+          float: right;
+          padding: 2rem;
+
+          @media (max-width: 500px) {
+            float: right;
+            padding-left: 2rem;
+            width: 100%;
+          }
+        }
+      }
+
+      ul {
+        margin-left: 3rem;
+      }
+    }
+
+    .container-3-img {
+      margin-top: 4rem;
+      img {
+        width: 30rem;
+      }
+    }
+
+    .container-1-img {
+      @media (max-width: 500px) {
+        margin-top: 0rem;
+      }
+      margin-top: 4rem;
+      img {
+        // width: 30rem;
+      }
+    }
+  }
+
+  .container-2-wrapper {
+    margin-bottom: 3rem;
+    .heading {
+      margin-bottom: 1rem;
+      p {
+        font-weight: 550;
+      }
+    }
+  }
+}
+
+.ndis-img {
+  padding: 5rem 15%;
+
+  @media (max-width: 1200px) {
+    padding: 5rem 7%;
+  }
+  @media (max-width: 800px) {
+    padding: 5rem 2rem;
+  }
+  .img-1 {
+    margin-bottom: 3rem;
+    img {
+    }
+  }
+
+  .img-2 {
+    h2 {
+      color: $main-l;
+      text-align: center;
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+    }
+  }
+}

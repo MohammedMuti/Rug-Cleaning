@@ -23,6 +23,7 @@ import Location from "./Components/pages/Location/Location";
 import ScrollToTop from "./Components/common/Scroll/ScrollToTop";
 import Sitemap from "./Components/pages/Sitemap/Sitemap";
 import NotFound from "./Components/pages/404/NotFound";
+import NDIS from "./Components/pages/NDIS/NDIS";
 
 function App() {
   return (
@@ -43,6 +44,13 @@ function App() {
 
           {/* SiteMap */}
           <Route exact path="/sitemap" element={<Sitemap />} />
+
+          {/* NDIS */}
+          <Route
+            exact
+            path="/ndis-house-cleaning-australia"
+            element={<NDIS />}
+          />
 
           {/* Gallery */}
           <Route exact path="/gallery" element={<Gallery />} />
