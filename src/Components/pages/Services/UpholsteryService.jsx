@@ -6,10 +6,16 @@ import Navbar from "../../common/navbar/navbar";
 import NavMain from "../../common/navbar/NavMain";
 import "./UpholsteryService.css";
 import ReactReadMoreReadLess from "react-read-more-read-less";
+import { Helmet } from "react-helmet";
 
 const UpholsteryService = () => {
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <NavMain />
       <Navbar />
       <Banner

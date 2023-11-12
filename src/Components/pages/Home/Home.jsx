@@ -8,12 +8,18 @@ import Typewriter from "react-ts-typewriter";
 import "./Home.css";
 import { Link } from "react-router-dom";
 import ReactReadMoreReadLess from "react-read-more-read-less";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   // window.location.reload(false);
+  document.title = "Rug Cleaning Melbourne";
 
   return (
     <>
+      <Helmet>
+        <meta name="description" content="Rug CLeaning Melbourne" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <NavMain />
       <Navbar />
       <div className="home">
@@ -133,9 +139,8 @@ const Home = () => {
                     includes pre-spray, agitation, scrubbing and hot water
                     extraction, followed by sanitising which allows us to safely
                     remove dirt and stains, leaving behind a clean area rug and
-                    no residue. For more information feel free to send us a
-                    message +61 490255640 or an email at
-                    info@purenbrightcleaning.com.au
+                    no residue. For more information feel free to send us an
+                    email at info@purenbrightcleaning.com.au
                   </ReactReadMoreReadLess>
                 </div>
               </div>

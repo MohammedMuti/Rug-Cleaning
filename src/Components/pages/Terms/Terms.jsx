@@ -5,10 +5,16 @@ import Footer from "../../common/Footer/Footer";
 import ContactComp from "../../common/Contact/ContactComponent";
 import NavMain from "../../common/navbar/NavMain";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Terms = () => {
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <Navbar />
       <NavMain />
       <Banner

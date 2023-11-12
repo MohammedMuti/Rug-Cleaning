@@ -5,10 +5,16 @@ import Banner from "../../common/Banner/Banner";
 import "./Specials.css";
 import { Link } from "react-router-dom";
 import ContactComp from "../../common/Contact/ContactComponent";
+import { Helmet } from "react-helmet";
 
 const Specials = () => {
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <NavMain />
       <Navbar />
       <Banner sublink="speacial deals" title="speacial deals" />

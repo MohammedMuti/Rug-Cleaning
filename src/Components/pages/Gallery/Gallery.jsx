@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Banner from "../../common/Banner/Banner";
 import ContactComp from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
@@ -7,8 +8,13 @@ import "./Gallery.css";
 import GalleryComp from "./GalleryComp";
 
 const Gallery = () => {
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <Navbar />
       <NavMain />
       <Banner

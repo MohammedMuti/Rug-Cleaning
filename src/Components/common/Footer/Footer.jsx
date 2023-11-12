@@ -278,7 +278,7 @@ const Footer = () => {
         </div>
 
         <div className="whatsapp-button">
-          <Link to={"https://wa.me/61424130610"}>
+          <Link target={"_blank"} to={"https://wa.me/61424130610"}>
             <i class="fa-brands fa-whatsapp"></i>
           </Link>
         </div>

@@ -17,6 +17,7 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const [firstNameError, setFirstNameError] = useState("");
@@ -227,8 +228,13 @@ const Contact = () => {
     // console.log("Captcha value:", value);
   }
 
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <Navbar />
       <NavMain />
       <Banner

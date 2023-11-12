@@ -5,10 +5,16 @@ import Navbar from "../../common/navbar/navbar";
 import FAQComp from "./FAQComp";
 import ContactComp from "../../common/Contact/ContactComponent";
 import NavMain from "../../common/navbar/NavMain";
+import { Helmet } from "react-helmet";
 
 const FAQ = () => {
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <Navbar />
       <NavMain />
       <Banner

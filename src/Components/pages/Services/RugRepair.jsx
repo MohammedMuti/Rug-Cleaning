@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Banner from "../../common/Banner/Banner";
 import ContactComp from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
@@ -7,8 +8,13 @@ import Helped from "./Helped";
 import "./RugService.css";
 
 const RugRepair = () => {
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <Navbar />
       <Banner sublink={"Services"} sublink2={"Rug Repair Melbourne"} />
       <div className="rug-service">

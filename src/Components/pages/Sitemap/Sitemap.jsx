@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import Banner from "../../common/Banner/Banner";
 import Footer from "../../common/Footer/Footer";
@@ -93,14 +94,22 @@ const pages = [
   { title: "Contact", link: "/contact-us" },
   { title: "FAQ", link: "/faq" },
   { title: "Specials", link: "/special-deals" },
-  { title: "NDIS House Cleaning", link: "/ndis-house-cleaning-australia" },
+  {
+    title: "NDIS House Cleaning",
+    link: "/services/ndis-house-cleaning-australia",
+  },
   { title: "Locations", link: "/locations" },
   { title: "Terms and Conditions", link: "/terms-and-conditions" },
 ];
 
 const Sitemap = () => {
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <NavMain />
       <Navbar />
       <Banner sublink="sitemap" title="Sitemap" />

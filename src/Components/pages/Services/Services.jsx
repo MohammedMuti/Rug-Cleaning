@@ -6,10 +6,16 @@ import "./Services.css";
 import ServiceComp from "./ServiceComp";
 import { Link } from "react-router-dom";
 import NavMain from "../../common/navbar/NavMain";
+import { Helmet } from "react-helmet";
 
 const Services = () => {
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="Rug CLeaning Melbourne" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <Navbar />
       <NavMain />
       <Banner

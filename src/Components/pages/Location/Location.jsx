@@ -1,5 +1,6 @@
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Helmet } from "react-helmet";
 import Banner from "../../common/Banner/Banner";
 import ContactComp from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
@@ -122,8 +123,13 @@ let data = [
 ];
 
 const Location = () => {
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <Navbar />
       <NavMain />
       <Banner sublink="locations" />

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import Banner from "../../common/Banner/Banner";
 import ContactComp from "../../common/Contact/ContactComponent";
@@ -24,11 +25,16 @@ const content = [
 
 const NDIS = () => {
   const [active, setActive] = useState("rug");
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <NavMain />
       <Navbar />
-      <Banner sublink="NDIS house cleaning" title="" />
+      <Banner sublink="services" sublink2="NDIS house cleaning" title="" />
 
       <div className="rug-service">
         <div className="rug-service-img">

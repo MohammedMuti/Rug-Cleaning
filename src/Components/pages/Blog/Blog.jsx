@@ -9,6 +9,7 @@ import ReactPaginate from "react-paginate";
 // import "bootstrap/dist/css/bootstrap.min.css";
 
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 const items = [
   <BlogComp
@@ -125,8 +126,13 @@ function PaginatedItems({ itemsPerPage }) {
 
 const Blog = () => {
   document.getElementById("container");
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <Navbar />
       <NavMain />
       <Banner

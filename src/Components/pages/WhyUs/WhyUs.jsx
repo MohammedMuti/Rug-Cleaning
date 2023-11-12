@@ -8,10 +8,16 @@ import { faChevronCircleDown, faStar } from "@fortawesome/free-solid-svg-icons";
 import ContactComp from "../../common/Contact/ContactComponent";
 import img from "../../../Assets/Images/Banner/why-banner.webp";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const WhyUs = () => {
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <NavMain />
       <Navbar />
       {/* <img src={img} alt="" /> */}

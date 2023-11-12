@@ -45,13 +45,6 @@ function App() {
           {/* SiteMap */}
           <Route exact path="/sitemap" element={<Sitemap />} />
 
-          {/* NDIS */}
-          <Route
-            exact
-            path="/ndis-house-cleaning-australia"
-            element={<NDIS />}
-          />
-
           {/* Gallery */}
           <Route exact path="/gallery" element={<Gallery />} />
           {/* carpet gallery */}
@@ -110,6 +103,12 @@ function App() {
             exact
             path="/services/rug-repair-melbourne"
             element={<RugRepair />}
+          />
+          {/* NDIS */}
+          <Route
+            exact
+            path="/services/ndis-house-cleaning-australia"
+            element={<NDIS />}
           />
 
           {/* Thank You */}

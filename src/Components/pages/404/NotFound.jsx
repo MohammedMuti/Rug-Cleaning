@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
 import NavMain from "../../common/navbar/NavMain";
 import "./NotFound.css";
@@ -97,8 +98,13 @@ const NotFound = () => {
     { title: "Terms and Conditions", link: "/terms-and-conditions" },
   ];
 
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <NavMain bgc="transparent" />
       <div className="not-found">
         <div className="content">

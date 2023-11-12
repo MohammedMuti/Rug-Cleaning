@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { Link, useLocation } from "react-router-dom";
 import Banner from "../../common/Banner/Banner";
 import BlogPage from "./BlogPage";
@@ -5,8 +6,13 @@ import BlogPage from "./BlogPage";
 const BlogPageComp = () => {
   const path = useLocation();
 
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       {path?.pathname === "/blog/sheep-skin-rug-cleaning" ? (
         <BlogPage
           title={"Sheep Skin Rug Cleaning"}

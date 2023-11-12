@@ -5,6 +5,7 @@ import Footer from "../../common/Footer/Footer";
 import NavMain from "../../common/navbar/NavMain";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Thank = () => {
   const navigate = useNavigate();
@@ -18,8 +19,13 @@ const Thank = () => {
     navigation();
   }, []);
 
+  document.title = "Rug Cleaning Melbourne";
   return (
     <>
+      <Helmet>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <NavMain />
       <Navbar />
       <Banner sublink="Thank-You" />

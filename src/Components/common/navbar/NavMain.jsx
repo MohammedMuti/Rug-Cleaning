@@ -120,6 +120,10 @@ const NavMain = (props) => {
                       name: "Upholstery Cleaning",
                       link: "/services/upholstery-cleaning-melbourne",
                     },
+                    {
+                      name: "NDIS House Cleaning",
+                      link: "/services/ndis-house-cleaning-australia",
+                    },
                   ]}
                 />
                 <Link
@@ -271,6 +275,22 @@ const NavMain = (props) => {
                       icon={faArrowRight}
                     />{" "}
                     Upholstery Cleaning
+                  </li>
+                </Link>
+                <Link
+                  to={"/services/ndis-house-cleaning-australia"}
+                  className={
+                    path === "/services/ndis-house-cleaning-australia"
+                      ? "link active"
+                      : "link"
+                  }
+                >
+                  <li>
+                    <FontAwesomeIcon
+                      className="rightIcon"
+                      icon={faArrowRight}
+                    />{" "}
+                    NDIS House Cleaning
                   </li>
                 </Link>
               </ul>
