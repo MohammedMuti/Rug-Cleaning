@@ -1,5 +1,10 @@
 import Home from "./Components/pages/Home/Home";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 import Contact from "./Components/pages/Contact/Contact";
 import FAQ from "./Components/pages/FAQ/FAQ";
 import Blog from "./Components/pages/Blog/Blog";
@@ -119,6 +124,11 @@ function App() {
 
           {/* Blog  */}
           <Route exact path="/blog" element={<Blog />} />
+          <Route
+            exact
+            path="/category/rug-cleaning"
+            element={<Navigate to={"/blog"} />}
+          />
 
           <Route
             exact
