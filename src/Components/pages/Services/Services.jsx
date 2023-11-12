@@ -52,8 +52,8 @@ const Services = () => {
           <Link to={"/services/ndis-house-cleaning-australia"}>
             <ServiceComp
               title="NDIS House Cleaning"
-              info="UPHOLSTERY/SOFA CLEANING MELBOURNE Pure N Bright Carpet Cleaning"
-              img={require("../../../Assets/Images/Banner/Upholstery-banner.jpeg")}
+              info="NDIS HOUSE CLEANING MELBOURNE Pure N Bright Carpet Cleaning"
+              img={require("../../../Assets/Images/Services/house-cleaning.PNG")}
             />
           </Link>
         </div>

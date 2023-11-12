@@ -18,6 +18,10 @@ const pages = [
         title: "Upholstery Cleaning",
         link: "/services/upholstery-cleaning-melbourne",
       },
+      {
+        title: "NDIS House Cleaning",
+        link: "/services/ndis-house-cleaning-australia",
+      },
     ],
   },
   {
@@ -43,6 +47,10 @@ const pages = [
       {
         title: "Tile and Grout Cleaning Gallery Album",
         link: "/gallery/tile-grout-cleaning-gallery",
+      },
+      {
+        title: "Mattress Cleaning Gallery Album",
+        link: "/gallery/mattress-cleaning-gallery",
       },
     ],
   },
@@ -95,10 +103,36 @@ const pages = [
   { title: "FAQ", link: "/faq" },
   { title: "Specials", link: "/special-deals" },
   {
-    title: "NDIS House Cleaning",
-    link: "/services/ndis-house-cleaning-australia",
+    title: "Locations",
+    link: "/locations",
+    sub: [
+      {
+        title: "Carpet Cleaning Dandenong",
+        link: "/locations/carpet-cleaning-dandenong",
+      },
+      {
+        title: "Carpet Cleaning Pakenham",
+        link: "/locations/carpet-cleaning-pakenham",
+      },
+      {
+        title: "Carpet Cleaning Truganina",
+        link: "/locations/carpet-cleaning-truganina",
+      },
+      {
+        title: "Carpet Cleaning Lynbrook",
+        link: "/locations/carpet-cleaning-lynbrook",
+      },
+      {
+        title: "Carpet Cleaning Cranbourne",
+        link: "/locations/carpet-cleaning-cranbourne",
+      },
+      {
+        title: "Carpet Cleaning Narre Warren",
+        link: "/locations/carpet-cleaning-narre-warren",
+      },
+    ],
   },
-  { title: "Locations", link: "/locations" },
+
   { title: "Terms and Conditions", link: "/terms-and-conditions" },
 ];
 

@@ -1,0 +1,141 @@
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: #ffcf60;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ffb400;
+}
+
+p,
+li {
+  color: #686868;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@-webkit-keyframes btn1 {
+  16.65% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes btn1 {
+  16.65% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+            transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+            transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.location-comp {
+  padding: 5rem 15%;
+}
+
+@media (max-width: 1200px) {
+  .location-comp {
+    padding: 5rem 7%;
+  }
+}
+
+@media (max-width: 800px) {
+  .location-comp {
+    padding: 5rem 2rem;
+  }
+}
+
+.location-comp .heading {
+  margin-bottom: 3rem;
+}
+
+.location-comp .heading h2 {
+  color: #008f34;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.location-comp .content p {
+  margin-bottom: 1.5rem;
+}
+
+.location-comp .content p strong {
+  font-size: inherit;
+}
+
+.location-comp .content p a {
+  color: #008f34;
+}
+
+.location-comp .gallery-sub {
+  padding: 0;
+  padding-top: 3rem;
+}
+
+.location-comp .gallery-sub p {
+  font-size: 3.5rem;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.location-comp .gallery-sub .gallery-sub-img ._30i9K {
+  grid-gap: 2rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 2rem;
+  -ms-grid-columns: (minmax(35rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+}
+
+.location-comp .gallery-sub .gallery-sub-img img {
+  width: 100%;
+}
+/*# sourceMappingURL=LocationComp.css.map */

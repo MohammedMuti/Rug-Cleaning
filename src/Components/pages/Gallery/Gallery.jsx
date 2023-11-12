@@ -53,6 +53,11 @@ const Gallery = () => {
             img={require("../../../Assets/Images/Gallery/tile-cleaning-album.webp")}
             link="/gallery/tile-grout-cleaning-gallery"
           />
+          <GalleryComp
+            title="Mattress Cleaning"
+            img={require("../../../Assets/Images/Gallery/tile-cleaning-album.webp")}
+            link="/gallery/mattress-cleaning-gallery"
+          />
         </div>
       </div>
       <ContactComp />

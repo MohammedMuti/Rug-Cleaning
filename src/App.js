@@ -29,6 +29,14 @@ import ScrollToTop from "./Components/common/Scroll/ScrollToTop";
 import Sitemap from "./Components/pages/Sitemap/Sitemap";
 import NotFound from "./Components/pages/404/NotFound";
 import NDIS from "./Components/pages/NDIS/NDIS";
+import MattressGallery from "./Components/pages/Gallery/Mattress";
+import LocationComp from "./Components/pages/Location/LocationComp";
+import Dandenong from "./Components/pages/Location/Dandenong";
+import Pakenham from "./Components/pages/Location/Pakenham";
+import Truganina from "./Components/pages/Location/Truganina";
+import Lynbrook from "./Components/pages/Location/Lynbrook";
+import Cranbourne from "./Components/pages/Location/Cranbourne";
+import Narre from "./Components/pages/Location/Narre";
 
 function App() {
   return (
@@ -46,6 +54,42 @@ function App() {
 
           {/* Location */}
           <Route exact path="/locations" element={<Location />} />
+          {/* Dandenong */}
+          <Route
+            exact
+            path="/locations/carpet-cleaning-dandenong"
+            element={<Dandenong />}
+          />
+          {/* Pakenham */}
+          <Route
+            exact
+            path="/locations/carpet-cleaning-pakenham"
+            element={<Pakenham />}
+          />
+          {/* Truganina */}
+          <Route
+            exact
+            path="/locations/carpet-cleaning-truganina"
+            element={<Truganina />}
+          />
+          {/* Lynbrook */}
+          <Route
+            exact
+            path="/locations/carpet-cleaning-lynbrook"
+            element={<Lynbrook />}
+          />
+          {/* Cranbourne */}
+          <Route
+            exact
+            path="/locations/carpet-cleaning-cranbourne"
+            element={<Cranbourne />}
+          />
+          {/* Narre Warren */}
+          <Route
+            exact
+            path="/locations/carpet-cleaning-narre-warren"
+            element={<Narre />}
+          />
 
           {/* SiteMap */}
           <Route exact path="/sitemap" element={<Sitemap />} />
@@ -81,6 +125,12 @@ function App() {
             exact
             path="/gallery/tile-grout-cleaning-gallery"
             element={<TilesGallery />}
+          />
+          {/* Mattress gallery */}
+          <Route
+            exact
+            path="/gallery/mattress-cleaning-gallery"
+            element={<MattressGallery />}
           />
 
           {/* Services */}
