@@ -49,6 +49,13 @@ const Services = () => {
               img={require("../../../Assets/Images/Banner/Upholstery-banner.jpeg")}
             />
           </Link>
+          <Link to={"/services/ndis-house-cleaning-australia"}>
+            <ServiceComp
+              title="NDIS House Cleaning"
+              info="UPHOLSTERY/SOFA CLEANING MELBOURNE Pure N Bright Carpet Cleaning"
+              img={require("../../../Assets/Images/Banner/Upholstery-banner.jpeg")}
+            />
+          </Link>
         </div>
       </div>
       <ContactComp />
