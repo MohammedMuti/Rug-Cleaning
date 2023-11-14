@@ -202,6 +202,12 @@ const Footer = () => {
                     Cleaning
                   </Link>
                 </li>
+                <li>
+                  <Link to={"/services/ndis-house-cleaning-australia"}>
+                    <FontAwesomeIcon icon={faAngleDoubleRight} /> NDIS House
+                    Cleaning
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
