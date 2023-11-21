@@ -46,7 +46,7 @@ const Footer = () => {
 
     // if (validation === true) {
     const responsetoself = await axios(
-      "https://rug-cleaning-service.onrender.com/sendToUser",
+      "https://rug-cleaning-service.onrender.com/sendEmailToUser",
       {
         method: "POST",
         headers: {

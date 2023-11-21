@@ -22,11 +22,6 @@ const BlogPageComp = () => {
                 needs a groom to keep it soft, fluffy and beautiful.
               </p>
               <p>
-                The sheepskin rug that lies in your home, whether it is in the
-                living, in your bedroom, or someplace else where you love it,
-                needs a groom to keep it soft, fluffy and beautiful.
-              </p>
-              <p>
                 We ensure that your rug is in great care, and providing a
                 regular wash for it not only restores it to its best self every
                 time, but makes sure that it stays with you in the best
