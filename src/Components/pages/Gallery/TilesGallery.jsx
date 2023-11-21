@@ -7,11 +7,15 @@ import NavMain from "../../common/navbar/NavMain";
 import GallerySubComp from "./GallerySubComp";
 
 const TilesGallery = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title =
+    "Tile And Grout Cleaning Gallery Album - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Tile And Grout Cleaning Gallery Album - Checkout Our Recent Before / After Carpet Cleaning Work."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <Navbar />

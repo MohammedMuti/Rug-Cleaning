@@ -6,6 +6,8 @@ const Narre = () => {
     <>
       <LocationComp
         title="Carpet Cleaning Narre Warren"
+        pagetitle="Carpet Cleaning Narre Warren, Call Your Nearest Carpet Cleaner in Narre Warren"
+        desc="Carpet Cleaning Narre Warren - Call your nearest carpet cleaning specialists, for all your cheap carpet cleaning services in Narre Warren & surrounding areas."
         images={[
           {
             src: require("../../../Assets/Images/Location/Narre/1.webp"),

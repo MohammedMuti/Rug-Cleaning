@@ -9,11 +9,15 @@ import NavMain from "../../common/navbar/NavMain";
 import { Helmet } from "react-helmet";
 
 const Services = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title =
+    "Domestic & Commercial Cleaning Service in Melbourne - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="Rug CLeaning Melbourne" />
+        <meta
+          name="description"
+          content="Pure N Bright Cleaning Services Company is your one stop solution for all your carpet, mattress, rug, upholstery, office, leather, tile & grout cleaning needs."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <Navbar />

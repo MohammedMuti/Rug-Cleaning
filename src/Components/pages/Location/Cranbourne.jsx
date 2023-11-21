@@ -6,6 +6,8 @@ const Cranbourne = () => {
     <>
       <LocationComp
         title="Carpet Cleaning Cranbourne"
+        pagetitle="Carpet Cleaning Cranbourne East, West, South and North"
+        desc="Carpet Cleaning Cranbourne - We provide same day carpet cleaning services in Cranbourne East, Cranbourne West, Cranbourne North and South & nearby suburbs."
         content={
           <>
             <p>

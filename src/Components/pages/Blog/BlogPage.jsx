@@ -1,5 +1,6 @@
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Helmet } from "react-helmet";
 import { Link, useLocation } from "react-router-dom";
 import Banner from "../../common/Banner/Banner";
 import ContactComp from "../../common/Contact/ContactComponent";
@@ -74,9 +75,14 @@ const items = [
 
 const BlogPage = (props) => {
   const { pathname } = useLocation();
+  document.title = `${props.pagetitle} - Blog`;
 
   return (
     <>
+      <Helmet>
+        <meta name="description" content={props.desc} />
+        <meta name="keywords" content="" />
+      </Helmet>
       <Navbar />
       <NavMain />
       <Banner

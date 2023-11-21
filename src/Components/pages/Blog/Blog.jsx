@@ -126,11 +126,14 @@ function PaginatedItems({ itemsPerPage }) {
 
 const Blog = () => {
   document.getElementById("container");
-  document.title = "Rug Cleaning Melbourne";
+  document.title = "Blog - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="For a news and update, Please visit our blog page or call us on 1300 360 274"
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <Navbar />

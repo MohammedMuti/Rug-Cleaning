@@ -8,11 +8,14 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 const Terms = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title = "Terms & Conditions - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Please read all terms and conditions carefully before making any booking through Pure N Bright Cleaning website."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <Navbar />

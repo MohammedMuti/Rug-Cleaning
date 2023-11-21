@@ -228,11 +228,14 @@ const Contact = () => {
     // console.log("Captcha value:", value);
   }
 
-  document.title = "Rug Cleaning Melbourne";
+  document.title = "Contact Us - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="We offer carpet cleaning, upholstery & leather cleaning, mattress cleaning, tile & grout cleaning at best prices in Melbourne. Get A Free Quote 1300 360 274"
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <Navbar />

@@ -12,11 +12,15 @@ import Benefit from "./Benefit";
 import "./CarpetService.css";
 
 const CarpetService = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title =
+    "Carpet Cleaning Melbourne | Cheap & Professional Steam Carpet Cleaning in Melbourne";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Carpet Cleaning Melbourne - We offer cheap & professional carpet cleaning services in Melbourne. 3 rooms carpet steam cleaning at $59*. Call 1300 360 274."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <Navbar />

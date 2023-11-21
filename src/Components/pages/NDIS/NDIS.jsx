@@ -25,11 +25,15 @@ const content = [
 
 const NDIS = () => {
   const [active, setActive] = useState("rug");
-  document.title = "Rug Cleaning Melbourne";
+  document.title =
+    "NDIS House Cleaning Services Melbourne | Hire Today - purenbrightcleaning.com.au";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Steam Carpet Cleaning Melbourne - We offer cheap dry & steam carpet cleaning services in Pakenham & other Melbourne suburbs. Same day carpet cleaning services, Call 1300 360 274."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <NavMain />

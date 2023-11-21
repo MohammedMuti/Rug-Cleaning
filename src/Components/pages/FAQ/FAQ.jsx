@@ -8,11 +8,14 @@ import NavMain from "../../common/navbar/NavMain";
 import { Helmet } from "react-helmet";
 
 const FAQ = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title = "FAQ (Frequently Asked Questions) - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Get the answers to some of the most frequently asked questions of Pure N Bright Cleaning. For more information, refer to the relevant services on website."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <Navbar />

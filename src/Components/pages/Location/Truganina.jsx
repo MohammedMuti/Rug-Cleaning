@@ -6,6 +6,8 @@ const Truganina = () => {
     <>
       <LocationComp
         title="Carpet Cleaning Truganina"
+        pagetitle="Carpet Cleaning Truganina - Call Your Nearest Carpet Cleaner"
+        desc="Carpet Cleaning Truganina - We offer professional carpet cleaning service in Truganina, Call your nearest carpet cleaning specialists for same day services."
         content={
           <>
             <p>

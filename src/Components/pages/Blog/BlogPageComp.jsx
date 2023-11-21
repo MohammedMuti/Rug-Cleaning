@@ -6,15 +6,12 @@ import BlogPage from "./BlogPage";
 const BlogPageComp = () => {
   const path = useLocation();
 
-  document.title = "Rug Cleaning Melbourne";
   return (
     <>
-      <Helmet>
-        <meta name="description" content="" />
-        <meta name="keywords" content="" />
-      </Helmet>
       {path?.pathname === "/blog/sheep-skin-rug-cleaning" ? (
         <BlogPage
+          pagetitle="Sheep Skin Rug Cleaning"
+          desc="The sheepskin rug that lies in your home, whether it is in the living, in your bedroom, or someplace else where you love it, needs a groom to keep it soft, fluffy and beautiful."
           title={"Sheep Skin Rug Cleaning"}
           img={require(`../../../Assets/Images/Blogs/steps-to-clean-sheepskin-rug.png`)}
           content={
@@ -50,6 +47,9 @@ const BlogPageComp = () => {
 
       {path?.pathname === "/blog/how-to-use-baking-soda-for-rug-cleaning" ? (
         <BlogPage
+          pagetitle="How to use baking soda for rug cleaning"
+          desc="Professional rug cleaners have their own set of tools and techniques to clean rugs using
+          baking soda. Learn about them here!"
           title={"How to use baking soda for rug cleaning"}
           img={require(`../../../Assets/Images/Blogs/baking-soda-rug-cleaning-melbourne.png`)}
           content={
@@ -135,6 +135,10 @@ const BlogPageComp = () => {
 
       {path?.pathname === "/blog/rug-cleaning-vs-carpet-cleaning" ? (
         <BlogPage
+          pagetitle="Rug Cleaning vs Carpet Cleaning"
+          desc="Many people think that Rugs and carpets are the same thing and
+          wash exactly in the same procedure. But the process of cleaning
+          the rugs and carpets differs."
           title={"Rug Cleaning vs Carpet Cleaning"}
           img={require(`../../../Assets/Images/Blogs/cold, smooth & tasty..png`)}
           content={
@@ -272,6 +276,9 @@ const BlogPageComp = () => {
 
       {path?.pathname === "/blog/why-do-I-need-a-professional-rug-cleaner" ? (
         <BlogPage
+          pagetitle="Why do I need a professional rug cleaner"
+          desc="If your rug is dirt and unclean, Hire a professional rug cleaner in Melbourne to shine your rug again – It best Rug pickup and cleaner in
+          Melbourne."
           title={"Why do I need a professional rug cleaner?"}
           img={require(`../../../Assets/Images/Blogs/cold, smooth & tasty. (1).png`)}
           content={
@@ -419,6 +426,10 @@ const BlogPageComp = () => {
 
       {path?.pathname === "/blog/tips-for-cleaning-cowhide-rug" ? (
         <BlogPage
+          pagetitle="TIPS for cleaning cowhide Rug"
+          desc="A Cowhide Rug is the complete skin and hair of a cow, cured
+          using either a chrome tanning method or by the more
+          environmentally friendly, vegetable tanning process."
           title={"TIPS for cleaning cowhide Rug"}
           img={require(`../../../Assets/Images/Blogs/Pro vs Diy (4).png`)}
           content={
@@ -580,6 +591,10 @@ const BlogPageComp = () => {
 
       {path?.pathname === "/blog/how-to-wash-rugs-for-best-results" ? (
         <BlogPage
+          pagetitle="How to Wash Rugs for Best Results"
+          desc="Making up a home being a household is the worst part that can
+          ever found. Commercial rugs are made up synthetic fiber which
+          helps in absorbing dust and moist around the floor."
           title={"How to Wash Rugs for Best Results?"}
           img={require(`../../../Assets/Images/Blogs/how-to-wash-rugs-for-best-results.png`)}
           content={
@@ -684,6 +699,10 @@ const BlogPageComp = () => {
       {path?.pathname ===
       "/blog/why-you-should-prefer-carpet-steam-cleaning-over-diy-cleaning-methods" ? (
         <BlogPage
+          pagetitle="Why You Should Prefer Carpet Steam Cleaning Over DIY Cleaning Methods"
+          desc="Carpets are one of the expensive investments people make for
+          their decor. But we also need to spend time taking care of the
+          carpets to look the same for years to come."
           title={
             "Why You Should Prefer Carpet Steam Cleaning Over DIY Cleaning Methods?"
           }
@@ -764,6 +783,12 @@ const BlogPageComp = () => {
 
       {path?.pathname === "/blog/why-do-you-need-rug-cleaning-experts" ? (
         <BlogPage
+          pagetitle="Why Do You Need Rug Cleaning Experts"
+          desc="A trendy addition to any apartment can be a nice looking area
+          rug. By giving it a snug feel, it makes the room both cosy and
+          inviting. The problem is that, from heavy foot traffic and pets,
+          any area rug can be subjected to a large amount of dust and dirt
+          on a regular basis."
           title={"Why Do You Need Rug Cleaning Experts?"}
           img={require(`../../../Assets/Images/Blogs/Pro vs Diy (1).png`)}
           content={
@@ -862,6 +887,11 @@ const BlogPageComp = () => {
       {path?.pathname ===
       "/blog/what-is-best-for-you-rug-steam-dry-or-traditional-hand-cleaning" ? (
         <BlogPage
+          pagetitle="What is Best for You? Rug Steam, Dry or Traditional Hand Cleaning?"
+          desc="Despite the best efforts and maintenance regimes, the carpets
+          and rugs are prone to stains, accumulated grime and dirt. There
+          is always a day when you can exclaim ‘O! My carpets and rugs
+          need some professional cleaning. Look at how dirty they look!’."
           title={
             "What is Best for You? Rug Steam, Dry or Traditional Hand Cleaning?"
           }
@@ -958,6 +988,11 @@ const BlogPageComp = () => {
 
       {path?.pathname === "/blog/how-to-clean-a-rug" ? (
         <BlogPage
+          pagetitle="How to Clean a Rug"
+          desc="Rugs are expensive and delicate. Cleaning a rug is very
+          different from cleaning any other piece of fabric. They are
+          delicate and prone to irreversible damages if you do not clean
+          them with care."
           title={"How to Clean a Rug?"}
           img={require(`../../../Assets/Images/Blogs/Pro vs Diy (2).png`)}
           content={

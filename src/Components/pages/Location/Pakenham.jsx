@@ -6,6 +6,8 @@ const Pakenham = () => {
     <>
       <LocationComp
         title="Carpet Cleaning Pakenham"
+        pagetitle="Carpet Cleaning Pakenham, Your Nearest Carpet Cleaners in Pakenham"
+        desc="Carpet Cleaning Pakenham - Call your nearest carpet cleaning specialists, for all your cheap carpet cleaning services in Pakenham and nearby suburbs."
         images={[
           {
             src: require("../../../Assets/Images/Location/Pakenham/1.webp"),

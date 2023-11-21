@@ -5,6 +5,8 @@ const Dandenong = () => {
   return (
     <>
       <LocationComp
+        pagetitle="Carpet Cleaning Dandenong, Dandenong North and South"
+        desc="Carpet Cleaning Dandenong - We provide same day carpet cleaning services in Dandenong, Dandenong North and South & nearby suburbs. Get a free quote."
         title="Carpet Cleaning Dandenong"
         images={[
           {

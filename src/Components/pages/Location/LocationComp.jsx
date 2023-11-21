@@ -8,11 +8,11 @@ import NavMain from "../../common/navbar/NavMain";
 import "./LocationComp.css";
 
 const LocationComp = (props) => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title = props.pagetitle;
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta name="description" content={props.desc} />
         <meta name="keywords" content="" />
       </Helmet>
       <NavMain />

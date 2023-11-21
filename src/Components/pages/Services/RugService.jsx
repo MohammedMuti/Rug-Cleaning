@@ -10,11 +10,15 @@ import Helped from "./Helped";
 import "./RugService.css";
 
 const RugService = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title =
+    "Rug Cleaning Melbourne: Professional rug Cleaners | Persian, Oriental rug";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Rug Wash Melbourne - Our Dry/Steam Rug cleaning process not only removes dirt, allergens, and grime and leaves your Persian/Oriental rugs looking great."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <Navbar />

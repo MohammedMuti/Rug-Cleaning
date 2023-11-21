@@ -11,11 +11,14 @@ import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 const WhyUs = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title = "Why Our Customers Choose Us? - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Professional service at competitive price. Work 7 days a week. Insured and Trained Staff. Same day services."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <NavMain />

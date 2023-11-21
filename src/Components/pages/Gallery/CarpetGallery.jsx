@@ -7,11 +7,14 @@ import NavMain from "../../common/navbar/NavMain";
 import GallerySubComp from "./GallerySubComp";
 
 const CarpetGallery = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title = "Carpet Cleaning Gallery Album - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Carpet Cleaning Gallery - Checkout Our Recent Before / After Carpet Cleaning Work."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <Navbar />

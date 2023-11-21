@@ -9,11 +9,14 @@ import ReactReadMoreReadLess from "react-read-more-read-less";
 import { Helmet } from "react-helmet";
 
 const UpholsteryService = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title = "Upholstery Cleaning Melbourne";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Upholstery Cleaning Melbourne Pure n bright Melbourne offers the best solution for all your upholstery cleaning needs. Here at Pure N bright we have a team of highly professional and fully trained staff, fully equipped to fulfil all your upholstery cleaning needs. We provide satisfaction guaranteed service for all our clients."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <NavMain />

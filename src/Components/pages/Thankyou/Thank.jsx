@@ -19,11 +19,14 @@ const Thank = () => {
     navigation();
   }, []);
 
-  document.title = "Rug Cleaning Melbourne";
+  document.title = "Thank You";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Thanks for your enquiry. One of our staff member will contact you soon."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <NavMain />

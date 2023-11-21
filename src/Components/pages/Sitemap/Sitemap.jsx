@@ -137,11 +137,14 @@ const pages = [
 ];
 
 const Sitemap = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title = "Sitemap - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Can't find something on the Pure N Bright Cleaning Website? Check out our site map as a tree for a complete view of our website."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <NavMain />

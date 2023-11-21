@@ -6,6 +6,8 @@ const Lynbrook = () => {
     <>
       <LocationComp
         title="Carpet Cleaning Lynbrook"
+        pagetitle="Carpet Cleaning Lynbrook | Call Your Nearest Carpet Cleaner in Lynbrook"
+        desc="Carpet Cleaning Lynbrook - We provide same day carpet cleaning services in Lynbrook. Call your nearest professional carpet cleaner, to get a free quote."
         images={[
           {
             src: require("../../../Assets/Images/Location/Lynbrook/1.webp"),

@@ -12,12 +12,16 @@ import { Helmet } from "react-helmet";
 
 const Home = () => {
   // window.location.reload(false);
-  document.title = "Rug Cleaning Melbourne";
+  document.title =
+    "Rug Cleaning Melbourne | Hire Today - purenbrightcleaning.com.au";
 
   return (
     <>
       <Helmet>
-        <meta name="description" content="Rug CLeaning Melbourne" />
+        <meta
+          name="description"
+          content="Steam Carpet Cleaning Melbourne - We offer cheap dry & steam carpet cleaning services in Pakenham & other Melbourne suburbs. Same day carpet cleaning services, Call 1300 360 274."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <NavMain />

@@ -8,11 +8,14 @@ import ContactComp from "../../common/Contact/ContactComponent";
 import { Helmet } from "react-helmet";
 
 const Specials = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title = "Cleaning Special Deals - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Check out the amazing special deals we have on carpet steam cleaning, tile and grout cleaning, upholstery cleaning and more. Call 1300 360 274."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <NavMain />

@@ -123,11 +123,15 @@ let data = [
 ];
 
 const Location = () => {
-  document.title = "Rug Cleaning Melbourne";
+  document.title =
+    "Carpet Cleaning Locations in Melbourne - Pure N Bright Cleaning";
   return (
     <>
       <Helmet>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="Our Carpet Cleaning Locations - Call your local carpet cleaners on 1300 360 274, for same day services. We offer professional carpet cleaning services."
+        />
         <meta name="keywords" content="" />
       </Helmet>
       <Navbar />
