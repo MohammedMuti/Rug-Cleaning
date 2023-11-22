@@ -6,11 +6,18 @@ import Review from "../../common/Review/Review";
 import Works from "../../common/Works/Works";
 import Typewriter from "react-ts-typewriter";
 import "./Home.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
+import posthog from "posthog-js";
 
 const Home = () => {
+  let location = useLocation();
+  useEffect(() => {
+    posthog.capture("$pageview");
+  }, [location]);
+
   // window.location.reload(false);
   document.title =
     "Rug Cleaning Melbourne | Hire Today - purenbrightcleaning.com.au";

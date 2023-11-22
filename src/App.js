@@ -42,12 +42,6 @@ import { useEffect } from "react";
 import posthog from "posthog-js";
 
 function App() {
-  let location = useLocation();
-
-  useEffect(() => {
-    posthog.capture("$pageview");
-  }, [location]);
-
   return (
     <div className="App">
       <Router>
