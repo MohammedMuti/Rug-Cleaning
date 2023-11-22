@@ -313,7 +313,7 @@ const ContactComp = () => {
                 </div>
 
                 <button type="submit" className="submit" id="submit">
-                  <span>Submit</span>
+                  <span className="submit">Submit</span>
                   <img
                     className="submit"
                     src={require("../../../Assets/Images/Icons/enquire-blue.png")}
