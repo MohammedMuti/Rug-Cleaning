@@ -34,7 +34,10 @@ const ContactComp = () => {
 
     if (validation === true) {
       console.log("You're good!");
-      navigate("/thank-you");
+      // navigate("https://mohammedmuti.github.io/Rug-Cleaning/#/thank-you");
+      window.location.replace(
+        "https://mohammedmuti.github.io/Rug-Cleaning/#/thank-you"
+      );
       // alert("Message Sent Successfully!!");
       setMailerState({
         firstName: "",

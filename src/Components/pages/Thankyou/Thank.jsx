@@ -16,9 +16,9 @@ const Thank = () => {
         navigate("/");
       }, 7000);
     }
+    // window.location.reload(false);
     navigation();
   }, []);
-  window.location.reload(false);
 
   document.title = "Thank You";
   return (
