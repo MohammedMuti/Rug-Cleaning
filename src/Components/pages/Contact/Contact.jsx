@@ -333,9 +333,10 @@ const Contact = () => {
               />
             </div>
 
-            <button type="submit" className="submit">
-              <span>Submit</span>
+            <button type="submit" className="submit" id="submit">
+              <span className="submit">Submit</span>
               <img
+                className="submit"
                 src={require("../../../Assets/Images/Icons/enquire-blue.png")}
                 alt=""
               />
