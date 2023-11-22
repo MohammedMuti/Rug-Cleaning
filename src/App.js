@@ -4,6 +4,7 @@ import {
   Route,
   Routes,
   Navigate,
+  useLocation,
 } from "react-router-dom";
 import Contact from "./Components/pages/Contact/Contact";
 import FAQ from "./Components/pages/FAQ/FAQ";
@@ -37,8 +38,16 @@ import Truganina from "./Components/pages/Location/Truganina";
 import Lynbrook from "./Components/pages/Location/Lynbrook";
 import Cranbourne from "./Components/pages/Location/Cranbourne";
 import Narre from "./Components/pages/Location/Narre";
+import { useEffect } from "react";
+import posthog from "posthog-js";
 
 function App() {
+  let location = useLocation();
+
+  useEffect(() => {
+    posthog.capture("$pageview");
+  }, [location]);
+
   return (
     <div className="App">
       <Router>
