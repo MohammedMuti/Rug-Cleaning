@@ -18,6 +18,7 @@ const Thank = () => {
     }
     navigation();
   }, []);
+  window.location.reload(false);
 
   document.title = "Thank You";
   return (
