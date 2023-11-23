@@ -284,6 +284,12 @@ li {
   border-radius: 0.5rem;
 }
 
+@media (max-width: 750px) {
+  .home .pick_up.section .pick_up.content .pick_up.img img {
+    width: 40rem;
+  }
+}
+
 .home .methods {
   padding: 5rem 10%;
   background-color: #eee;

@@ -23,13 +23,13 @@ const UpholsteryService = () => {
       <Navbar />
       <Banner
         sublink="Services"
-        sublink2="Upholstery Cleaning Melbourne"
+        sublink2="Carpet & Upholstery Cleaning"
         img={require("../../../Assets/Images/Banner/Upholstery-banner.jpeg")}
         bkg={require("../../../Assets/Images/Banner/Upholstery-banner.jpeg")}
       />
       <div className="upholstery">
         <div className="heading">
-          <h1>Professional Upholstery Cleaning Melbourne</h1>
+          <h1>Professional Carpet & Upholstery Cleaning Melbourne</h1>
           <p></p>
         </div>
 
