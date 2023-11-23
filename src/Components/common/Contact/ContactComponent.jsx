@@ -4,7 +4,6 @@ import "../../pages/Home/Home.css";
 import schema from "./validate";
 import ReCAPTCHA from "react-google-recaptcha";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
 
 const ContactComp = () => {
   const [firstNameError, setFirstNameError] = useState("");
@@ -14,8 +13,6 @@ const ContactComp = () => {
   const [messageError, setMessageError] = useState("");
   const [errorMessage, setErrorMessage] = useState(true);
   const [verfied, setVerfied] = useState(false);
-  const [submitMessage, setSubmitMessage] = useState(false);
-  const navigate = useNavigate();
 
   const [mailerState, setMailerState] = useState({
     firstName: "",

@@ -4,7 +4,7 @@ import Navbar from "../../common/navbar/navbar";
 import NavMain from "../../common/navbar/NavMain";
 import "./WhyUs.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronCircleDown, faStar } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 import ContactComp from "../../common/Contact/ContactComponent";
 import img from "../../../Assets/Images/Banner/why-banner.webp";
 import { Link } from "react-router-dom";

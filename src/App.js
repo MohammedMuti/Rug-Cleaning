@@ -4,7 +4,6 @@ import {
   Route,
   Routes,
   Navigate,
-  useLocation,
 } from "react-router-dom";
 import Contact from "./Components/pages/Contact/Contact";
 import FAQ from "./Components/pages/FAQ/FAQ";
@@ -31,15 +30,12 @@ import Sitemap from "./Components/pages/Sitemap/Sitemap";
 import NotFound from "./Components/pages/404/NotFound";
 import NDIS from "./Components/pages/NDIS/NDIS";
 import MattressGallery from "./Components/pages/Gallery/Mattress";
-import LocationComp from "./Components/pages/Location/LocationComp";
 import Dandenong from "./Components/pages/Location/Dandenong";
 import Pakenham from "./Components/pages/Location/Pakenham";
 import Truganina from "./Components/pages/Location/Truganina";
 import Lynbrook from "./Components/pages/Location/Lynbrook";
 import Cranbourne from "./Components/pages/Location/Cranbourne";
 import Narre from "./Components/pages/Location/Narre";
-import { useEffect } from "react";
-import posthog from "posthog-js";
 
 function App() {
   document.addEventListener(

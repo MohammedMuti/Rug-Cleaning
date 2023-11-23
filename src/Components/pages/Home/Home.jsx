@@ -4,13 +4,10 @@ import Navbar from "../../common/navbar/navbar";
 import NavMain from "../../common/navbar/NavMain";
 import Review from "../../common/Review/Review";
 import Works from "../../common/Works/Works";
-import Typewriter from "react-ts-typewriter";
 import "./Home.css";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 import { Helmet } from "react-helmet";
-import { useEffect } from "react";
-import posthog from "posthog-js";
 
 const Home = () => {
   // window.location.reload(false);

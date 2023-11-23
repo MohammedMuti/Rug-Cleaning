@@ -3,7 +3,7 @@ import Navbar from "../../common/navbar/navbar";
 import Banner from "../../common/Banner/Banner";
 import Footer from "../../common/Footer/Footer";
 import NavMain from "../../common/navbar/NavMain";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
 

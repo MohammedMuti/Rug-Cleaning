@@ -1,5 +1,4 @@
 import Banner from "../../common/Banner/Banner";
-import ContactComp from "../../common/Contact/ContactComponent";
 import Footer from "../../common/Footer/Footer";
 import Navbar from "../../common/navbar/navbar";
 import NavMain from "../../common/navbar/NavMain";
@@ -10,10 +9,8 @@ import axios from "axios";
 import schema from "../../common/Contact/validate";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faMailReply,
   faLocationDot,
   faPhone,
-  faMailBulk,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, useNavigate } from "react-router-dom";
@@ -27,7 +24,6 @@ const Contact = () => {
   const [messageError, setMessageError] = useState("");
   const [errorMessage, setErrorMessage] = useState(true);
   const [verfied, setVerfied] = useState(false);
-  const [submitMessage, setSubmitMessage] = useState(false);
   const navigate = useNavigate();
 
   const [mailerState, setMailerState] = useState({

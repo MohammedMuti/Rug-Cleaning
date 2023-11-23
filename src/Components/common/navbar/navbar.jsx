@@ -2,11 +2,9 @@ import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faAngleDoubleUp,
   faArrowRight,
   faBars,
   faEnvelope,
-  faMessage,
   faMinus,
   faMultiply,
   faPhone,
@@ -18,48 +16,21 @@ import React from "react";
 import SubBars from "./SubBars";
 
 const Navbar = () => {
-  const [click, setClick] = useState(true);
   const [navbar, setNavbar] = useState(false);
-  // const [lastScrollY, setLastScrollY] = useState(50);
-  const [fade, setFade] = useState(true);
   const [meanNav, setMeanNav] = useState(false);
   const [services, setServices] = useState(false);
-  const [why, setWhy] = useState(false);
-
-  const handleClick = () => {
-    console.log(click);
-    setClick(!click);
-  };
 
   const path = useLocation().pathname;
-  // console.log(services);
-  // console.log(why);
 
   useEffect(() => {
-    // window.scrollTo(0, 0);
-
     window.addEventListener("scroll", () => {
       if (window.scrollY < 300) {
         setNavbar(false);
       } else {
         setNavbar(true);
       }
-      // setLastScrollY(window.scrollY);
     });
   });
-
-  // useEffect(() => {
-  //   const handleFade = (event) => {
-  //     if (window.scrollY > 200) {
-  //       setFade(false);
-  //     } else setFade(true);
-  //   };
-  //   window.addEventListener("scroll", handleFade);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleFade);
-  //   };
-  // });
 
   return (
     <>

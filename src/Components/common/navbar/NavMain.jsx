@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -16,18 +16,10 @@ import React from "react";
 import SubBars from "./SubBars";
 
 const NavMain = (props) => {
-  const [click, setClick] = useState(true);
   const [meanNav, setMeanNav] = useState(false);
   const [services, setServices] = useState(false);
-  const [why, setWhy] = useState(false);
-
-  const handleClick = () => {
-    console.log(click);
-    setClick(!click);
-  };
 
   const path = useLocation().pathname;
-  // console.log(path);
 
   return (
     <>
