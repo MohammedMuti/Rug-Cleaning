@@ -42,6 +42,14 @@ import { useEffect } from "react";
 import posthog from "posthog-js";
 
 function App() {
+  document.addEventListener(
+    "touchstart",
+    function (e) {
+      console.log("hi");
+      e.preventDefault();
+    },
+    { passive: true }
+  );
   return (
     <div className="App">
       <Router>

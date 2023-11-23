@@ -26,7 +26,7 @@ const ContactComp = () => {
   });
 
   const submitEmail = async (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     // console.log({ mailerState });
     const validation = await validate(mailerState);
     console.log(validation);
@@ -34,10 +34,10 @@ const ContactComp = () => {
 
     if (validation === true) {
       console.log("You're good!");
-      // navigate("https://mohammedmuti.github.io/Rug-Cleaning/#/thank-you");
-      window.location.replace(
-        "https://mohammedmuti.github.io/Rug-Cleaning/#/thank-you"
-      );
+      // navigate("/thank-you");
+      window.location.href = "/thank-you";
+
+      // window.location.reload(false);
       // alert("Message Sent Successfully!!");
       setMailerState({
         firstName: "",

@@ -13,11 +13,6 @@ import { useEffect } from "react";
 import posthog from "posthog-js";
 
 const Home = () => {
-  let location = useLocation();
-  useEffect(() => {
-    posthog.capture("$pageview");
-  }, [location]);
-
   // window.location.reload(false);
   document.title =
     "Rug Cleaning Melbourne | Hire Today - purenbrightcleaning.com.au";
