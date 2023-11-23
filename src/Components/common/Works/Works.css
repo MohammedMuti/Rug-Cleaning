@@ -96,7 +96,7 @@ img {
 }
 
 .works .works-content img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .works .more-images {
