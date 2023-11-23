@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rug-Cleaning/static/css/main.c00e18d8.css",
-    "main.js": "/Rug-Cleaning/static/js/main.750e013d.js",
+    "main.css": "/Rug-Cleaning/static/css/main.15a6545a.css",
+    "main.js": "/Rug-Cleaning/static/js/main.12d1c9c8.js",
     "static/media/baking-soda-rug-cleaning-melbourne.png": "/Rug-Cleaning/static/media/baking-soda-rug-cleaning-melbourne.962942de2b547edf021b.png",
     "static/media/how-to-wash-rugs-for-best-results.png": "/Rug-Cleaning/static/media/how-to-wash-rugs-for-best-results.7a103309b371616c2ec1.png",
     "static/media/Capture.PNG": "/Rug-Cleaning/static/media/Capture.2df50fd518224aa582fd.PNG",
@@ -92,7 +92,6 @@
     "static/media/rug-cleaning1.webp": "/Rug-Cleaning/static/media/rug-cleaning1.33186ea72d8d25af3377.webp",
     "static/media/ndis-banner.webp": "/Rug-Cleaning/static/media/ndis-banner.543fb960b23066af0929.webp",
     "static/media/all types.webp": "/Rug-Cleaning/static/media/all types.e05a69e2e94a3aea8cc7.webp",
-    "static/media/sanitization.png": "/Rug-Cleaning/static/media/sanitization.da00b56bf58518954c42.png",
     "static/media/carpet-sub-banner2.webp": "/Rug-Cleaning/static/media/carpet-sub-banner2.b69af68be49820704f2c.webp",
     "static/media/StemCleaning.jpg": "/Rug-Cleaning/static/media/StemCleaning.e4cdfb9e4395f8146322.jpg",
     "static/media/space3.avif": "/Rug-Cleaning/static/media/space3.301a22f70cbce3ff62a6.avif",
@@ -110,10 +109,9 @@
     "static/media/tile-cleaning-album.webp": "/Rug-Cleaning/static/media/tile-cleaning-album.47901ac507caf0b14d09.webp",
     "static/media/ndis-sub-banner-3.jpg": "/Rug-Cleaning/static/media/ndis-sub-banner-3.e4bc73899b3825a5c744.jpg",
     "static/media/3d-banner.webp": "/Rug-Cleaning/static/media/3d-banner.96d19223538aba2fe4c3.webp",
-    "static/media/dollar.png": "/Rug-Cleaning/static/media/dollar.1ee8eabe31188c0bd6ac.png",
+    "static/media/sanitization.png": "/Rug-Cleaning/static/media/sanitization.b339ad00aa227647d439.png",
     "static/media/ndis-sub-banner-4.jpg": "/Rug-Cleaning/static/media/ndis-sub-banner-4.24ca7a89f9539b29dbbd.jpg",
     "static/media/FactoryDeepWashing.webp": "/Rug-Cleaning/static/media/FactoryDeepWashing.8169df76e7117cc47195.webp",
-    "static/media/health.png": "/Rug-Cleaning/static/media/health.1419a47c1e6254192a88.png",
     "static/media/badge.png": "/Rug-Cleaning/static/media/badge.7d71205af0892d9c6a31.png",
     "static/media/truckmounted.jpg": "/Rug-Cleaning/static/media/truckmounted.0926eb900cce5e6550c5.jpg",
     "static/media/map-banner.webp": "/Rug-Cleaning/static/media/map-banner.ad5d2cbbed86923f4677.webp",
@@ -125,11 +123,11 @@
     "static/media/footer-phone.webp": "/Rug-Cleaning/static/media/footer-phone.0e9b78051edec4186b9f.webp",
     "static/media/footer-location.webp": "/Rug-Cleaning/static/media/footer-location.d29147bc58823dee6bc8.webp",
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
-    "main.c00e18d8.css.map": "/Rug-Cleaning/static/css/main.c00e18d8.css.map",
-    "main.750e013d.js.map": "/Rug-Cleaning/static/js/main.750e013d.js.map"
+    "main.15a6545a.css.map": "/Rug-Cleaning/static/css/main.15a6545a.css.map",
+    "main.12d1c9c8.js.map": "/Rug-Cleaning/static/js/main.12d1c9c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c00e18d8.css",
-    "static/js/main.750e013d.js"
+    "static/css/main.15a6545a.css",
+    "static/js/main.12d1c9c8.js"
   ]
 }
