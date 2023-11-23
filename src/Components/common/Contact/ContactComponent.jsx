@@ -224,7 +224,7 @@ const ContactComp = () => {
         <div className="contact content">
           <div className="contact img">
             <img
-              src={require("../../../Assets/Images/Icons/contact-avatar.jpeg")}
+              src={require("../../../Assets/Images/Icons/contact-avatar.webp")}
               alt=""
             />
           </div>

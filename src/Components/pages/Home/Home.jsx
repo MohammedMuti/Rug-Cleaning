@@ -83,7 +83,7 @@ const Home = () => {
             </div>
             <div className="pick_up img">
               <img
-                src={require("../../../Assets/Images/Dilivery/1.jpg")}
+                src={require("../../../Assets/Images/Dilivery/1.webp")}
                 alt=""
               />
             </div>
@@ -102,7 +102,7 @@ const Home = () => {
                 </div>
                 <div className="methods-type-img">
                   <img
-                    src={require("../../../Assets/Images/Methods/FactoryDeepWashing.png")}
+                    src={require("../../../Assets/Images/Methods/FactoryDeepWashing.webp")}
                     alt=""
                   />
                 </div>
@@ -157,7 +157,7 @@ const Home = () => {
                 </div>
                 <div className="methods-type-img">
                   <img
-                    src={require("../../../Assets/Images/Methods/HandWash.png")}
+                    src={require("../../../Assets/Images/Methods/HandWash.webp")}
                     alt=""
                   />
                 </div>
@@ -196,7 +196,7 @@ const Home = () => {
             </div>
             <div className="types img">
               <img
-                src={require("../../../Assets/Images/Types/all types.png")}
+                src={require("../../../Assets/Images/Types/all types.webp")}
                 alt=""
               />
             </div>
@@ -293,7 +293,7 @@ const Home = () => {
               </div>
               <div className="extra2-img">
                 <img
-                  src={require("../../../Assets/Images/RugRepair/repair-rug-melbourne.png")}
+                  src={require("../../../Assets/Images/RugRepair/repair-rug-melbourne.webp")}
                   alt=""
                 />
               </div>
