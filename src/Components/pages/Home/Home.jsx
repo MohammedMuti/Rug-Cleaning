@@ -9,6 +9,8 @@ import { Link } from "react-router-dom";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 import { Helmet } from "react-helmet";
 
+import { TwicImg } from "@twicpics/components/react";
+
 const Home = () => {
   // window.location.reload(false);
   document.title =
@@ -79,9 +81,9 @@ const Home = () => {
               </p>
             </div>
             <div className="pick_up img">
-              <img
+              <TwicImg
                 src={require("../../../Assets/Images/Dilivery/1.webp")}
-                alt=""
+                // alt=""
               />
             </div>
           </div>
