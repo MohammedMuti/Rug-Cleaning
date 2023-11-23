@@ -23,7 +23,7 @@ const ContactComp = () => {
   });
 
   const submitEmail = async (e) => {
-    // e.preventDefault();
+    e.preventDefault();
     // console.log({ mailerState });
     const validation = await validate(mailerState);
     console.log(validation);

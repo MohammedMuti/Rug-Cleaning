@@ -36,15 +36,12 @@ const Contact = () => {
 
   const submitEmail = async (e) => {
     e.preventDefault();
-    // console.log({ mailerState });
     const validation = await validate(mailerState);
     console.log(validation);
-    // console.log(mailerState);
 
     if (validation === true) {
       console.log("You're good!");
       navigate("/thank-you");
-      // alert("Message Sent Successfully!!");
       setMailerState({
         firstName: "",
         lastName: "",
@@ -221,7 +218,6 @@ const Contact = () => {
 
   function onChange(value) {
     if (value) setVerfied(true);
-    // console.log("Captcha value:", value);
   }
 
   document.title = "Contact Us - Pure N Bright Cleaning";

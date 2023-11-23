@@ -1,6 +1,4 @@
-import { Helmet } from "react-helmet";
 import { Link, useLocation } from "react-router-dom";
-import Banner from "../../common/Banner/Banner";
 import BlogPage from "./BlogPage";
 
 const BlogPageComp = () => {
