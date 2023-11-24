@@ -4,6 +4,7 @@ import "../../pages/Home/Home.css";
 import schema from "./validate";
 import ReCAPTCHA from "react-google-recaptcha";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const ContactComp = () => {
   const [firstNameError, setFirstNameError] = useState("");
@@ -13,6 +14,7 @@ const ContactComp = () => {
   const [messageError, setMessageError] = useState("");
   const [errorMessage, setErrorMessage] = useState(true);
   const [verfied, setVerfied] = useState(false);
+  const navigate = useNavigate();
 
   const [mailerState, setMailerState] = useState({
     firstName: "",
@@ -31,8 +33,8 @@ const ContactComp = () => {
 
     if (validation === true) {
       console.log("You're good!");
-      // navigate("/thank-you");
-      window.location.href = "/thank-you";
+      navigate("/thank-you");
+      // window.location.href = "/thank-you";
 
       // window.location.reload(false);
       // alert("Message Sent Successfully!!");
@@ -46,32 +48,26 @@ const ContactComp = () => {
     }
 
     if (validation === true) {
-      const responsetoself = await axios(
-        "https://rug-cleaning-service.onrender.com/sendToUser",
-        {
-          method: "POST",
-          headers: {
-            "Content-type": "application/json",
-          },
-          data: mailerState,
-        }
-      )
+      const responsetoself = await axios("http://localhost:4000/sendToUser", {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        data: mailerState,
+      })
         .then((res) => {
           console.log(res);
         })
         .catch((err) => {
           console.log(err);
         });
-      const responseToMuti = await axios(
-        "https://rug-cleaning-service.onrender.com/sendToMuti",
-        {
-          method: "POST",
-          headers: {
-            "Content-type": "application/json",
-          },
-          data: mailerState,
-        }
-      )
+      const responseToMuti = await axios("http://localhost:4000/sendToMuti", {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json",
+        },
+        data: mailerState,
+      })
         .then((res) => {
           console.log(res);
           if (res.status === 200) {
@@ -84,7 +80,7 @@ const ContactComp = () => {
           console.log(err);
         });
       const responseToAbuzar = await axios(
-        "https://rug-cleaning-service.onrender.com/sendToAbuzar",
+        "http://localhost:4000/sendToAbuzar",
         {
           method: "POST",
           headers: {
@@ -105,7 +101,7 @@ const ContactComp = () => {
           console.log(err);
         });
       const responseToClient = await axios(
-        "https://rug-cleaning-service.onrender.com/sendToClient",
+        "http://localhost:4000/sendToClient",
         {
           method: "POST",
           headers: {

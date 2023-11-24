@@ -38,14 +38,14 @@ import Cranbourne from "./Components/pages/Location/Cranbourne";
 import Narre from "./Components/pages/Location/Narre";
 
 function App() {
-  document.addEventListener(
-    "touchstart",
-    function (e) {
-      console.log("hi");
-      e.preventDefault();
-    },
-    { passive: true }
-  );
+  // document.addEventListener(
+  //   "touchstart",
+  //   function (e) {
+  //     console.log("hi");
+  //     e.preventDefault();
+  //   },
+  //   { passive: true }
+  // );
   return (
     <div className="App">
       <Router>
