@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./ContactComponent.css";
 import "../../pages/Home/Home.css";
 import schema from "./validate";
@@ -13,6 +13,22 @@ const ContactComp = () => {
   const [messageError, setMessageError] = useState("");
   const [errorMessage, setErrorMessage] = useState(true);
   const [verfied, setVerfied] = useState(false);
+  const [recaptchaLoaded, setRecaptchaLoaded] = useState(false);
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src =
+      "https://www.gstatic.com/recaptcha/releases/-QbJqHfGOUB8nuVRLvzFLVed/recaptcha__en.js";
+    script.async = true;
+    script.defer = true;
+    script.onload = () => setRecaptchaLoaded(true);
+    document.body.appendChild(script);
+
+    return () => {
+      // Clean up if needed
+      document.body.removeChild(script);
+    };
+  }, []);
 
   const [mailerState, setMailerState] = useState({
     firstName: "",
@@ -306,10 +322,12 @@ const ContactComp = () => {
                   style={{ transformOrigin: "0 0", width: "100%" }}
                   className="captcha"
                 >
-                  <ReCAPTCHA
-                    sitekey="6LePrU4kAAAAAJtpRmNFy9i-u7PNdMnjp-PIeAsP"
-                    onChange={onChange}
-                  />
+                  {recaptchaLoaded && (
+                    <ReCAPTCHA
+                      sitekey="6LePrU4kAAAAAJtpRmNFy9i-u7PNdMnjp-PIeAsP"
+                      onChange={onChange}
+                    />
+                  )}
                 </div>
 
                 <button type="submit" className="submit" id="submit">
