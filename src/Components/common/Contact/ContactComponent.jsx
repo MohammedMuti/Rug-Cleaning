@@ -5,6 +5,7 @@ import schema from "./validate";
 import ReCAPTCHA from "react-google-recaptcha";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import MyLazyComponent from "./MyLazyComponent";
 
 const ContactComp = () => {
   const [firstNameError, setFirstNameError] = useState("");
@@ -61,55 +62,13 @@ const ContactComp = () => {
         .catch((err) => {
           console.log(err);
         });
-      const responseToMuti = await axios("http://localhost:4000/sendToMuti", {
+      const responseToMuti = await axios("http://localhost:4000/sendToClient", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
         },
         data: mailerState,
       })
-        .then((res) => {
-          console.log(res);
-          if (res.status === 200) {
-            console.log("Message Sent");
-          } else if (res.status === 402) {
-            console.log("Message failed to send");
-          }
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-      const responseToAbuzar = await axios(
-        "http://localhost:4000/sendToAbuzar",
-        {
-          method: "POST",
-          headers: {
-            "Content-type": "application/json",
-          },
-          data: mailerState,
-        }
-      )
-        .then((res) => {
-          console.log(res);
-          if (res.status === 200) {
-            console.log("Message Sent");
-          } else if (res.status === 402) {
-            console.log("Message failed to send");
-          }
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-      const responseToClient = await axios(
-        "http://localhost:4000/sendToClient",
-        {
-          method: "POST",
-          headers: {
-            "Content-type": "application/json",
-          },
-          data: mailerState,
-        }
-      )
         .then((res) => {
           console.log(res);
           if (res.status === 200) {
@@ -302,10 +261,11 @@ const ContactComp = () => {
                   style={{ transformOrigin: "0 0", width: "100%" }}
                   className="captcha"
                 >
-                  <ReCAPTCHA
+                  <MyLazyComponent />
+                  {/* <ReCAPTCHA
                     sitekey="6LePrU4kAAAAAJtpRmNFy9i-u7PNdMnjp-PIeAsP"
                     onChange={onChange}
-                  />
+                  /> */}
                 </div>
 
                 <button type="submit" className="submit" id="submit">
