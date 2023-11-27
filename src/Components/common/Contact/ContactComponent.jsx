@@ -261,11 +261,11 @@ const ContactComp = () => {
                   style={{ transformOrigin: "0 0", width: "100%" }}
                   className="captcha"
                 >
-                  <MyLazyComponent />
-                  {/* <ReCAPTCHA
+                  {/* <MyLazyComponent /> */}
+                  <ReCAPTCHA
                     sitekey="6LePrU4kAAAAAJtpRmNFy9i-u7PNdMnjp-PIeAsP"
                     onChange={onChange}
-                  /> */}
+                  />
                 </div>
 
                 <button type="submit" className="submit" id="submit">
