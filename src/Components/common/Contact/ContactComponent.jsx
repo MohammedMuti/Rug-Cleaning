@@ -178,6 +178,7 @@ const ContactComp = () => {
             <img
               src={require("../../../Assets/Images/Icons/contact-avatar.webp")}
               alt=""
+              loading="lazy"
             />
           </div>
           <div className="contact info">

@@ -80,6 +80,7 @@ const Home = () => {
             </div>
             <div className="pick_up img">
               <img
+                loading="lazy"
                 src={require("../../../Assets/Images/Dilivery/1.webp")}
                 alt=""
               />
@@ -101,6 +102,7 @@ const Home = () => {
                   <img
                     src={require("../../../Assets/Images/Methods/FactoryDeepWashing.webp")}
                     alt=""
+                    loading="lazy"
                   />
                 </div>
                 <div className="methods-type-info">
@@ -128,6 +130,7 @@ const Home = () => {
                   <img
                     src={require("../../../Assets/Images/Methods/StemCleaning.jpg")}
                     alt=""
+                    loading="lazy"
                   />
                 </div>
                 <div className="methods-type-info">
@@ -156,6 +159,7 @@ const Home = () => {
                   <img
                     src={require("../../../Assets/Images/Methods/HandWash.webp")}
                     alt=""
+                    loading="lazy"
                   />
                 </div>
                 <div className="methods-type-info">
@@ -195,6 +199,7 @@ const Home = () => {
               <img
                 src={require("../../../Assets/Images/Types/all types.webp")}
                 alt=""
+                loading="lazy"
               />
             </div>
           </div>
@@ -292,6 +297,7 @@ const Home = () => {
                 <img
                   src={require("../../../Assets/Images/RugRepair/repair-rug-melbourne.webp")}
                   alt=""
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -355,6 +361,7 @@ const Home = () => {
               <img
                 src={require("../../../Assets/Images/Pets/pet.webp")}
                 alt=""
+                loading="lazy"
               />
             </div>
           </div>
