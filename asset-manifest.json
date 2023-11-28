@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rug-Cleaning/static/css/main.15a6545a.css",
-    "main.js": "/Rug-Cleaning/static/js/main.60d54271.js",
+    "main.js": "/Rug-Cleaning/static/js/main.0bfdfa3e.js",
     "static/media/baking-soda-rug-cleaning-melbourne.png": "/Rug-Cleaning/static/media/baking-soda-rug-cleaning-melbourne.962942de2b547edf021b.png",
     "static/media/how-to-wash-rugs-for-best-results.png": "/Rug-Cleaning/static/media/how-to-wash-rugs-for-best-results.7a103309b371616c2ec1.png",
     "static/media/Capture.PNG": "/Rug-Cleaning/static/media/Capture.2df50fd518224aa582fd.PNG",
@@ -124,10 +124,10 @@
     "static/media/footer-location.webp": "/Rug-Cleaning/static/media/footer-location.d29147bc58823dee6bc8.webp",
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "main.15a6545a.css.map": "/Rug-Cleaning/static/css/main.15a6545a.css.map",
-    "main.60d54271.js.map": "/Rug-Cleaning/static/js/main.60d54271.js.map"
+    "main.0bfdfa3e.js.map": "/Rug-Cleaning/static/js/main.0bfdfa3e.js.map"
   },
   "entrypoints": [
     "static/css/main.15a6545a.css",
-    "static/js/main.60d54271.js"
+    "static/js/main.0bfdfa3e.js"
   ]
 }
