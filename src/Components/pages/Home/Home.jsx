@@ -1,13 +1,22 @@
-import ContactComponent from "../../common/Contact/ContactComponent";
-import Footer from "../../common/Footer/Footer";
-import Navbar from "../../common/navbar/navbar";
-import NavMain from "../../common/navbar/NavMain";
-import Review from "../../common/Review/Review";
-import Works from "../../common/Works/Works";
 import "./Home.css";
+import React from "react";
 import { Link } from "react-router-dom";
 import ReactReadMoreReadLess from "react-read-more-read-less";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
+import Navbar from "../../common/navbar/navbar";
+import NavMain from "../../common/navbar/NavMain";
+const ContactComponent = React.lazy(() =>
+  import("../../common/Contact/ContactComponent")
+);
+const Footer = React.lazy(() => import("../../common/Footer/Footer"));
+const Review = React.lazy(() => import("../../common/Review/Review"));
+const Works = React.lazy(() => import("../../common/Works/Works"));
+// const MyComponent = React.lazy(() => import('./MyComponent'));
+// import ContactComponent from "../../common/Contact/ContactComponent";
+// import Footer from "../../common/Footer/Footer";
+// import Review from "../../common/Review/Review";
+// import Works from "../../common/Works/Works";
 
 const Home = () => {
   // window.location.reload(false);
