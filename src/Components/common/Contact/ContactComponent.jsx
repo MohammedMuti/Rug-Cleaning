@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./ContactComponent.css";
 import "../../pages/Home/Home.css";
 import schema from "./validate";
-import ReCAPTCHA from "react-google-recaptcha";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import MyLazyComponent from "./MyLazyComponent";
@@ -262,11 +261,11 @@ const ContactComp = () => {
                   style={{ transformOrigin: "0 0", width: "100%" }}
                   className="captcha"
                 >
-                  {/* <MyLazyComponent /> */}
-                  <ReCAPTCHA
+                  <MyLazyComponent />
+                  {/* <ReCAPTCHA
                     sitekey="6LePrU4kAAAAAJtpRmNFy9i-u7PNdMnjp-PIeAsP"
                     onChange={onChange}
-                  />
+                  /> */}
                 </div>
 
                 <button type="submit" className="submit" id="submit">
