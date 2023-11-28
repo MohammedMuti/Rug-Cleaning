@@ -1,29 +1,23 @@
-import React, { lazy, Suspense, useEffect, useState } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
+import React, { lazy, Suspense } from "react";
+import { useState } from "react";
+import { useEffect } from "react";
+
+const LazyReCAPTCHA = lazy(() => import("react-google-recaptcha"));
 
 const MyLazyComponent = () => {
-  const [recaptchaLoaded, setRecaptchaLoaded] = useState(false);
-
+  const [load, setLoad] = useState(false);
   useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://www.google.com/recaptcha/api.js";
-    script.async = true;
-    script.onload = () => {
-      setRecaptchaLoaded(true);
-    };
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
+    setTimeout(() => {
+      setLoad(true);
+    }, 3000);
   }, []);
   return (
     <>
-      {recaptchaLoaded ? (
-        <ReCAPTCHA sitekey="6LePrU4kAAAAAJtpRmNFy9i-u7PNdMnjp-PIeAsP" />
-      ) : (
-        <div>Loading reCAPTCHA...</div>
-      )}
+      <Suspense fallback={<div>Loading...</div>}>
+        {load && (
+          <LazyReCAPTCHA sitekey="6LePrU4kAAAAAJtpRmNFy9i-u7PNdMnjp-PIeAsP" />
+        )}
+      </Suspense>
     </>
   );
 };
