@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rug-Cleaning/static/css/main.4e764294.css",
-    "main.js": "/Rug-Cleaning/static/js/main.b0b7cd66.js",
+    "main.js": "/Rug-Cleaning/static/js/main.a48ac968.js",
     "static/css/512.bacdf853.chunk.css": "/Rug-Cleaning/static/css/512.bacdf853.chunk.css",
     "static/js/512.926fd0a3.chunk.js": "/Rug-Cleaning/static/js/512.926fd0a3.chunk.js",
     "static/css/942.732ed6b2.chunk.css": "/Rug-Cleaning/static/css/942.732ed6b2.chunk.css",
@@ -128,7 +128,7 @@
     "static/media/footer-location.webp": "/Rug-Cleaning/static/media/footer-location.d29147bc58823dee6bc8.webp",
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "main.4e764294.css.map": "/Rug-Cleaning/static/css/main.4e764294.css.map",
-    "main.b0b7cd66.js.map": "/Rug-Cleaning/static/js/main.b0b7cd66.js.map",
+    "main.a48ac968.js.map": "/Rug-Cleaning/static/js/main.a48ac968.js.map",
     "512.bacdf853.chunk.css.map": "/Rug-Cleaning/static/css/512.bacdf853.chunk.css.map",
     "512.926fd0a3.chunk.js.map": "/Rug-Cleaning/static/js/512.926fd0a3.chunk.js.map",
     "942.732ed6b2.chunk.css.map": "/Rug-Cleaning/static/css/942.732ed6b2.chunk.css.map",
@@ -136,6 +136,6 @@
   },
   "entrypoints": [
     "static/css/main.4e764294.css",
-    "static/js/main.b0b7cd66.js"
+    "static/js/main.a48ac968.js"
   ]
 }
