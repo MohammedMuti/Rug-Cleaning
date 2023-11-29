@@ -92,6 +92,7 @@ const Home = () => {
                 loading="lazy"
                 src={require("../../../Assets/Images/Dilivery/1.webp")}
                 alt=""
+                width="100%"
               />
             </div>
           </div>
@@ -112,6 +113,7 @@ const Home = () => {
                     src={require("../../../Assets/Images/Methods/FactoryDeepWashing.webp")}
                     alt=""
                     loading="lazy"
+                    width="100%"
                   />
                 </div>
                 <div className="methods-type-info">
@@ -140,6 +142,7 @@ const Home = () => {
                     src={require("../../../Assets/Images/Methods/StemCleaning.jpg")}
                     alt=""
                     loading="lazy"
+                    width="100%"
                   />
                 </div>
                 <div className="methods-type-info">
@@ -169,6 +172,7 @@ const Home = () => {
                     src={require("../../../Assets/Images/Methods/HandWash.webp")}
                     alt=""
                     loading="lazy"
+                    width="100%"
                   />
                 </div>
                 <div className="methods-type-info">
@@ -209,6 +213,7 @@ const Home = () => {
                 src={require("../../../Assets/Images/Types/all types.webp")}
                 alt=""
                 loading="lazy"
+                width="100%"
               />
             </div>
           </div>
@@ -229,6 +234,7 @@ const Home = () => {
                   <img
                     src={require("../../../Assets/Images/Icons/sheild.png")}
                     alt=""
+                    width="100%"
                   />{" "}
                   HASSLE FREE PICKUP & DROP OFF
                 </li>
@@ -236,6 +242,7 @@ const Home = () => {
                   <img
                     src={require("../../../Assets/Images/Icons/check.png")}
                     alt=""
+                    width="100%"
                   />{" "}
                   QUALITY SERVICES
                 </li>
@@ -243,6 +250,7 @@ const Home = () => {
                   <img
                     src={require("../../../Assets/Images/Icons/dollar.png")}
                     alt=""
+                    width="100%"
                   />{" "}
                   ECONOMICAL
                 </li>
@@ -252,6 +260,7 @@ const Home = () => {
                   <img
                     src={require("../../../Assets/Images/Icons/sanitization.png")}
                     alt=""
+                    width="100%"
                   />{" "}
                   SANITIZATION & DISINFECTION
                 </li>
@@ -259,6 +268,7 @@ const Home = () => {
                   <img
                     src={require("../../../Assets/Images/Icons/health.png")}
                     alt=""
+                    width="100%"
                   />{" "}
                   HEALTHY ENVIRONMENT
                 </li>
@@ -266,6 +276,7 @@ const Home = () => {
                   <img
                     src={require("../../../Assets/Images/Icons/plant.png")}
                     alt=""
+                    width="100%"
                   />{" "}
                   NEW LOOK
                 </li>
@@ -307,6 +318,7 @@ const Home = () => {
                   src={require("../../../Assets/Images/RugRepair/repair-rug-melbourne.webp")}
                   alt=""
                   loading="lazy"
+                  width="100%"
                 />
               </div>
             </div>
@@ -334,6 +346,7 @@ const Home = () => {
                 <img
                   src={require("../../../Assets/Images/Frequency/frequency1.png")}
                   alt=""
+                  width="100%"
                 />
                 <h2>6 TO 8 MONTHS</h2>
               </div>
@@ -341,6 +354,7 @@ const Home = () => {
                 <img
                   src={require("../../../Assets/Images/Frequency/frequency2.png")}
                   alt=""
+                  width="100%"
                 />
                 <h2>8 TO 10 MONTHS</h2>
               </div>
@@ -348,6 +362,7 @@ const Home = () => {
                 <img
                   src={require("../../../Assets/Images/Frequency/frequency3.png")}
                   alt=""
+                  width="100%"
                 />
                 <h2>12 MONTHS</h2>
               </div>
@@ -371,6 +386,7 @@ const Home = () => {
                 src={require("../../../Assets/Images/Pets/pet.webp")}
                 alt=""
                 loading="lazy"
+                width="100%"
               />
             </div>
           </div>
