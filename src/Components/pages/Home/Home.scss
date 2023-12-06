@@ -157,7 +157,8 @@
           width: 100%;
           border-radius: 0.5rem;
           @media (max-width: 750px) {
-            width: 40rem;
+            width: 38rem;
+            height: 40rem;
           }
         }
       }
@@ -222,6 +223,10 @@
               width: 100%;
               transition: 0.2s linear;
               max-height: 36rem;
+              // @media (max-width: 750px) {
+              //   width: 30rem;
+              //   max-height: 45rem;
+              // }
 
               &:hover {
                 transform: scale(1.1);
@@ -312,6 +317,10 @@
         }
         img {
           width: 100%;
+          @media (max-width: 750px) {
+            width: 40rem;
+            height: 30rem;
+          }
         }
       }
     }

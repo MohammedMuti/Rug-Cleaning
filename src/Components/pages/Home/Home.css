@@ -286,7 +286,8 @@ li {
 
 @media (max-width: 750px) {
   .home .pick_up.section .pick_up.content .pick_up.img img {
-    width: 40rem;
+    width: 38rem;
+    height: 40rem;
   }
 }
 
@@ -438,6 +439,13 @@ li {
 
 .home .types.section .types.content .types.img img {
   width: 100%;
+}
+
+@media (max-width: 750px) {
+  .home .types.section .types.content .types.img img {
+    width: 40rem;
+    height: 30rem;
+  }
 }
 
 .home .review.section {
