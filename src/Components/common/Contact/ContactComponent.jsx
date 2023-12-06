@@ -34,34 +34,8 @@ const ContactComp = () => {
     if (validation === true) {
       console.log("You're good!");
       navigate("/thank-you");
-      // window.location.href = "/thank-you";
 
-      // window.location.reload(false);
-      // alert("Message Sent Successfully!!");
-      setMailerState({
-        firstName: "",
-        lastName: "",
-        email: "",
-        phone: "",
-        message: "",
-      });
-    }
-
-    if (validation === true) {
-      const responsetoself = await axios("http://localhost:4000/sendToUser", {
-        method: "POST",
-        headers: {
-          "Content-type": "application/json",
-        },
-        data: mailerState,
-      })
-        .then((res) => {
-          console.log(res);
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-      const responseToMuti = await axios("http://localhost:4000/sendToClient", {
+      const responseToMuti = await axios("http://localhost:4000/sendEmail", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
@@ -79,6 +53,14 @@ const ContactComp = () => {
         .catch((err) => {
           console.log(err);
         });
+
+      setMailerState({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
     }
   };
 
