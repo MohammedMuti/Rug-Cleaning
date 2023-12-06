@@ -408,6 +408,9 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -428,6 +431,15 @@ li {
 }
 
 .home .types.section .types.content .types.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 70%;
 }
 
@@ -638,6 +650,13 @@ li {
   max-width: 40rem;
 }
 
+@media (max-width: 750px) {
+  .home .extra .extra2 .extra2-wrapper .extra2-img img {
+    width: 40rem;
+    height: 37rem;
+  }
+}
+
 .home .extra .extra2 .extra2-wrapper .extra2-info p {
   font-size: 2.2rem;
   line-height: 4rem;
@@ -755,6 +774,21 @@ li {
 .home .protect.section .protect.content .protect.img img {
   width: 100%;
   border-radius: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 750px) {
+  .home .protect.section .protect.content .protect.img img {
+    width: 50rem;
+    height: 30rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .home .protect.section .protect.content .protect.img img {
+    width: 40rem;
+    height: 25rem;
+  }
 }
 
 .home .copyright.section {

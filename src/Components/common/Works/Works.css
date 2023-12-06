@@ -86,7 +86,7 @@ img {
   color: black;
 }
 
-.works .works-content {
+.works .works-content-wrapper .works-content {
   grid-gap: 2rem;
   display: -ms-grid;
   display: grid;
@@ -95,8 +95,15 @@ img {
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
 }
 
-.works .works-content img {
+.works .works-content-wrapper .works-content img {
   max-width: 100%;
+}
+
+@media (max-width: 750px) {
+  .works .works-content-wrapper .works-content img {
+    max-width: 40rem;
+    max-height: 30rem;
+  }
 }
 
 .works .more-images {

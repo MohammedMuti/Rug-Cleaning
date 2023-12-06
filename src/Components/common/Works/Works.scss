@@ -13,16 +13,25 @@ img {
 }
 
 .works {
-  .works-content {
-    img {
-      max-width: 100%;
-      // height: 100%;
-    }
+  .works-content-wrapper {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    .works-content {
+      img {
+        max-width: 100%;
+        @media (max-width: 750px) {
+          max-width: 40rem;
+          max-height: 30rem;
+        }
+        // height: 100%;
+      }
 
-    grid-gap: 2rem;
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      grid-gap: 2rem;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    }
   }
 
   .more-images {

@@ -39,13 +39,16 @@
     .navbar_logo {
       img {
         width: 17rem;
+        height: 17rem;
 
         @media (max-width: 800px) {
           width: 14rem;
+          height: 14rem;
         }
 
         @media (max-width: 600px) {
           width: 10rem;
+          height: 10rem;
         }
       }
     }
