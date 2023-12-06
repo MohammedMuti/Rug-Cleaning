@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rug-Cleaning/static/css/main.4e764294.css",
-    "main.js": "/Rug-Cleaning/static/js/main.a48ac968.js",
+    "main.js": "/Rug-Cleaning/static/js/main.f18b7ea9.js",
     "static/css/512.bacdf853.chunk.css": "/Rug-Cleaning/static/css/512.bacdf853.chunk.css",
     "static/js/512.926fd0a3.chunk.js": "/Rug-Cleaning/static/js/512.926fd0a3.chunk.js",
     "static/css/942.732ed6b2.chunk.css": "/Rug-Cleaning/static/css/942.732ed6b2.chunk.css",
@@ -122,13 +122,13 @@
     "static/media/Pure-N-Bright-Logo.png.webp": "/Rug-Cleaning/static/media/Pure-N-Bright-Logo.png.abf0916acbed2e550e4c.webp",
     "static/media/comment-box.webp": "/Rug-Cleaning/static/media/comment-box.7c7391f89808e0e4d849.webp",
     "static/media/7.webp": "/Rug-Cleaning/static/media/7.238e8f99f3fe86f2c6c8.webp",
-    "static/media/8.webp": "/Rug-Cleaning/static/media/8.7a379e70006fd2364bb6.webp",
     "index.html": "/Rug-Cleaning/index.html",
+    "static/media/8.webp": "/Rug-Cleaning/static/media/8.7a379e70006fd2364bb6.webp",
     "static/media/footer-phone.webp": "/Rug-Cleaning/static/media/footer-phone.0e9b78051edec4186b9f.webp",
     "static/media/footer-location.webp": "/Rug-Cleaning/static/media/footer-location.d29147bc58823dee6bc8.webp",
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "main.4e764294.css.map": "/Rug-Cleaning/static/css/main.4e764294.css.map",
-    "main.a48ac968.js.map": "/Rug-Cleaning/static/js/main.a48ac968.js.map",
+    "main.f18b7ea9.js.map": "/Rug-Cleaning/static/js/main.f18b7ea9.js.map",
     "512.bacdf853.chunk.css.map": "/Rug-Cleaning/static/css/512.bacdf853.chunk.css.map",
     "512.926fd0a3.chunk.js.map": "/Rug-Cleaning/static/js/512.926fd0a3.chunk.js.map",
     "942.732ed6b2.chunk.css.map": "/Rug-Cleaning/static/css/942.732ed6b2.chunk.css.map",
@@ -136,6 +136,6 @@
   },
   "entrypoints": [
     "static/css/main.4e764294.css",
-    "static/js/main.a48ac968.js"
+    "static/js/main.f18b7ea9.js"
   ]
 }
