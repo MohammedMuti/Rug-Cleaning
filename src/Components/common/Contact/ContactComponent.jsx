@@ -33,15 +33,18 @@ const ContactComp = () => {
 
     if (validation === true) {
       console.log("You're good!");
-      navigate("/thank-you");
+      // navigate("/thank-you");
 
-      const responseToMuti = await axios("http://localhost:4000/sendEmail", {
-        method: "POST",
-        headers: {
-          "Content-type": "application/json",
-        },
-        data: mailerState,
-      })
+      const responseToMuti = await axios(
+        "https://sendgrid-m8wi.onrender.com/api/sendMail",
+        {
+          method: "POST",
+          headers: {
+            "Content-type": "application/json",
+          },
+          data: mailerState,
+        }
+      )
         .then((res) => {
           console.log(res);
           if (res.status === 200) {
@@ -54,13 +57,13 @@ const ContactComp = () => {
           console.log(err);
         });
 
-      setMailerState({
-        firstName: "",
-        lastName: "",
-        email: "",
-        phone: "",
-        message: "",
-      });
+      // setMailerState({
+      //   firstName: "",
+      //   lastName: "",
+      //   email: "",
+      //   phone: "",
+      //   message: "",
+      // });
     }
   };
 
