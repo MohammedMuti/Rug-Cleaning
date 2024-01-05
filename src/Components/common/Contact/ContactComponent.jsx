@@ -34,36 +34,6 @@ const ContactComp = () => {
     if (validation === true) {
       console.log("You're good!");
       // navigate("/thank-you");
-
-      const responseToMuti = await axios(
-        "https://sendgrid-m8wi.onrender.com/api/sendMail",
-        {
-          method: "POST",
-          headers: {
-            "Content-type": "application/json",
-          },
-          data: mailerState,
-        }
-      )
-        .then((res) => {
-          console.log(res);
-          if (res.status === 200) {
-            console.log("Message Sent");
-          } else if (res.status === 402) {
-            console.log("Message failed to send");
-          }
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-
-      // setMailerState({
-      //   firstName: "",
-      //   lastName: "",
-      //   email: "",
-      //   phone: "",
-      //   message: "",
-      // });
     }
   };
 
