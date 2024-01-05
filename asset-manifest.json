@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rug-Cleaning/static/css/main.975e3aa7.css",
-    "main.js": "/Rug-Cleaning/static/js/main.80b91208.js",
+    "main.js": "/Rug-Cleaning/static/js/main.7fb8a9cc.js",
     "static/css/512.bacdf853.chunk.css": "/Rug-Cleaning/static/css/512.bacdf853.chunk.css",
     "static/js/512.926fd0a3.chunk.js": "/Rug-Cleaning/static/js/512.926fd0a3.chunk.js",
     "static/css/942.66740e4f.chunk.css": "/Rug-Cleaning/static/css/942.66740e4f.chunk.css",
@@ -34,6 +34,7 @@
     "static/media/gallery-banner.jpg": "/Rug-Cleaning/static/media/gallery-banner.5bfcc371537f6a7cd199.jpg",
     "static/media/carpet.webp": "/Rug-Cleaning/static/media/carpet.6650aa192d45cc179340.webp",
     "static/media/contact-banner.jpg": "/Rug-Cleaning/static/media/contact-banner.6f90cb678b71ee0f3e3b.jpg",
+    "static/media/1.webp": "/Rug-Cleaning/static/media/1.920359cc25e22330e039.webp",
     "static/media/4.jpg": "/Rug-Cleaning/static/media/4.c220c2cfb68a237a0e04.jpg",
     "static/media/8.jpg": "/Rug-Cleaning/static/media/8.72477c25e68b6b1be013.jpg",
     "static/media/7.jpg": "/Rug-Cleaning/static/media/7.058b51060b826c12981b.jpg",
@@ -43,9 +44,11 @@
     "static/media/11.jpg": "/Rug-Cleaning/static/media/11.457f4cb072607a140af1.jpg",
     "static/media/30.jpg": "/Rug-Cleaning/static/media/30.c8e5db79447a4283145e.jpg",
     "static/media/2.jpg": "/Rug-Cleaning/static/media/2.d05388a1c35580e8fa83.jpg",
+    "static/media/4.webp": "/Rug-Cleaning/static/media/4.acdc5b2c78e3ecb1705a.webp",
     "static/media/blog-sub-banner.jpg": "/Rug-Cleaning/static/media/blog-sub-banner.3b4e63f7ec198e2e277e.jpg",
     "static/media/15.jpg": "/Rug-Cleaning/static/media/15.e3b0c547677e9a588d1c.jpg",
     "static/media/carpet-sub-banner.webp": "/Rug-Cleaning/static/media/carpet-sub-banner.016095ccc16674960ded.webp",
+    "static/media/2.webp": "/Rug-Cleaning/static/media/2.fb5ecfed60f01699f79e.webp",
     "static/media/12.jpg": "/Rug-Cleaning/static/media/12.237d09a4bfdd7bd0a108.jpg",
     "static/media/16.jpg": "/Rug-Cleaning/static/media/16.fec3c2d4c01995e67dfd.jpg",
     "static/media/9.jpg": "/Rug-Cleaning/static/media/9.c6d7991a29ee42dbeb8c.jpg",
@@ -81,8 +84,6 @@
     "static/media/benifits-of-cleaning.webp": "/Rug-Cleaning/static/media/benifits-of-cleaning.d1c40807410d26303e1c.webp",
     "static/media/30.jpeg": "/Rug-Cleaning/static/media/30.f55678c9516fa65b4e4c.jpeg",
     "static/media/faq-banner.webp": "/Rug-Cleaning/static/media/faq-banner.10ae0382d38564e74b05.webp",
-    "static/media/2.webp": "/Rug-Cleaning/static/media/2.fb5ecfed60f01699f79e.webp",
-    "static/media/1.webp": "/Rug-Cleaning/static/media/1.920359cc25e22330e039.webp",
     "static/media/pet-banner.webp": "/Rug-Cleaning/static/media/pet-banner.a7398f6205871f265737.webp",
     "static/media/25.jpeg": "/Rug-Cleaning/static/media/25.60690a2665cda369bf97.jpeg",
     "static/media/term-banner.webp": "/Rug-Cleaning/static/media/term-banner.b6501c0c1ab1163d0041.webp",
@@ -104,7 +105,6 @@
     "static/media/Melbourne.webp": "/Rug-Cleaning/static/media/Melbourne.55f884004ebc8cf7fc05.webp",
     "static/media/Leather-cleaning-album.webp": "/Rug-Cleaning/static/media/Leather-cleaning-album.98f34b021e5b4f7e7f8a.webp",
     "static/media/tick.png": "/Rug-Cleaning/static/media/tick.a7629b405badf2181d96.png",
-    "static/media/4.webp": "/Rug-Cleaning/static/media/4.acdc5b2c78e3ecb1705a.webp",
     "static/media/ndis.png": "/Rug-Cleaning/static/media/ndis.a6c83f8a4c1b7bb638a4.png",
     "static/media/upholstery-cleaning-album.webp": "/Rug-Cleaning/static/media/upholstery-cleaning-album.e3ed66934d3594a42ebd.webp",
     "static/media/carpet-cleaning-album.webp": "/Rug-Cleaning/static/media/carpet-cleaning-album.af87c25842e9d01d4289.webp",
@@ -122,13 +122,13 @@
     "static/media/Pure-N-Bright-Logo.png.webp": "/Rug-Cleaning/static/media/Pure-N-Bright-Logo.png.abf0916acbed2e550e4c.webp",
     "static/media/comment-box.webp": "/Rug-Cleaning/static/media/comment-box.7c7391f89808e0e4d849.webp",
     "static/media/7.webp": "/Rug-Cleaning/static/media/7.238e8f99f3fe86f2c6c8.webp",
-    "index.html": "/Rug-Cleaning/index.html",
     "static/media/8.webp": "/Rug-Cleaning/static/media/8.7a379e70006fd2364bb6.webp",
+    "index.html": "/Rug-Cleaning/index.html",
     "static/media/footer-phone.webp": "/Rug-Cleaning/static/media/footer-phone.0e9b78051edec4186b9f.webp",
     "static/media/footer-location.webp": "/Rug-Cleaning/static/media/footer-location.d29147bc58823dee6bc8.webp",
     "static/media/footer-mail.webp": "/Rug-Cleaning/static/media/footer-mail.36c3f7c87a47960c4885.webp",
     "main.975e3aa7.css.map": "/Rug-Cleaning/static/css/main.975e3aa7.css.map",
-    "main.80b91208.js.map": "/Rug-Cleaning/static/js/main.80b91208.js.map",
+    "main.7fb8a9cc.js.map": "/Rug-Cleaning/static/js/main.7fb8a9cc.js.map",
     "512.bacdf853.chunk.css.map": "/Rug-Cleaning/static/css/512.bacdf853.chunk.css.map",
     "512.926fd0a3.chunk.js.map": "/Rug-Cleaning/static/js/512.926fd0a3.chunk.js.map",
     "942.66740e4f.chunk.css.map": "/Rug-Cleaning/static/css/942.66740e4f.chunk.css.map",
@@ -136,6 +136,6 @@
   },
   "entrypoints": [
     "static/css/main.975e3aa7.css",
-    "static/js/main.80b91208.js"
+    "static/js/main.7fb8a9cc.js"
   ]
 }
